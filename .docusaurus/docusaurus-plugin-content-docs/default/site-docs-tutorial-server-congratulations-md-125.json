@@ -1,0 +1,23 @@
+{
+  "unversionedId": "tutorial-server/congratulations",
+  "id": "tutorial-server/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/tutorial-server/congratulations.md",
+  "sourceDirName": "tutorial-server",
+  "slug": "/tutorial-server/congratulations",
+  "permalink": "/docs/tutorial-server/congratulations",
+  "draft": false,
+  "editUrl": "https://github.com/dotsama-ibp/wiki/docs/tutorial-server/congratulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/docs/tutorial-server/deploy-your-site"
+  }
+}

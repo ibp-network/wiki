@@ -1,0 +1,49 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Welcome",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "Tutorial - Basic Server",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "First Access",
+            "href": "/docs/tutorial-server/first-access",
+            "docId": "tutorial-server/first-access"
+          }
+        ],
+        "href": "/docs/category/tutorial---basic-server"
+      }
+    ]
+  },
+  "docs": {
+    "intro": {
+      "id": "intro",
+      "title": "Welcome",
+      "description": "This wiki has been created for you.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-server/first-access": {
+      "id": "tutorial-server/first-access",
+      "title": "First Access",
+      "description": "Just after you spin a fresh virtual machine (VM).",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

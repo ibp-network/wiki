@@ -1,0 +1,471 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/dotsama-ibp/wiki/docs",
+          "editUrlLocalized": "https://github.com/dotsama-ibp/wiki/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\dev\\wiki\\sidebars.js",
+          "contentPath": "C:\\dev\\wiki\\docs",
+          "contentPathLocalized": "C:\\dev\\wiki\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Welcome",
+              "description": "This wiki has been created for you.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "draft": false,
+              "editUrl": "https://github.com/dotsama-ibp/wiki/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Tutorial - Basic Server",
+                "permalink": "/docs/category/tutorial---basic-server"
+              }
+            },
+            {
+              "unversionedId": "tutorial-server/first-access",
+              "id": "tutorial-server/first-access",
+              "title": "First Access",
+              "description": "Just after you spin a fresh virtual machine (VM).",
+              "source": "@site/docs/tutorial-server/first-access.md",
+              "sourceDirName": "tutorial-server",
+              "slug": "/tutorial-server/first-access",
+              "permalink": "/docs/tutorial-server/first-access",
+              "draft": false,
+              "editUrl": "https://github.com/dotsama-ibp/wiki/docs/tutorial-server/first-access.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tutorial - Basic Server",
+                "permalink": "/docs/category/tutorial---basic-server"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Tutorial - Basic Server",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorial-server/first-access"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "The following are some guidelines to deploy a remote server with minimum reasonable security considerations.",
+                  "slug": "/category/tutorial---basic-server",
+                  "permalink": "/docs/category/tutorial---basic-server"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "admin-meeting-20230220",
+          "metadata": {
+            "permalink": "/blog/admin-meeting-20230220",
+            "editUrl": "https://github.com/dotsama-ibp/wiki/blog/2023-02-20-admin-meeting.md",
+            "source": "@site/blog/2023-02-20-admin-meeting.md",
+            "title": "IBP Admin Meeting 2023.02.20",
+            "description": "Some more interesting news in the meeting today, catch up below!:",
+            "date": "2023-02-20T00:00:00.000Z",
+            "formattedDate": "February 20, 2023",
+            "tags": [
+              {
+                "label": "news",
+                "permalink": "/blog/tags/news"
+              },
+              {
+                "label": "admin",
+                "permalink": "/blog/tags/admin"
+              },
+              {
+                "label": "youtube",
+                "permalink": "/blog/tags/youtube"
+              }
+            ],
+            "readingTime": 0.135,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Derek Colley",
+                "title": "IBP member",
+                "url": "https://github.com/dcolley",
+                "imageURL": "https://github.com/dcolley.png",
+                "key": "derek"
+              }
+            ],
+            "frontMatter": {
+              "slug": "admin-meeting-20230220",
+              "title": "IBP Admin Meeting 2023.02.20",
+              "authors": "derek",
+              "tags": [
+                "news",
+                "admin",
+                "youtube"
+              ]
+            },
+            "nextItem": {
+              "title": "IBP Admin Meeting 2023.01.25",
+              "permalink": "/blog/admin-meeting-20230125"
+            }
+          },
+          "content": "Some more interesting news in the meeting today, catch up below!:\n\n<iframe width=\"90%\" height=\"315\" src=\"https://www.youtube.com/embed/USsNadMX1aE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+        },
+        {
+          "id": "admin-meeting-20230125",
+          "metadata": {
+            "permalink": "/blog/admin-meeting-20230125",
+            "editUrl": "https://github.com/dotsama-ibp/wiki/blog/2023-01-25-admin-meeting.md",
+            "source": "@site/blog/2023-01-25-admin-meeting.md",
+            "title": "IBP Admin Meeting 2023.01.25",
+            "description": "Today we held the first administration meeting for the Infrastructure Builders Program and you can watch the details in our YouTube channel below:",
+            "date": "2023-01-25T00:00:00.000Z",
+            "formattedDate": "January 25, 2023",
+            "tags": [
+              {
+                "label": "news",
+                "permalink": "/blog/tags/news"
+              },
+              {
+                "label": "admin",
+                "permalink": "/blog/tags/admin"
+              },
+              {
+                "label": "youtube",
+                "permalink": "/blog/tags/youtube"
+              }
+            ],
+            "readingTime": 0.195,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Derek Colley",
+                "title": "IBP member",
+                "url": "https://github.com/dcolley",
+                "imageURL": "https://github.com/dcolley.png",
+                "key": "derek"
+              }
+            ],
+            "frontMatter": {
+              "slug": "admin-meeting-20230125",
+              "title": "IBP Admin Meeting 2023.01.25",
+              "authors": "derek",
+              "tags": [
+                "news",
+                "admin",
+                "youtube"
+              ]
+            },
+            "prevItem": {
+              "title": "IBP Admin Meeting 2023.02.20",
+              "permalink": "/blog/admin-meeting-20230220"
+            },
+            "nextItem": {
+              "title": "IBP has landed, and it's on YouTube!",
+              "permalink": "/blog/youtube"
+            }
+          },
+          "content": "Today we held the first administration meeting for the Infrastructure Builders Program and you can watch the details in our YouTube channel below:\n\n<iframe width=\"90%\" height=\"315\" src=\"https://www.youtube.com/embed/bmg6SoT06BU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+        },
+        {
+          "id": "youtube",
+          "metadata": {
+            "permalink": "/blog/youtube",
+            "editUrl": "https://github.com/dotsama-ibp/wiki/blog/2023-01-24-youtube.md",
+            "source": "@site/blog/2023-01-24-youtube.md",
+            "title": "IBP has landed, and it's on YouTube!",
+            "description": "The infrastrcuture Builders' Program is ecstatic to announce its YouTube channel at https://www.youtube.com/@dotsama-ibp.",
+            "date": "2023-01-24T00:00:00.000Z",
+            "formattedDate": "January 24, 2023",
+            "tags": [
+              {
+                "label": "news",
+                "permalink": "/blog/tags/news"
+              },
+              {
+                "label": "admin",
+                "permalink": "/blog/tags/admin"
+              },
+              {
+                "label": "youtube",
+                "permalink": "/blog/tags/youtube"
+              }
+            ],
+            "readingTime": 0.235,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Derek Colley",
+                "title": "IBP member",
+                "url": "https://github.com/dcolley",
+                "imageURL": "https://github.com/dcolley.png",
+                "key": "derek"
+              }
+            ],
+            "frontMatter": {
+              "slug": "youtube",
+              "title": "IBP has landed, and it's on YouTube!",
+              "authors": "derek",
+              "tags": [
+                "news",
+                "admin",
+                "youtube"
+              ]
+            },
+            "prevItem": {
+              "title": "IBP Admin Meeting 2023.01.25",
+              "permalink": "/blog/admin-meeting-20230125"
+            },
+            "nextItem": {
+              "title": "Welcome to the Blog",
+              "permalink": "/blog/welcome"
+            }
+          },
+          "content": "The infrastrcuture Builders' Program is ecstatic to announce its YouTube channel at https://www.youtube.com/@dotsama-ibp.\n\nAnd to celebrate this momentous event, we have published the video of the kick-off meeting for the program:\n\n<iframe width=\"90%\" height=\"315\" src=\"https://www.youtube.com/embed/b2ZIJuSdlHs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+        },
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "editUrl": "https://github.com/dotsama-ibp/wiki/blog/2023-01-01-welcome.md",
+            "source": "@site/blog/2023-01-01-welcome.md",
+            "title": "Welcome to the Blog",
+            "description": "Watch this space!, in this blog the Infrastructure Builder Program will publish all the latest news and tips surrounting the collective's operation, struggles and successes!",
+            "date": "2023-01-01T00:00:00.000Z",
+            "formattedDate": "January 1, 2023",
+            "tags": [
+              {
+                "label": "welcome",
+                "permalink": "/blog/tags/welcome"
+              },
+              {
+                "label": "news",
+                "permalink": "/blog/tags/news"
+              }
+            ],
+            "readingTime": 0.125,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Milos Kriz",
+                "title": "IBP member",
+                "url": "https://github.com/miloskriz",
+                "imageURL": "https://github.com/miloskriz.png",
+                "key": "milos"
+              }
+            ],
+            "frontMatter": {
+              "slug": "welcome",
+              "title": "Welcome to the Blog",
+              "authors": [
+                "milos"
+              ],
+              "tags": [
+                "welcome",
+                "news"
+              ]
+            },
+            "prevItem": {
+              "title": "IBP has landed, and it's on YouTube!",
+              "permalink": "/blog/youtube"
+            }
+          },
+          "content": "Watch this space!, in this blog the Infrastructure Builder Program will publish all the latest news and tips surrounting the collective's operation, struggles and successes!"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "admin-meeting-20230220",
+            "admin-meeting-20230125",
+            "youtube",
+            "welcome"
+          ],
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 4,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/news": {
+          "label": "news",
+          "items": [
+            "admin-meeting-20230220",
+            "admin-meeting-20230125",
+            "youtube",
+            "welcome"
+          ],
+          "permalink": "/blog/tags/news",
+          "pages": [
+            {
+              "items": [
+                "admin-meeting-20230220",
+                "admin-meeting-20230125",
+                "youtube",
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/news",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 4,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/admin": {
+          "label": "admin",
+          "items": [
+            "admin-meeting-20230220",
+            "admin-meeting-20230125",
+            "youtube"
+          ],
+          "permalink": "/blog/tags/admin",
+          "pages": [
+            {
+              "items": [
+                "admin-meeting-20230220",
+                "admin-meeting-20230125",
+                "youtube"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/admin",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 3,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/youtube": {
+          "label": "youtube",
+          "items": [
+            "admin-meeting-20230220",
+            "admin-meeting-20230125",
+            "youtube"
+          ],
+          "permalink": "/blog/tags/youtube",
+          "pages": [
+            {
+              "items": [
+                "admin-meeting-20230220",
+                "admin-meeting-20230125",
+                "youtube"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/youtube",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 3,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/welcome": {
+          "label": "welcome",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/welcome",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/welcome",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

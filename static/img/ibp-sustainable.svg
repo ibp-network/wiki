@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    id="svg4905"
+    viewBox="0 0 200 200"
+    version="1.1"
+  >
+  <defs
+      id="defs4907"
+    >
+    <linearGradient
+        id="linearGradient3000-7"
+        y2="515.69"
+        gradientUnits="userSpaceOnUse"
+        x2="-484.92"
+        gradientTransform="matrix(1.2379 0 0 1.2379 751.14 -488.42)"
+        y1="466.54"
+        x1="-558.5"
+      >
+      <stop
+          id="stop4871-2"
+          style="stop-color:#1a9000"
+          offset="0"
+      />
+      <stop
+          id="stop4873-6"
+          style="stop-color:#133f00"
+          offset="1"
+      />
+    </linearGradient
+    >
+    <linearGradient
+        id="linearGradient3846"
+        y2="119.09"
+        gradientUnits="userSpaceOnUse"
+        x2="100.76"
+        gradientTransform="translate(-1.5267 .00025484)"
+        y1="-22.137"
+        x1="100.76"
+      >
+      <stop
+          id="stop3833"
+          style="stop-color:#ffffff"
+          offset="0"
+      />
+      <stop
+          id="stop3835"
+          style="stop-color:#ffffff;stop-opacity:0"
+          offset="1"
+      />
+    </linearGradient
+    >
+  </defs
+  >
+  <path
+      id="path3825"
+      style="color:#000000;fill:#0e4600"
+      d="m90.076 110.69a77.099 77.099 0 1 1 -154.2 0 77.099 77.099 0 1 1 154.2 0z"
+      transform="matrix(1.1361 0 0 1.1361 85.257 -25.752)"
+  />
+  <path
+      id="path3022"
+      style="color:#000000;stroke:#ffffff;stroke-width:2.4757;fill:url(#linearGradient3000-7)"
+      d="m90.076 110.69a77.099 77.099 0 1 1 -154.2 0 77.099 77.099 0 1 1 154.2 0z"
+      transform="translate(87.023 -10.687)"
+  />
+  <path
+      id="path3829"
+      style="opacity:.83103;color:#000000;fill:url(#linearGradient3846)"
+      d="m100 12.407c-43.786 0-80.071 32.126-86.562 74.094 21.6 11.589 52.38 18.839 86.562 18.839s64.962-7.2543 86.562-18.844c-6.49-41.964-42.77-74.089-86.56-74.089z"
+  />
+  <path
+      id="path4661"
+      style="color:#000000;fill:#ffffff"
+      d="m157.21 87.619c-5.4391 0-13.002-0.30822-15.289-2.6161-2.9482-2.9747-8.9922-7.262-14.267-7.7955-7.4048-0.74889-17.631-9.9932-20.73-12.807-3.0984-2.8133-5.4331-4.4362-8.1259-4.5436-4.0012-0.15952-7.691 6.6933-3.1587 10.821 3.0654 2.7915 15.964 13.771 13.921 18.21-1.6468 3.5793-1.0939 8.9562 3.5758 12.514 1.5203 1.1583 3.1506 1.6299 5.6792 2.5116 1.1915 0.41549 0.97274 1.7423-0.42414 1.3216-1.867-0.56224-4.5982-1.4464-6.8249-3.1051-3.7593-2.8003-5.5627-9.5446-3.7746-13.765 0.8213-1.9382-2.0084-3.5604-6.2022-3.5604h-41.999c-8.1845 0-8.1845 9.3537 0 9.3537h33.615c2.0461 0 3.7999 2.3384 0 2.3384h-43.845c-8.4768 0-9.0614 10.231 0 10.231h42.676c3.7999 0 5.5251 2.6737 0.71642 2.6737h-35.5c-4.9692 0-6.1384 10.188 0 10.188h35.953c3.7999 0 5.0475 2.8734 0.76993 2.8734h-28.246c-7.0153 0-8.645 10.05 2.6928 10.05h58.983c9.0614 0 13.799-4.2571 18.123-8.5811 3.9347-3.9347 8.6165-3.226 11.681-3.226z"
+  />
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Green cirlce hand icon</dc:title
+        >
+        <dc:date
+          >2011-01-03T15:12:44</dc:date
+        >
+        <dc:description
+          >White hand in Green glossy circle icon.</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/103405/green-cirlce-hand-icon-by-kuba</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >kuba</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >check</rdf:li
+            >
+            <rdf:li
+              >circle</rdf:li
+            >
+            <rdf:li
+              >glossy</rdf:li
+            >
+            <rdf:li
+              >green</rdf:li
+            >
+            <rdf:li
+              >green circle</rdf:li
+            >
+            <rdf:li
+              >hand</rdf:li
+            >
+            <rdf:li
+              >handshake</rdf:li
+            >
+            <rdf:li
+              >icon</rdf:li
+            >
+            <rdf:li
+              >ok</rdf:li
+            >
+            <rdf:li
+              >white hand</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

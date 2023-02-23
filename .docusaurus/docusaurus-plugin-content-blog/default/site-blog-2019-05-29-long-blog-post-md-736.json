@@ -1,0 +1,43 @@
+{
+  "permalink": "/blog/youtube-channel",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
+  "source": "@site/blog/2019-05-29-long-blog-post.md",
+  "title": "IBP has youtube!",
+  "description": "This is the summary of a very long blog post,",
+  "date": "2019-05-29T00:00:00.000Z",
+  "formattedDate": "May 29, 2019",
+  "tags": [
+    {
+      "label": "hello",
+      "permalink": "/blog/tags/hello"
+    },
+    {
+      "label": "docusaurus",
+      "permalink": "/blog/tags/docusaurus"
+    }
+  ],
+  "readingTime": 0.125,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Milos Kriz",
+      "title": "IBP member",
+      "url": "https://github.com/miloskriz",
+      "imageURL": "https://github.com/miloskriz.png",
+      "key": "milos"
+    }
+  ],
+  "frontMatter": {
+    "slug": "youtube-channel",
+    "title": "IBP has youtube!",
+    "authors": "milos",
+    "tags": [
+      "hello",
+      "docusaurus"
+    ]
+  },
+  "prevItem": {
+    "title": "Welcome to the Blog",
+    "permalink": "/blog/welcome"
+  }
+}

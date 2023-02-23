@@ -1,0 +1,21 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "IBP Admin Meeting 2023.02.20",
+      "permalink": "/blog/admin-meeting-20230220"
+    },
+    {
+      "title": "IBP Admin Meeting 2023.01.25",
+      "permalink": "/blog/admin-meeting-20230125"
+    },
+    {
+      "title": "IBP has landed, and it's on YouTube!",
+      "permalink": "/blog/youtube"
+    },
+    {
+      "title": "Welcome to the Blog",
+      "permalink": "/blog/welcome"
+    }
+  ]
+}

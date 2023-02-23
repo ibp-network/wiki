@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/admin-meeting-20230220",
+  "editUrl": "https://github.com/dotsama-ibp/wiki/blog/2023-02-20-admin-meeting.md",
+  "source": "@site/blog/2023-02-20-admin-meeting.md",
+  "title": "IBP Admin Meeting 2023.02.20",
+  "description": "Some more interesting news in the meeting today, catch up below!:",
+  "date": "2023-02-20T00:00:00.000Z",
+  "formattedDate": "February 20, 2023",
+  "tags": [
+    {
+      "label": "news",
+      "permalink": "/blog/tags/news"
+    },
+    {
+      "label": "admin",
+      "permalink": "/blog/tags/admin"
+    },
+    {
+      "label": "youtube",
+      "permalink": "/blog/tags/youtube"
+    }
+  ],
+  "readingTime": 0.135,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Derek Colley",
+      "title": "IBP member",
+      "url": "https://github.com/dcolley",
+      "imageURL": "https://github.com/dcolley.png",
+      "key": "derek"
+    }
+  ],
+  "frontMatter": {
+    "slug": "admin-meeting-20230220",
+    "title": "IBP Admin Meeting 2023.02.20",
+    "authors": "derek",
+    "tags": [
+      "news",
+      "admin",
+      "youtube"
+    ]
+  },
+  "nextItem": {
+    "title": "IBP Admin Meeting 2023.01.25",
+    "permalink": "/blog/admin-meeting-20230125"
+  }
+}

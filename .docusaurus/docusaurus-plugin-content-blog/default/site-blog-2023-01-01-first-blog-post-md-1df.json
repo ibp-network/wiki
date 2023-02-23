@@ -1,0 +1,45 @@
+{
+  "permalink": "/blog/welcome",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-01-01-first-blog-post.md",
+  "source": "@site/blog/2023-01-01-first-blog-post.md",
+  "title": "Welcome to the Blog",
+  "description": "Watch this space!, in this blog the Infrastructure Builder Program will publish all the latest news and tips surrounting the collective's operation, struggles and successes!",
+  "date": "2023-01-01T00:00:00.000Z",
+  "formattedDate": "January 1, 2023",
+  "tags": [
+    {
+      "label": "welcome",
+      "permalink": "/blog/tags/welcome"
+    },
+    {
+      "label": "ibp",
+      "permalink": "/blog/tags/ibp"
+    }
+  ],
+  "readingTime": 0.125,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Milos Kriz",
+      "title": "IBP member",
+      "url": "https://github.com/miloskriz",
+      "imageURL": "https://github.com/miloskriz.png",
+      "key": "milos"
+    }
+  ],
+  "frontMatter": {
+    "slug": "welcome",
+    "title": "Welcome to the Blog",
+    "authors": [
+      "milos"
+    ],
+    "tags": [
+      "welcome",
+      "ibp"
+    ]
+  },
+  "nextItem": {
+    "title": "Long Blog Post",
+    "permalink": "/blog/long-blog-post"
+  }
+}

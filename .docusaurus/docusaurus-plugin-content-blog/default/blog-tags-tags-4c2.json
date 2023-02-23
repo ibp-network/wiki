@@ -1,0 +1,22 @@
+[
+  {
+    "label": "news",
+    "permalink": "/blog/tags/news",
+    "count": 4
+  },
+  {
+    "label": "admin",
+    "permalink": "/blog/tags/admin",
+    "count": 3
+  },
+  {
+    "label": "youtube",
+    "permalink": "/blog/tags/youtube",
+    "count": 3
+  },
+  {
+    "label": "welcome",
+    "permalink": "/blog/tags/welcome",
+    "count": 1
+  }
+]

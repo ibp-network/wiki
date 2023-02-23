@@ -1,0 +1,29 @@
+tom:
+  name: Tom Senseless
+  title: IBP member and mastermind
+  url: https://github.com/senseless
+  image_url: https://github.com/senseless.png
+
+derek:
+  name: Derek Colley
+  title: IBP member
+  url: https://github.com/dcolley
+  image_url: https://github.com/dcolley.png
+
+milos:
+  name: Milos Kriz
+  title: IBP member
+  url: https://github.com/miloskriz
+  image_url: https://github.com/miloskriz.png
+
+kubabi:
+  name: Kutsal Kaan Bilgin
+  title: IBP member
+  url: https://github.com/kukabi
+  image_url: https://github.com/kukabi.png
+
+paulo:
+  name: Paulo Martins
+  title: IBP member
+  url: https://github.com/paulormart
+  image_url: https://github.com/paulormart.png
