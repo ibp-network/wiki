@@ -27,11 +27,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "C:\\dev\\wiki\\sidebars.js",
-          "editUrl": "https://github.com/dotsama-ibp/wiki"
+          "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/dotsama-ibp/wiki"
+          "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main"
         },
         "theme": {
           "customCss": "C:\\dev\\wiki\\src\\css\\custom.css"
@@ -40,12 +40,12 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/ibp-social-card.jpg",
     "navbar": {
       "title": "IBP Wiki",
       "logo": {
         "alt": "IBP Logo",
-        "src": "img/logo.png"
+        "src": "img/logo.svg"
       },
       "items": [
         {
