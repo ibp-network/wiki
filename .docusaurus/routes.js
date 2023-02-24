@@ -99,8 +99,14 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '641'),
+    component: ComponentCreator('/docs', '611'),
     routes: [
+      {
+        path: '/docs/category/original-wiki-content',
+        component: ComponentCreator('/docs/category/original-wiki-content', '6d5'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/docs/category/tutorial---basic-server',
         component: ComponentCreator('/docs/category/tutorial---basic-server', '52f'),
@@ -114,8 +120,62 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-server/first-access',
-        component: ComponentCreator('/docs/tutorial-server/first-access', '970'),
+        path: '/docs/original/Bounty-Managment',
+        component: ComponentCreator('/docs/original/Bounty-Managment', 'bc9'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/original/Curators-&-Advisors',
+        component: ComponentCreator('/docs/original/Curators-&-Advisors', '9a8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/original/Development-Requirements',
+        component: ComponentCreator('/docs/original/Development-Requirements', 'bc7'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/original/External-links',
+        component: ComponentCreator('/docs/original/External-links', '5fa'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/original/Home',
+        component: ComponentCreator('/docs/original/Home', '1d2'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/original/Meetings-&-Announcements',
+        component: ComponentCreator('/docs/original/Meetings-&-Announcements', '071'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/original/Membership',
+        component: ComponentCreator('/docs/original/Membership', '51a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/original/SLA-Checks',
+        component: ComponentCreator('/docs/original/SLA-Checks', 'aef'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/original/Support',
+        component: ComponentCreator('/docs/original/Support', '044'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/server/first-access',
+        component: ComponentCreator('/docs/server/first-access', '9c7'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

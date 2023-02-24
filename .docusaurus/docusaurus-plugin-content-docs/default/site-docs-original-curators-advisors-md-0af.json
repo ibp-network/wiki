@@ -1,0 +1,27 @@
+{
+  "unversionedId": "original/Curators-&-Advisors",
+  "id": "original/Curators-&-Advisors",
+  "title": "Curators and Advisors",
+  "description": "Curators",
+  "source": "@site/docs/original/Curators-&-Advisors.md",
+  "sourceDirName": "original",
+  "slug": "/original/Curators-&-Advisors",
+  "permalink": "/docs/original/Curators-&-Advisors",
+  "draft": false,
+  "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main/docs/original/Curators-&-Advisors.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bounty Management",
+    "permalink": "/docs/original/Bounty-Managment"
+  },
+  "next": {
+    "title": "Development Requirements",
+    "permalink": "/docs/original/Development-Requirements"
+  }
+}

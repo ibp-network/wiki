@@ -5,12 +5,12 @@
   "permalink": "/docs/category/tutorial---basic-server",
   "navigation": {
     "previous": {
-      "title": "Welcome",
-      "permalink": "/docs/intro"
+      "title": "Support",
+      "permalink": "/docs/original/Support"
     },
     "next": {
       "title": "First Access",
-      "permalink": "/docs/tutorial-server/first-access"
+      "permalink": "/docs/server/first-access"
     }
   }
 }

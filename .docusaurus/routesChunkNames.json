@@ -195,12 +195,16 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-641": {
+  "/docs-611": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docsf-16-28e"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
+  },
+  "/docs/category/original-wiki-content-6d5": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-original-wiki-contenta-0-c-e40"
   },
   "/docs/category/tutorial---basic-server-52f": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -210,9 +214,45 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
-  "/docs/tutorial-server/first-access-970": {
+  "/docs/original/Bounty-Managment-bc9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-server-first-accessd-45-d8a"
+    "content": "content---docs-original-bounty-managmente-9-a-0e6"
+  },
+  "/docs/original/Curators-&-Advisors-9a8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-original-curators-advisors-0-af-ce2"
+  },
+  "/docs/original/Development-Requirements-bc7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-original-development-requirements-7-b-4-3d5"
+  },
+  "/docs/original/External-links-5fa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-original-external-links-136-bb9"
+  },
+  "/docs/original/Home-1d2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-original-homebc-5-3b1"
+  },
+  "/docs/original/Meetings-&-Announcements-071": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-original-meetings-announcementsc-66-24d"
+  },
+  "/docs/original/Membership-51a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-original-membershipc-9-b-4ea"
+  },
+  "/docs/original/SLA-Checks-aef": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-original-sla-checks-93-e-457"
+  },
+  "/docs/original/Support-044": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-original-support-28-d-bbe"
+  },
+  "/docs/server/first-access-9c7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-server-first-access-6-bd-0a3"
   },
   "/-892": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

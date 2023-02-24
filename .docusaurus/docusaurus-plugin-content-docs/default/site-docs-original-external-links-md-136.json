@@ -1,0 +1,27 @@
+{
+  "unversionedId": "original/External-links",
+  "id": "original/External-links",
+  "title": "External Links",
+  "description": "IBP Monitors",
+  "source": "@site/docs/original/External-links.md",
+  "sourceDirName": "original",
+  "slug": "/original/External-links",
+  "permalink": "/docs/original/External-links",
+  "draft": false,
+  "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main/docs/original/External-links.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Development Requirements",
+    "permalink": "/docs/original/Development-Requirements"
+  },
+  "next": {
+    "title": "Meetings and Announcements",
+    "permalink": "/docs/original/Meetings-&-Announcements"
+  }
+}

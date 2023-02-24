@@ -1,0 +1,16 @@
+{
+  "title": "Original Wiki content",
+  "description": "The following pages show the original contents of IBP previous Wiki.",
+  "slug": "/category/original-wiki-content",
+  "permalink": "/docs/category/original-wiki-content",
+  "navigation": {
+    "previous": {
+      "title": "Welcome",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Welcome to the dotsama-ibp wiki!",
+      "permalink": "/docs/original/Home"
+    }
+  }
+}

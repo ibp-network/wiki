@@ -1,0 +1,27 @@
+{
+  "unversionedId": "original/Membership",
+  "id": "original/Membership",
+  "title": "Membership",
+  "description": "Membership Applications",
+  "source": "@site/docs/original/Membership.md",
+  "sourceDirName": "original",
+  "slug": "/original/Membership",
+  "permalink": "/docs/original/Membership",
+  "draft": false,
+  "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main/docs/original/Membership.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Meetings and Announcements",
+    "permalink": "/docs/original/Meetings-&-Announcements"
+  },
+  "next": {
+    "title": "SLA Checks",
+    "permalink": "/docs/original/SLA-Checks"
+  }
+}

@@ -38,21 +38,264 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
+                "title": "Original Wiki content",
+                "permalink": "/docs/category/original-wiki-content"
+              }
+            },
+            {
+              "unversionedId": "original/Bounty-Managment",
+              "id": "original/Bounty-Managment",
+              "title": "Bounty Management",
+              "description": "The program is funded by a bounty, and is managed the curators via a 3/5 multi-sig account.",
+              "source": "@site/docs/original/Bounty-Managment.md",
+              "sourceDirName": "original",
+              "slug": "/original/Bounty-Managment",
+              "permalink": "/docs/original/Bounty-Managment",
+              "draft": false,
+              "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main/docs/original/Bounty-Managment.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Welcome to the dotsama-ibp wiki!",
+                "permalink": "/docs/original/Home"
+              },
+              "next": {
+                "title": "Curators and Advisors",
+                "permalink": "/docs/original/Curators-&-Advisors"
+              }
+            },
+            {
+              "unversionedId": "original/Curators-&-Advisors",
+              "id": "original/Curators-&-Advisors",
+              "title": "Curators and Advisors",
+              "description": "Curators",
+              "source": "@site/docs/original/Curators-&-Advisors.md",
+              "sourceDirName": "original",
+              "slug": "/original/Curators-&-Advisors",
+              "permalink": "/docs/original/Curators-&-Advisors",
+              "draft": false,
+              "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main/docs/original/Curators-&-Advisors.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Bounty Management",
+                "permalink": "/docs/original/Bounty-Managment"
+              },
+              "next": {
+                "title": "Development Requirements",
+                "permalink": "/docs/original/Development-Requirements"
+              }
+            },
+            {
+              "unversionedId": "original/Development-Requirements",
+              "id": "original/Development-Requirements",
+              "title": "Development Requirements",
+              "description": "* Configuration",
+              "source": "@site/docs/original/Development-Requirements.md",
+              "sourceDirName": "original",
+              "slug": "/original/Development-Requirements",
+              "permalink": "/docs/original/Development-Requirements",
+              "draft": false,
+              "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main/docs/original/Development-Requirements.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Curators and Advisors",
+                "permalink": "/docs/original/Curators-&-Advisors"
+              },
+              "next": {
+                "title": "External Links",
+                "permalink": "/docs/original/External-links"
+              }
+            },
+            {
+              "unversionedId": "original/External-links",
+              "id": "original/External-links",
+              "title": "External Links",
+              "description": "IBP Monitors",
+              "source": "@site/docs/original/External-links.md",
+              "sourceDirName": "original",
+              "slug": "/original/External-links",
+              "permalink": "/docs/original/External-links",
+              "draft": false,
+              "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main/docs/original/External-links.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Development Requirements",
+                "permalink": "/docs/original/Development-Requirements"
+              },
+              "next": {
+                "title": "Meetings and Announcements",
+                "permalink": "/docs/original/Meetings-&-Announcements"
+              }
+            },
+            {
+              "unversionedId": "original/Home",
+              "id": "original/Home",
+              "title": "Welcome to the dotsama-ibp wiki!",
+              "description": "Links",
+              "source": "@site/docs/original/Home.md",
+              "sourceDirName": "original",
+              "slug": "/original/Home",
+              "permalink": "/docs/original/Home",
+              "draft": false,
+              "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main/docs/original/Home.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Original Wiki content",
+                "permalink": "/docs/category/original-wiki-content"
+              },
+              "next": {
+                "title": "Bounty Management",
+                "permalink": "/docs/original/Bounty-Managment"
+              }
+            },
+            {
+              "unversionedId": "original/Meetings-&-Announcements",
+              "id": "original/Meetings-&-Announcements",
+              "title": "Meetings and Announcements",
+              "description": "Meetings",
+              "source": "@site/docs/original/Meetings-&-Announcements.md",
+              "sourceDirName": "original",
+              "slug": "/original/Meetings-&-Announcements",
+              "permalink": "/docs/original/Meetings-&-Announcements",
+              "draft": false,
+              "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main/docs/original/Meetings-&-Announcements.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "External Links",
+                "permalink": "/docs/original/External-links"
+              },
+              "next": {
+                "title": "Membership",
+                "permalink": "/docs/original/Membership"
+              }
+            },
+            {
+              "unversionedId": "original/Membership",
+              "id": "original/Membership",
+              "title": "Membership",
+              "description": "Membership Applications",
+              "source": "@site/docs/original/Membership.md",
+              "sourceDirName": "original",
+              "slug": "/original/Membership",
+              "permalink": "/docs/original/Membership",
+              "draft": false,
+              "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main/docs/original/Membership.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Meetings and Announcements",
+                "permalink": "/docs/original/Meetings-&-Announcements"
+              },
+              "next": {
+                "title": "SLA Checks",
+                "permalink": "/docs/original/SLA-Checks"
+              }
+            },
+            {
+              "unversionedId": "original/SLA-Checks",
+              "id": "original/SLA-Checks",
+              "title": "SLA Checks",
+              "description": "The members agree to the following SLA.",
+              "source": "@site/docs/original/SLA-Checks.md",
+              "sourceDirName": "original",
+              "slug": "/original/SLA-Checks",
+              "permalink": "/docs/original/SLA-Checks",
+              "draft": false,
+              "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main/docs/original/SLA-Checks.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Membership",
+                "permalink": "/docs/original/Membership"
+              },
+              "next": {
+                "title": "Support",
+                "permalink": "/docs/original/Support"
+              }
+            },
+            {
+              "unversionedId": "original/Support",
+              "id": "original/Support",
+              "title": "Support",
+              "description": "Matrix",
+              "source": "@site/docs/original/Support.md",
+              "sourceDirName": "original",
+              "slug": "/original/Support",
+              "permalink": "/docs/original/Support",
+              "draft": false,
+              "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main/docs/original/Support.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "SLA Checks",
+                "permalink": "/docs/original/SLA-Checks"
+              },
+              "next": {
                 "title": "Tutorial - Basic Server",
                 "permalink": "/docs/category/tutorial---basic-server"
               }
             },
             {
-              "unversionedId": "tutorial-server/first-access",
-              "id": "tutorial-server/first-access",
+              "unversionedId": "server/first-access",
+              "id": "server/first-access",
               "title": "First Access",
               "description": "Just after you spin a fresh virtual machine (VM).",
-              "source": "@site/docs/tutorial-server/first-access.md",
-              "sourceDirName": "tutorial-server",
-              "slug": "/tutorial-server/first-access",
-              "permalink": "/docs/tutorial-server/first-access",
+              "source": "@site/docs/server/first-access.md",
+              "sourceDirName": "server",
+              "slug": "/server/first-access",
+              "permalink": "/docs/server/first-access",
               "draft": false,
-              "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main/docs/tutorial-server/first-access.md",
+              "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main/docs/server/first-access.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -75,13 +318,63 @@
               },
               {
                 "type": "category",
+                "label": "Original Wiki content",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "original/Home"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "original/Bounty-Managment"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "original/Curators-&-Advisors"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "original/Development-Requirements"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "original/External-links"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "original/Meetings-&-Announcements"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "original/Membership"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "original/SLA-Checks"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "original/Support"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "The following pages show the original contents of IBP previous Wiki.",
+                  "slug": "/category/original-wiki-content",
+                  "permalink": "/docs/category/original-wiki-content"
+                }
+              },
+              {
+                "type": "category",
                 "label": "Tutorial - Basic Server",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-server/first-access"
+                    "id": "server/first-access"
                   }
                 ],
                 "link": {

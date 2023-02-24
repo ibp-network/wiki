@@ -1,0 +1,27 @@
+{
+  "unversionedId": "original/Meetings-&-Announcements",
+  "id": "original/Meetings-&-Announcements",
+  "title": "Meetings and Announcements",
+  "description": "Meetings",
+  "source": "@site/docs/original/Meetings-&-Announcements.md",
+  "sourceDirName": "original",
+  "slug": "/original/Meetings-&-Announcements",
+  "permalink": "/docs/original/Meetings-&-Announcements",
+  "draft": false,
+  "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main/docs/original/Meetings-&-Announcements.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "External Links",
+    "permalink": "/docs/original/External-links"
+  },
+  "next": {
+    "title": "Membership",
+    "permalink": "/docs/original/Membership"
+  }
+}

@@ -17,6 +17,69 @@
       },
       {
         "type": "category",
+        "label": "Original Wiki content",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Welcome to the dotsama-ibp wiki!",
+            "href": "/docs/original/Home",
+            "docId": "original/Home"
+          },
+          {
+            "type": "link",
+            "label": "Bounty Management",
+            "href": "/docs/original/Bounty-Managment",
+            "docId": "original/Bounty-Managment"
+          },
+          {
+            "type": "link",
+            "label": "Curators and Advisors",
+            "href": "/docs/original/Curators-&-Advisors",
+            "docId": "original/Curators-&-Advisors"
+          },
+          {
+            "type": "link",
+            "label": "Development Requirements",
+            "href": "/docs/original/Development-Requirements",
+            "docId": "original/Development-Requirements"
+          },
+          {
+            "type": "link",
+            "label": "External Links",
+            "href": "/docs/original/External-links",
+            "docId": "original/External-links"
+          },
+          {
+            "type": "link",
+            "label": "Meetings and Announcements",
+            "href": "/docs/original/Meetings-&-Announcements",
+            "docId": "original/Meetings-&-Announcements"
+          },
+          {
+            "type": "link",
+            "label": "Membership",
+            "href": "/docs/original/Membership",
+            "docId": "original/Membership"
+          },
+          {
+            "type": "link",
+            "label": "SLA Checks",
+            "href": "/docs/original/SLA-Checks",
+            "docId": "original/SLA-Checks"
+          },
+          {
+            "type": "link",
+            "label": "Support",
+            "href": "/docs/original/Support",
+            "docId": "original/Support"
+          }
+        ],
+        "href": "/docs/category/original-wiki-content"
+      },
+      {
+        "type": "category",
         "label": "Tutorial - Basic Server",
         "collapsible": true,
         "collapsed": true,
@@ -24,8 +87,8 @@
           {
             "type": "link",
             "label": "First Access",
-            "href": "/docs/tutorial-server/first-access",
-            "docId": "tutorial-server/first-access"
+            "href": "/docs/server/first-access",
+            "docId": "server/first-access"
           }
         ],
         "href": "/docs/category/tutorial---basic-server"
@@ -39,8 +102,62 @@
       "description": "This wiki has been created for you.",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-server/first-access": {
-      "id": "tutorial-server/first-access",
+    "original/Bounty-Managment": {
+      "id": "original/Bounty-Managment",
+      "title": "Bounty Management",
+      "description": "The program is funded by a bounty, and is managed the curators via a 3/5 multi-sig account.",
+      "sidebar": "tutorialSidebar"
+    },
+    "original/Curators-&-Advisors": {
+      "id": "original/Curators-&-Advisors",
+      "title": "Curators and Advisors",
+      "description": "Curators",
+      "sidebar": "tutorialSidebar"
+    },
+    "original/Development-Requirements": {
+      "id": "original/Development-Requirements",
+      "title": "Development Requirements",
+      "description": "* Configuration",
+      "sidebar": "tutorialSidebar"
+    },
+    "original/External-links": {
+      "id": "original/External-links",
+      "title": "External Links",
+      "description": "IBP Monitors",
+      "sidebar": "tutorialSidebar"
+    },
+    "original/Home": {
+      "id": "original/Home",
+      "title": "Welcome to the dotsama-ibp wiki!",
+      "description": "Links",
+      "sidebar": "tutorialSidebar"
+    },
+    "original/Meetings-&-Announcements": {
+      "id": "original/Meetings-&-Announcements",
+      "title": "Meetings and Announcements",
+      "description": "Meetings",
+      "sidebar": "tutorialSidebar"
+    },
+    "original/Membership": {
+      "id": "original/Membership",
+      "title": "Membership",
+      "description": "Membership Applications",
+      "sidebar": "tutorialSidebar"
+    },
+    "original/SLA-Checks": {
+      "id": "original/SLA-Checks",
+      "title": "SLA Checks",
+      "description": "The members agree to the following SLA.",
+      "sidebar": "tutorialSidebar"
+    },
+    "original/Support": {
+      "id": "original/Support",
+      "title": "Support",
+      "description": "Matrix",
+      "sidebar": "tutorialSidebar"
+    },
+    "server/first-access": {
+      "id": "server/first-access",
       "title": "First Access",
       "description": "Just after you spin a fresh virtual machine (VM).",
       "sidebar": "tutorialSidebar"

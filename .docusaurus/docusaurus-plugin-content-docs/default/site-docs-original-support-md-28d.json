@@ -1,0 +1,27 @@
+{
+  "unversionedId": "original/Support",
+  "id": "original/Support",
+  "title": "Support",
+  "description": "Matrix",
+  "source": "@site/docs/original/Support.md",
+  "sourceDirName": "original",
+  "slug": "/original/Support",
+  "permalink": "/docs/original/Support",
+  "draft": false,
+  "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main/docs/original/Support.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SLA Checks",
+    "permalink": "/docs/original/SLA-Checks"
+  },
+  "next": {
+    "title": "Tutorial - Basic Server",
+    "permalink": "/docs/category/tutorial---basic-server"
+  }
+}

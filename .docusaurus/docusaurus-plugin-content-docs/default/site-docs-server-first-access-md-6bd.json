@@ -1,0 +1,23 @@
+{
+  "unversionedId": "server/first-access",
+  "id": "server/first-access",
+  "title": "First Access",
+  "description": "Just after you spin a fresh virtual machine (VM).",
+  "source": "@site/docs/server/first-access.md",
+  "sourceDirName": "server",
+  "slug": "/server/first-access",
+  "permalink": "/docs/server/first-access",
+  "draft": false,
+  "editUrl": "https://github.com/dotsama-ibp/wiki/tree/main/docs/server/first-access.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorial - Basic Server",
+    "permalink": "/docs/category/tutorial---basic-server"
+  }
+}
