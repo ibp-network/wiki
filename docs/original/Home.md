@@ -2,7 +2,8 @@
 sidebar_position: 1
 ---
 
-# Welcome to the dotsama-ibp wiki!
+# Home
+Welcome to the dotsama-ibp wiki!
 
 ## Links
 - Referenda 35: https://kusama.polkassembly.io/referenda/35
