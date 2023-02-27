@@ -16,7 +16,7 @@ Code for the monitor is open source [here](https://github.com/dotsama-ibp/dotsam
 
 ## Pull requests for boot nodes
  
-### Requirements at stage P2 
+### Requirements for stage P1 
 
 The Pull Request below belongs to the Parity Polkadot repository:
 
@@ -29,7 +29,7 @@ The Pull Request below belongs to the Parity Polkadot repository:
 | metaspan    | [6499](https://github.com/paritytech/polkadot/pull/6499) | [6499](https://github.com/paritytech/polkadot/pull/6499) | [6499](https://github.com/paritytech/polkadot/pull/6499) |
 | turboflakes | [6628](https://github.com/paritytech/polkadot/pull/6628) | [6628](https://github.com/paritytech/polkadot/pull/6628) | [6628](https://github.com/paritytech/polkadot/pull/6628) |
 
-### Requirements at stage P4
+### Requirements for stage P4
 
 The Pull requests below belongs to the Parity Cumulus repository:
 
