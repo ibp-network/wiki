@@ -30,9 +30,11 @@ Code for the monitor is open source [here](https://github.com/dotsama-ibp/dotsam
 - turboflakes - Encointer-Kusama - https://github.com/encointer/encointer-parachain/pull/164
 
 
-- gatotech - https://github.com/paritytech/polkadot/pull/6499
+- gatotech - Westend, Kusama, Polkadot - https://github.com/paritytech/polkadot/pull/6499
+- gatotech - Westmint, Statemine, Statemint, etc - https://github.com/paritytech/cumulus/pull/2237
+- gatotech - Encointer-Kusama - https://github.com/encointer/encointer-parachain/pull/165
 
 
-- metaspan - https://github.com/paritytech/polkadot/pull/6499
-- metaspan - parachains - https://github.com/paritytech/cumulus/pull/2218
-- metaspan - encointer - https://github.com/encointer/encointer-parachain/pull/163
+- metaspan - Westend, Kusama, Polkadot - https://github.com/paritytech/polkadot/pull/6499
+- metaspan - Westmint, Statemine, Statemint, etc - https://github.com/paritytech/cumulus/pull/2218
+- metaspan - Encointer-Kusama - https://github.com/encointer/encointer-parachain/pull/163
