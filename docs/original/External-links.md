@@ -55,7 +55,7 @@ For Polkadot's system parachains:
 | turboflakes | [2223](https://github.com/paritytech/cumulus/pull/2223) | [2223](https://github.com/paritytech/cumulus/pull/2223) | N/A       |
 | gatotech    | [2237](https://github.com/paritytech/cumulus/pull/2237) | [2237](https://github.com/paritytech/cumulus/pull/2237) | N/A       |
 | amforc      | [2246](https://github.com/paritytech/cumulus/pull/2246) | [2246](https://github.com/paritytech/cumulus/pull/2246) | N/A       |
-| helikon     | pending                                                 | pending                                                 | N/A       |
+| helikon     | [2250](https://github.com/paritytech/cumulus/pull/2250) | [2250](https://github.com/paritytech/cumulus/pull/2250) | N/A       |
 
 For Kusama's system parachains:
 
@@ -66,7 +66,7 @@ For Kusama's system parachains:
 | turboflakes | [2223](https://github.com/paritytech/cumulus/pull/2223) | N/A         | [2223](https://github.com/paritytech/cumulus/pull/2223) |
 | gatotech    | [2237](https://github.com/paritytech/cumulus/pull/2237) | N/A         | [2237](https://github.com/paritytech/cumulus/pull/2237) |
 | amforc      | [2246](https://github.com/paritytech/cumulus/pull/2246) | N/A         | [2246](https://github.com/paritytech/cumulus/pull/2246) |
-| helikon     | pending                                                 | N/A         | pending                                                 |
+| helikon     | [2250](https://github.com/paritytech/cumulus/pull/2250) | N/A         | [2250](https://github.com/paritytech/cumulus/pull/2250) |
 
 For Westend's system parachains
 
@@ -77,7 +77,7 @@ For Westend's system parachains
 | turboflakes | [2223](https://github.com/paritytech/cumulus/pull/2223) | [2223](https://github.com/paritytech/cumulus/pull/2223) | N/A       |
 | gatotech    | [2237](https://github.com/paritytech/cumulus/pull/2237) | [2237](https://github.com/paritytech/cumulus/pull/2237) | N/A       |
 | amforc      | [2246](https://github.com/paritytech/cumulus/pull/2246) | [2246](https://github.com/paritytech/cumulus/pull/2246) | N/A       |
-| helikon     | pending                                                 | pending                                                 | N/A       |
+| helikon     | [2250](https://github.com/paritytech/cumulus/pull/2250) | [2250](https://github.com/paritytech/cumulus/pull/2250) | N/A       |
 
 And the following PRs belong to the Encointer repository:
 
@@ -88,4 +88,4 @@ And the following PRs belong to the Encointer repository:
 | turboflakes | [164](https://github.com/encointer/encointer-parachain/pull/164) |
 | gatotech    | [165](https://github.com/encointer/encointer-parachain/pull/165) |
 | amforc      | [166](https://github.com/encointer/encointer-parachain/pull/166) |
-| helikon     | pending                                                          |
+| helikon     | [167](https://github.com/encointer/encointer-parachain/pull/167) |
