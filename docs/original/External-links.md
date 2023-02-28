@@ -14,7 +14,7 @@ Each member could run a copy of the monitor. By running a monitor, members publi
 Code for the monitor is open source [here](https://github.com/dotsama-ibp/dotsama-ibp/tree/main/monitor)
 
 
-## Pull requests for boot nodes
+## Achievements of Professional Milestones
  
 ### Requirements for stage P1 
 
@@ -28,6 +28,19 @@ The Pull Request below belongs to the Parity Polkadot repository:
 | gatotech    | [6499](https://github.com/paritytech/polkadot/pull/6499) | [6499](https://github.com/paritytech/polkadot/pull/6499) | [6499](https://github.com/paritytech/polkadot/pull/6499) |
 | metaspan    | [6499](https://github.com/paritytech/polkadot/pull/6499) | [6499](https://github.com/paritytech/polkadot/pull/6499) | [6499](https://github.com/paritytech/polkadot/pull/6499) |
 | turboflakes | [6628](https://github.com/paritytech/polkadot/pull/6628) | [6628](https://github.com/paritytech/polkadot/pull/6628) | [6628](https://github.com/paritytech/polkadot/pull/6628) |
+
+### Requirements for Stage P2
+
+The following is the result of the candidates interview and status of the credentials provided
+
+| Member      | Prerequisites (1KV) | Entity Incorporation | Staff Resumes      | Colocation contracts | Sustainability goals | IBP Code of Ethics |
+| ----------- | ------------------- | -------------------- | ------------------ | -------------------- | -------------------- | ------------------ |
+| stake.plus  | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
+| metaspan    | :white_check_mark:  | :white_check_mark:   | pending            | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
+| helikon     | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
+| amforc      | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
+| gatotech    | :white_check_mark:  | :white_check_mark:   | pending            | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
+| turboflakes | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
 
 ### Requirements for stage P4
 
