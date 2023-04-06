@@ -1,0 +1,8 @@
+{
+  "label": "Hypervisors",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Prepare the hypervisor of your choice yo host the Virtual Machines running your nodes"
+  }
+}

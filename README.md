@@ -2,40 +2,25 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+### Clone Repository
 
-```
-$ yarn
-```
+It is recommended that you clone this repository in your `/var/www` directory
 
-### Local Development
-
-```
-$ yarn start
+``` shell
+cd /var/www
+git clone https://github.com/ibp-network/wiki.git
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### Build Package
 
-### Build
+You need to generate the static pages from the source code, using `npm`:
 
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+``` shell
+cd wiki
+apt install npm
+npm run build
 ```
 
-Not using SSH:
+### Publish Site
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Finally, you only need to point your web server software (e.g. Apache) to server the site stored at `/var/www/wiki/build`

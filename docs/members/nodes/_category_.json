@@ -1,0 +1,8 @@
+{
+  "label": "Nodes",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Deploy your relaychains / parachains / independent chains' nodes."
+  }
+}

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 1
 ---
 
 # Membership
@@ -18,8 +18,10 @@ TBC
 | stake.plus | @stakeplus:matrix.org | North America   | 1 Oct 22    |
 | helikon    | @helikon:matrix.org   | Middle East     | 1 Nov 22    |
 | amforc     | @tugytur:matrix.org   | Europe          | 1 Dec 22    |
-| gatotech   | @gatotech:matrix.org  | Central America | 1 Jan 23    |
 | metaspan   | @metaspan:matrix.org  | Europe          | 1 Dec 22    |
+| gatotech   | @gatotech:matrix.org  | Central America | 1 Jan 23    |
+
+
 
 <!--
 in review

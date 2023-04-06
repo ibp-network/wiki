@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
 # Development Requirements
@@ -27,3 +27,11 @@ sidebar_position: 4
 * Advisor / Curator App
     * Collates information from a variety of endpoints and APIs. 
     * Produces billing sheet that allows curators to pay members
+
+## TODO list
+
+If you would like to support us, please consider this list of tasks and volunteer for something:
+
+- https://github.com/dotsama-ibp/dotsama-ibp/issues - pick any issue where you feel you can help
+- github repo automation / actions
+- development of tools: [issue #2](https://github.com/dotsama-ibp/dotsama-ibp/issues/2) has the current feature list for SLA monitoring

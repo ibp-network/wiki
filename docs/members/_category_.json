@@ -1,0 +1,8 @@
+{
+  "label": "Joining IBP",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "The following are some guidelines to deploy a remote server with minimum reasonable security considerations."
+  }
+}
