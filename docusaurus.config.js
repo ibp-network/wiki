@@ -72,7 +72,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'welcome/introduction',
+            docId: 'welcome/welcome',
             position: 'left',
             label: 'Documentation',
           },
@@ -92,7 +92,7 @@ const config = {
             items: [
               {
                 label: 'Documentation',
-                to: '/docs/welcome/introduction',
+                to: '/docs/welcome/welcome',
               },
               {
                 label: 'Blog',
