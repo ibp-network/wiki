@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/dotsama-ibp/wiki/tree/main',
+            'https://github.com/ibp-network/wiki/tree/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/dotsama-ibp/wiki/tree/main',
+            'https://github.com/ibp-network/wiki/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -72,13 +72,13 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'welcome/introduction',
             position: 'left',
             label: 'Documentation',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/dotsama-ibp',
+            href: 'https://github.com/ibp-network',
             label: 'GitHub',
             position: 'right',
           },
@@ -92,7 +92,7 @@ const config = {
             items: [
               {
                 label: 'Documentation',
-                to: '/docs/intro',
+                to: '/docs/welcome/introduction',
               },
               {
                 label: 'Blog',
@@ -113,8 +113,12 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'Youtube',
+                href: 'https://www.youtube.com/@ibp.network',
+              },
+              {
                 label: 'GitHub',
-                href: 'https://github.com/dotsama-ibp',
+                href: 'https://github.com/ibp-network',
               },
             ],
           },
