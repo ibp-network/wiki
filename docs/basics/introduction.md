@@ -6,20 +6,25 @@ sidebar_position: 1
 
 The Infrastructure Builders' Program is a community iniciative to decentralise the minimum basic services needed by the Dotsama ecosystems and other Subtrate-based projects.
 
-## Key Links
+### Originary Documents
 
-- Proposal doc: https://docs.google.com/document/d/16USQYVhlyAlrU829EUB2TRoqUC0nnfoS_uCdZ84HT8k
-- Referenda 35: https://kusama.polkassembly.io/referenda/35
+- Proposal's [Doc](https://docs.google.com/document/d/16USQYVhlyAlrU829EUB2TRoqUC0nnfoS_uCdZ84HT8k).
+- Kusama's [Referenda 35](https://kusama.polkassembly.io/referenda/35).
 
-## Bounty Management
+### Bounty Management
 
-The program is funded by a bounty, and is managed by curators via a 3/5 multi-sig account.
+The program is initially funded by a bounty in the Kusama network, and it is managed by curators via a 3/5 multi-sig account.
 
-Each curator (x5) provides an account that is used to create the 3/5 multi-sig.
+Each curator provides a secured account that is used to create the 3/5 multi-sig.
 
 Payments to members are executed by child-bounties.
 
-## Curators & Advisors
+## Team
+
+The team is composed of Curators, Advisors, and Members:
+
+### Curators
+
 The current curators of the program are:
 
 - anaelleltd | Parity (non-exec)
@@ -28,34 +33,37 @@ The current curators of the program are:
 - Otar | Parity (non-exec)
 - will | Parity (non-exec)
 
+### Advisors
+
 The current advisors are:
 
 - Tom | Stake.Plus (exec)
 - Derek | metaspan (exec)
 
+:::note Transparency Disclaimer
 
-:::note
-
-non-exec positions are not compensated
-exec positions are compensated for performing additional tasks
+**exec** positions are compensated for performing additional tasks.
 
 :::
 
+### Members
 
-## Monitoring
+| ID            | Region          |
+| ------------- | --------------- |
+| stake.plus    | North America   |
+| helikon       | Middle East     |
+| amforc        | Europe          |
+| metaspan      | Europe          |
+| gatotech      | Central America |
+| turboflakes   | Europe          |
+| crifferent.de | Europe          |
+| dwellir       | Africa          |
+| Polkadotters  | Oceania         |
+| Rotko.net     | Asia            |
+### Meetings
 
-Each member could run a copy of the monitor. By running a monitor, members publish their services via gossip to other monitors. Each monitor runs SLA checks on published services, and reports results via gossip. In this way, each instance of the monitor should have all the shared SLA data.
+All meetings are recorded, and posted to the [IBP Youtube Channel](https://www.youtube.com/@ibp.network)
 
-- stake.plus - http://192.96.202.185:30001
-- metaspan - https://ibp-monitor.metaspan.io
+### Announcements
 
-Code for the monitor is open source [here](https://github.com/dotsama-ibp/dotsama-ibp/tree/main/monitor)
-
-## Meetings
-
-All meetings are recorded, and posted to the IBP YT Channel
-- https://www.youtube.com/@dotsama-ibp
-
-## Announcements
-
-- Progress reports: TBC, the Curators will decide on the regularity of reporting - monthly or quarterly
+- Progress reports: TBC, the Curators will decide on the regularity of reporting - either monthly or quarterly.

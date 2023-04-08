@@ -78,7 +78,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/ibp-network',
+            href: 'https://github.com/ibp-network/wiki',
             label: 'GitHub',
             position: 'right',
           },
