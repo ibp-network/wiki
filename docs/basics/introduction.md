@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-The Infrastructure Builders' Program is a community iniciative to decentralise the services needed by the Dotsama and other Subtrate-based ecosystems.
+The Infrastructure Builders' Program is a community iniciative to decentralise the minimum basic services needed by the Dotsama ecosystems and other Subtrate-based projects.
 
 ## Key Links
 
@@ -33,8 +33,14 @@ The current advisors are:
 - Tom | Stake.Plus (exec)
 - Derek | metaspan (exec)
 
-_non-exec positions are not compensated_
-_exec positions are compensated for performing additional tasks_
+
+:::note
+
+non-exec positions are not compensated
+exec positions are compensated for performing additional tasks
+
+:::
+
 
 ## Monitoring
 
