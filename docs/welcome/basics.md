@@ -1,10 +1,10 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Introduction
 
-The Infrastructure Builders' Program is a community iniciative to decentralise the services needed by the Dotsama ecosystem.
+The Infrastructure Builders' Program is a community iniciative to decentralise the services needed by the Dotsama and other Subtrate-based ecosystems.
 
 ## Key Links
 
@@ -13,7 +13,7 @@ The Infrastructure Builders' Program is a community iniciative to decentralise t
 
 ## Bounty Management
 
-The program is funded by a bounty, and is managed the curators via a 3/5 multi-sig account.
+The program is funded by a bounty, and is managed by curators via a 3/5 multi-sig account.
 
 Each curator (x5) provides an account that is used to create the 3/5 multi-sig.
 
@@ -31,15 +31,14 @@ The current curators of the program are:
 The current advisors are:
 
 - Tom | Stake.Plus (exec)
-- derek // metaspan (exec)
+- Derek | metaspan (exec)
 
 _non-exec positions are not compensated_
-\
 _exec positions are compensated for performing additional tasks_
 
 ## Monitoring
 
-Each member could run a copy of the monitor. By running a monitor, members publishe their services via gossip to other monitors. Each monitor runs SLA checks on published services, and reports results via gossip. In this way, each instance of the monitor should have all the shared SLA data.
+Each member could run a copy of the monitor. By running a monitor, members publish their services via gossip to other monitors. Each monitor runs SLA checks on published services, and reports results via gossip. In this way, each instance of the monitor should have all the shared SLA data.
 
 - stake.plus - http://192.96.202.185:30001
 - metaspan - https://ibp-monitor.metaspan.io
