@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # Introduction
 
-The Infrastructure Builders' Program is a community iniciative to decentralise the minimum services needed by the Dotsama ecosystems and other Subtrate-based projects.
+The Infrastructure Builders' Programme is a community iniciative to decentralise the minimum services needed by the Dotsama ecosystems and other Subtrate-based projects.
 
-The originary documentation, indicated that it would extend the mission of the [Thousand Validators Programme](https://wiki.polkadot.network/docs/thousand-validators) to include the provisionof core infrastructure services in a decentralized, autonomous, fault-tolerant, and self-sustaining manner. Operators chosen for the Infrastructure Builders Program will lease rack space at unique facilities and deploy owned hardware to provide common endpoint and functionality for a variety of core infrastructure services (RPC endppoints, Snapshots, Bootnodes, Validators, Telemetry). 
+The originary documentation, indicated that it would extend the mission of the [Thousand Validators Programme](https://wiki.polkadot.network/docs/thousand-validators) to include the provisionof core infrastructure services in a decentralized, autonomous, fault-tolerant, and self-sustaining manner. Operators chosen for the Infrastructure Builders Programme will lease rack space at unique facilities and deploy owned hardware to provide common endpoint and functionality for a variety of core infrastructure services (RPC endppoints, Snapshots, Bootnodes, Validators, Telemetry). 
 
 More information available in the documents below:
 
@@ -21,7 +21,7 @@ This information is historical and some administrative aspects (e.g. stage numbe
 
 ## Bounty Management
 
-The program is initially funded by a bounty in the Kusama network.
+The programme is initially funded by a bounty in the Kusama network.
 
 This is managed by its relevant curators via a 3/5 multi-sig account.
 
@@ -35,7 +35,7 @@ The team is composed of Curators, Advisors, and Members:
 
 ### Curators
 
-The current curators of the program are:
+The current curators of the programme are:
 
 - anaelleltd | Parity (non-exec)
 - bLd | Astar (non-exec)

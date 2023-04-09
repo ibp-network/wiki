@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="These are the Wiki pages for the Infrastructure Builders' Program">
+      description="These are the Wiki pages for the Infrastructure Builders' Programme">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

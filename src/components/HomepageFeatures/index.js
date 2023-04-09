@@ -29,7 +29,7 @@ const FeatureList = [
     Svg: require('@site/static/img/ibp-sustainable.svg').default,
     description: (
       <>
-        All members of the program make a point to ensure that their equipment is powered by 100%
+        All members of the programme make a point to ensure that their equipment is powered by 100%
         renewable energy and their operations are compliant with the net-zero emissions goals.
       </>
     ),

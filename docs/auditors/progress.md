@@ -47,7 +47,7 @@ For this milestone, there is some preliminary work to be done by the members in 
 | Anycast #1 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A                                                   |
 | Anycast #2 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A                                                   |
 
-The rest of the members of the Infrastructure Builders' Program must report their services to the monitoring system so the endpoint administrators add their locations to the applicable geographic territories, members can only be added when they are providing services (at least 1 backend server) in each and every of these networks:
+The rest of the members of the Infrastructure Builders' Programme must report their services to the monitoring system so the endpoint administrators add their locations to the applicable geographic territories, members can only be added when they are providing services (at least 1 backend server) in each and every of these networks:
 
 | Member      | Region                  | Polkadot | Kusama  | Westend |
 | ----------- | ----------------------- | -------- | ------- | ------- |

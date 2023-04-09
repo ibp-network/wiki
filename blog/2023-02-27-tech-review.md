@@ -5,7 +5,7 @@ authors: derek
 tags: [news, tech, youtube]
 ---
 
-Today the team was briefed about the current state of the art in regards to the monitoring system in place for the members of the Infrastructure Builders' Program!.
+Today the team was briefed about the current state of the art in regards to the monitoring system in place for the members of the Infrastructure Builders' Programme!.
 
 Lots of interesting information and conceptual topics were presented and discussed in the videomeeting:
 

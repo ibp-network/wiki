@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'IBP Wiki',
-  tagline: 'Body of Knowledge for the Infrastructure Builders\' Program',
+  tagline: 'Body of Knowledge for the Infrastructure Builders\' Programme',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -123,7 +123,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Infrastructure Builders\' Program.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Infrastructure Builders\' Programme.`,
       },
       prism: {
         theme: lightCodeTheme,
