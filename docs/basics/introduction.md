@@ -4,76 +4,32 @@ sidebar_position: 1
 
 # Introduction
 
-The Infrastructure Builders' Programme is a community iniciative to decentralise the minimum services needed by the Dotsama ecosystems and other Subtrate-based projects.
+The Infrastructure Builders' Programme (IBP) is a community iniciative to provide enhanced infrastucture services which are needed by the ecosystems of Polkadot/Kusama/Westend and other Subtrate-based projects.
 
-The originary documentation, indicated that it would extend the mission of the [Thousand Validators Programme](https://wiki.polkadot.network/docs/thousand-validators) to include the provisionof core infrastructure services in a decentralized, autonomous, fault-tolerant, and self-sustaining manner. Operators chosen for the Infrastructure Builders Programme will lease rack space at unique facilities and deploy owned hardware to provide common endpoint and functionality for a variety of core infrastructure services (RPC endppoints, Snapshots, Bootnodes, Validators, Telemetry). 
+## Assured decentralisation:
 
-More information available in the documents below:
+The IBP is composed of several independent members who are micro-enterprises from around the world, the only "common" thing moving them is the shared vision to provide the top infrastructure services to the networks.
 
-- Proposal's [Document](https://docs.google.com/document/d/16USQYVhlyAlrU829EUB2TRoqUC0nnfoS_uCdZ84HT8k).
-- Kusama's [Referenda 35](https://kusama.polkassembly.io/referenda/35).
+These enterprises are legally registered as companies in their applicable territories and are fully independent from each other, they operate from different geographical jurisdictions, have diverse hardware and software vendors, implement different logistic channels, and utilise different datacenters, power supply companies and internet connectivity providers around the globe.
 
-:::note
+## Assured Reliability:
 
-This information is historical and some administrative aspects (e.g. stage numbers, etc) may have changed, please refer to the documents in this wiki to have the updated version of these concepts
+All the members are full owners of their hardware and have these installed in diverse colocation datacenters complying with the highest industry standards for redundancy and resilience for power, cooling and connectivity.
 
-:::
+All services from each member are being provided from High Availability clusters and then aggregated via GeoDNS and Anycast strategies that maximises the availability of the best endpoints in each territory.
 
-## Bounty Management
+## Assured Quality
 
-The programme is initially funded by a bounty in the Kusama network.
+All hardware includes processors of the latest generations (i.e. with PCIe 4.0 support, minimum) leveraging on NVMe drives of Gen 4.0 with a minimum speed of no less than 250,000 IOPs per each 1TB of capacity.
 
-This is managed by its relevant curators via a 3/5 multi-sig account.
+All worldwide requests from the end-users are routed to the closest endpoint node according to geo-proximity, All of this in the pursue of the fastest response times at the lowest latency possible for any requesting location.
 
-Each curator provides a secured account that is used to create the 3/5 multi-sig.
+## Assured Sustainability
 
-Payments to members are executed by child-bounties.
+All datacenters are mandated to comply with 100% renewable energy targets, and for any locations where such target is still not achieved, the relevant member is offsetting the carbon credits needed for a neutral operation.
 
-## Team
+## Assured Savings
 
-The team is composed of Curators, Advisors, and Members:
+The prices for the services of the above specification are very straight forward and will most likely beat any proposal from any other centralised provider
 
-### Curators
-
-The current curators of the programme are:
-
-- anaelleltd | Parity (non-exec)
-- bLd | Astar (non-exec)
-- CoinStudio (exec)
-- Otar | Parity (non-exec)
-- will | Parity (non-exec)
-
-:::note Transparency Disclaimer
-
-**exec** positions are compensated for performing additional tasks.
-
-:::
-
-### Advisors
-
-The current advisors are:
-
-- Tom | Stake.Plus (exec)
-- Derek | metaspan (exec)
-
-### Members
-
-| ID            | Region          |
-| ------------- | --------------- |
-| stake.plus    | North America   |
-| helikon       | Middle East     |
-| amforc        | Europe          |
-| metaspan      | Europe          |
-| gatotech      | Central America |
-| turboflakes   | Europe          |
-| crifferent.de | Europe          |
-| dwellir       | Africa          |
-| Polkadotters  | Oceania         |
-| Rotko.net     | Asia            |
-## Meetings
-
-All meetings are recorded, and posted to the [IBP Youtube Channel](https://www.youtube.com/@ibp.network)
-
-## Announcements
-
-- Progress reports: TBC, the Curators will decide on the regularity of reporting - either monthly or quarterly.
+**Feel free to request your quotation at your earliest convenience!**
