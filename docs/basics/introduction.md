@@ -6,7 +6,7 @@ sidebar_position: 1
 
 The Infrastructure Builders' Programme (IBP) is a community iniciative to provide enhanced infrastucture services which are needed by the ecosystems of Polkadot/Kusama/Westend and other Subtrate-based projects.
 
-## Assured decentralisation
+## Assured Decentralisation
 
 The IBP is composed of several independent members who are micro-enterprises from around the world, the only "common" thing moving them is the shared vision to provide the top infrastructure services to the networks.
 
