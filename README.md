@@ -5,6 +5,10 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 ### Install Software
 
 ``` shell
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash
+apt update && apt full-upgrade
+apt install nodejs
+apt install build-essential
 apt install apache2
 apt install npm
 ```
