@@ -2,6 +2,13 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+### Install Software
+
+``` shell
+apt install apache2
+apt install npm
+```
+
 ### Clone Repository
 
 It is recommended that you clone this repository in your `/var/www` directory
@@ -9,6 +16,7 @@ It is recommended that you clone this repository in your `/var/www` directory
 ``` shell
 cd /var/www
 git clone https://github.com/ibp-network/wiki.git
+cd wiki
 ```
 
 ### Build Package
@@ -16,8 +24,7 @@ git clone https://github.com/ibp-network/wiki.git
 You need to generate the static pages from the source code, using `npm`:
 
 ``` shell
-cd wiki
-apt install npm
+npm install
 npm run build
 ```
 

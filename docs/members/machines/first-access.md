@@ -14,7 +14,7 @@ Disregarding where in the world is your VM, we will refer to it as a "Remote Ser
 
 From any terminal in your local machine (e.g. DOS, PowerShell, etc.) access your server with the following command (be prepared to enter the password corresponding to the relevant user):
 
-``` bash
+```shell
 ssh username@ipaddress
 ```
 
@@ -30,9 +30,10 @@ Once you enter your ***username*** and ***password***, you will be executing she
 
 Now it is highly recommendable to update all the software packages which were provisioned by the hosting, these could be now obsolete and/or carry additional security risks, then reboot the machine to ensure the changes are enacted:
 
-``` bash
+```shell
 sudo apt update
 sudo apt full-upgrade
+sudo apt autoremove
 sudo reboot
 ```
 
@@ -44,12 +45,12 @@ you may find that entering separately the commands above (one line at a time) is
 
 :::note
 
-In the commands above, the `sudo` part is not needed if you are using the `root` user.
+In the commands above, the `sudo` part is not needed if you are in fact using the `root` user.
 
 :::
 
-You will be disconnected from the remoser server and may need to wait for a short moment while it reboots, if you try to connect too soon you will have either no response or an error returned from the below command:
+You will be disconnected from the remote server and may need to wait for a short moment while it reboots, if you try to connect too soon you will have either no response or an error returned from the below command:      
 
-``` bash
+```shell
 ssh username@ipaddress
 ```
