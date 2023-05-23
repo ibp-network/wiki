@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'IBP Wiki',
+  title: 'IBP Wikii',
   tagline: 'Body of Knowledge for the Infrastructure Builders\' Programme',
   favicon: 'img/favicon.ico',
 
