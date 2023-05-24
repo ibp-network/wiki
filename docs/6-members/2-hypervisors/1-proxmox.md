@@ -43,7 +43,7 @@ sudo reboot
 
 ## Preconfigure VM
 
-You may want to perform some minor configuration in your freshly deployed VM by following the instruction in this [section](/docs/members/machines/first-access.md).
+You may want to perform some minor configuration in your freshly deployed VM by following the instruction in this [section](/docs/6-members/4-machines/1-first-access.md).
 
 Once you are happy with the basic accessibilty and security of the virtual machine, you can then proceed to convert it in a template for future and recursive use in deploying additional machines of the same basic characteristics.
 

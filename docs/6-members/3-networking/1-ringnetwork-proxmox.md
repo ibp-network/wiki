@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Ring Network - Proxmox
 
-For high speed connectivity among servers, specially important in [High Availability clusters](/docs/members/highavailability/proxmoxceph.md), you can interconnect them directly in a ring network.
+For high speed connectivity among servers, specially important in [High Availability clusters](/docs/6-members/7-highavailability/1-proxmoxceph.md), you can interconnect them directly in a ring network.
 
 This is particularly efficient when the quantity of interconnected servers is limited (i.e. less than 4) and the costs of a dedicated high speed network switch is deemed prohibitive.
 

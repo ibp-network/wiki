@@ -14,7 +14,7 @@ This section assumes the creation of a HA cluster from freshly created Proxmox s
 
 Firstly, you need at least to allocate three (3x) Proxmox servers already provisioned to follow the instructions of this wiki, if you want some guidance to deploy these, please refer to the relevant section here.
 
-After that, you need to think about the appropriate network configuration to allow the HA cluster to perform at it best. You need the fastest available solution to interconnect the servers in your cluster. This is not always achievable using a standard network switch, thus for cluster with 4 or less nodes, we propose you to deploy a ring network as outlines [here](/docs/members/networking/ringnetwork-proxmox.md).
+After that, you need to think about the appropriate network configuration to allow the HA cluster to perform at it best. You need the fastest available solution to interconnect the servers in your cluster. This is not always achievable using a standard network switch, thus for cluster with 4 or less nodes, we propose you to deploy a ring network as outlines [here](/docs/6-members/3-networking/1-ringnetwork-proxmox.md).
 
 After setting up your dedicated high-speed network, make sure that the reevant interfaces are up:
 
