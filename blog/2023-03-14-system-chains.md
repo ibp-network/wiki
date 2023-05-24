@@ -2,7 +2,7 @@
 slug: system-chains
 title: System Parachains are lit! 
 authors: [milos]
-tags: [news]
+tags: [news, tech]
 ---
 
 Earlier today, a [Pull Request](https://github.com/polkadot-js/apps/pull/9176) was proposed to the polkadot.{js} wallet to add the endpoints that the Infraestructure Builders' Programme has made available to support the System Parachains (formerly known as "Common Good" Parachains).

@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Stub
+# Ansible
 
 This is a stub
 

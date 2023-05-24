@@ -1,6 +1,6 @@
 {
-  "label": "Automation",
-  "position": 8,
+  "label": "High Availability",
+  "position": 7,
   "link": {
     "type": "generated-index",
     "description": "Learn how to build a high availability cluster of nodes and storage."
