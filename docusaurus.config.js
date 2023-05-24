@@ -15,7 +15,7 @@ const config = {
 
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/build/',
 
 
   // GitHub pages deployment config.
@@ -41,7 +41,6 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
 
           // Please change this to your repo.
@@ -69,10 +68,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-          defaultMode: 'dark',
-          disableSwitch: true,
-          respectPrefersColorScheme: false,
-        },
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       // Replace with your project's social card
       image: 'img/ibp-social-card.jpg',
       navbar: {
