@@ -64,7 +64,7 @@ Before provisioning your first machine, you may want to install Proxmox in the r
 
 :::
 
-:::warn
+:::caution
 
 Before the creation of your first machine, please make sure that you have provisioned the appropriate storage type to the Proxmox environment, that is, for example, an local LVM device for a stand-alone server, or a Ceph pool for a High Availability cluster, please note that migrating between the these is a non-trivial and error-prone maneouvre.
 
@@ -121,11 +121,13 @@ You may want to perform some minor configuration in your freshly deployed VM by 
 
 Once you are happy with the basic accessibilty and security of the virtual machine, you can then proceed to convert it in a template for future and recursive use in deploying additional machines of the same basic characteristics.
 
-:::warn
+:::danger
+
 Converting a VM to Template in Proxmox is a one-way street, you will not be able to go back and make changes. The recommendation in this case is:
 1- Make a copy (clone) of this VM,
 2- Convert the clone to Template
 3- Thus you can keep the original VM deactivated but available in case you want to update it, clone it and convert to a new template.
+
 :::
 
 ## Convert VM to Template
