@@ -27,9 +27,7 @@ polkadot --no-hardware-benchmarks --no-mdns --chain polkadot --reserved-only --r
 ```
 
 :::info
-
 This method, althougth effective, is under revision due to its deviation from a pure bootnode's perspective (the new node connects to the bootnode and allows syncing the chain, but it doesn't allow to discover more nodes).
-
 :::
 
 The bootnodes from the Infrastructure Builders' Programme are available in three different connection alternatives, including basic TCP transport between peers  and websockets encapsulated in TCP with or without TLS-encryption.
