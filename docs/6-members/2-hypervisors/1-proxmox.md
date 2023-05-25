@@ -26,9 +26,71 @@ After installation and restart, you will be presented with a log-in screen showi
 
 ![Proxmox installed](assets/1-proxmox_install-01.png)
 
-## First Virtual Machine (VM)
+Now you can open your preferred Internet browser and navigate to the url shown in the prompt above, this should open the Graphical User Interface (GUI) of Proxmox
+
+![Proxmox GUI](assets/1-proxmox_install-02.png)
+
+Now you are ready on your way to download Operating System (OS) images and create your first Virtual Machine (VM)
+
+## Download `iso` images
+
+Before spinning any virtual machines in Proxmox, you will need to download the relevant `iso` images of the operating systems you want to use in said VMs.
+
+In the particular case of Ubuntu Server, this procedure is very simple, just go to the [download page](https://ubuntu.com/download/server):
+
+![Ubuntu Server iso - 01](assets/1-ubuntu_download-01.png)
+
+And click on the big green `Download Ubuntu Server` button to proceed to the download screen.
+
+Now a pop-up window will appear on your screen, feel free to dismiss it because you don't actually want to download this file to your PC (you just need the link).
+
+Once dismissed, you can right-click on the `download now` link and select `Copy link address` from the drop-down contextual menu:
+
+![Ubuntu Server iso - 02](assets/1-ubuntu_download-02.png)
+
+Back in Proxmox's GUI, look for the `local` storage of your server in the explorer panel at the left of the screen, then select `ISO Images` in the list of local available items in the centre of the screen and lastly click on the `Download from URL` link
+
+![Ubuntu Server iso - 03](assets/1-ubuntu_download-03.png)
+
+Once you paste the `URL` of the image in the first field of the pop-up window, click the blue `Query URL` button to automatically populate the rest of the form and finish with a click of the `Download` button.
+
+The file should download in a few seconds / minutes, depending on your connection speed.
+
+## First VM
+
+:::info
+
+Before provisioning your first machine, you may want to install Proxmox in the rest of your physical servers an interconnect them in a High Availability cluster, as shown in the relevant [guide](/docs/6-members/7-highavailability/1-proxmoxceph.md)
+
+:::
+
+:::warn
+
+Before the creation of your first machine, please make sure that you have provisioned the appropriate storage type to the Proxmox environment, that is, for example, an local LVM device for a stand-alone server, or a Ceph pool for a High Availability cluster, please note that migrating between the these is a non-trivial and error-prone maneouvre.
+
+:::
 
 
+
+In the Proxmox GUI, make click on the blue `Create VM` button and a wizard will guide you through the process:
+
+![Create VM - 01](assets/1-proxmox_machine-01.png)
+
+
+
+![Create VM - 02](assets/1-proxmox_machine-02.png)
+
+![Create VM - 03](assets/1-proxmox_machine-03.png)
+
+![Create VM - 04](assets/1-proxmox_machine-04.png)
+
+![Create VM - 05](assets/1-proxmox_machine-05.png)
+
+![Create VM - 06](assets/1-proxmox_machine-06.png)
+
+![Create VM - 07](assets/1-proxmox_machine-07.png)
+
+![Create VM - 08](assets/1-proxmox_machine-08.png)
 
 ## Remove 'cloud-init'
 
