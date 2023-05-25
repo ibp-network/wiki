@@ -58,18 +58,18 @@ The current advisors are:
 
 ### Members
 
-| ID            | Region          |
-| ------------- | --------------- |
-| stake.plus    | North America   |
-| helikon       | Middle East     |
-| amforc        | Europe          |
-| metaspan      | Europe          |
-| gatotech      | Central America |
-| turboflakes   | Europe          |
-| crifferent.de | Europe          |
-| dwellir       | Africa          |
-| Polkadotters  | Oceania         |
-| Rotko.net     | Asia            |
+| ID           | Region          |
+| ------------ | --------------- |
+| stake.plus   | North America   |
+| helikon      | Middle East     |
+| amforc       | Europe          |
+| metaspan     | Europe          |
+| gatotech     | Central America |
+| turboflakes  | Europe          |
+| dwellir      | Africa          |
+| Polkadotters | Oceania         |
+| Rotko.net    | Asia            |
+
 ## Meetings
 
 All meetings are recorded, and posted to the [IBP Youtube Channel](https://www.youtube.com/@ibp.network)

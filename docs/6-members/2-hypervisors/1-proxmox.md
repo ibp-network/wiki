@@ -10,15 +10,27 @@ It integrates the KVM hypervisor and Linux Containers (LXC), software-defined st
 
 With the integrated web-based user interface you can manage VMs and containers, high availability for clusters, or the integrated disaster recovery tools with relative ease.
 
-## Proxmox Cluster
+## Download Proxmox
 
 Download the ISO image of proxmox [here](https://www.proxmox.com/en/downloads/category/iso-images-pve)
 
 In case you don’t have access to virtual media via IPMI, then the ISO image must be loaded into an USB drive with a tool like USBimager [here](https://gitlab.com/bztsrc/usbimager). 
 
-Insert the USB, power on your rig and install Proxmox.
+## Install Proxmox
+
+Insert the USB, power on your rig and follow the on-screen instructions to install Proxmox.
+
+Be specially carefull when entering the timezone and networking information.
+
+After installation and restart, you will be presented with a log-in screen showing:
+
+![Proxmox installed](assets/1-proxmox_install-01.png)
 
 ## First Virtual Machine (VM)
+
+
+
+## Remove 'cloud-init'
 
 Unless you are using OpenStack, AWS, or similar services, then `cloud-init` may actually be slowing down the booting of your VM and eventually halt it from booting if it does not have a proper working IP.
 
