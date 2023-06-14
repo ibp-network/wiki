@@ -13,5 +13,8 @@ sidebar_position: 1
 | gatotech     | @gatotech:matrix.org    | Central America | 1 Jan 23    |
 | turboflakes  | @turboflakes:matrix.org | Europe          | 1 Feb 23    |
 | dwellir      | @gustavden3:matrix.org  | Africa          | 1 Apr 23    |
+| Crifferent   | @dev0_sik:matrix.org    | Europe          | In review   |
 | Polkadotters | @pmensik:matrix.org     | Oceania         | In review   |
 | Rotko.net    | @hitchhooker:matrix.org | Asia            | In review   |
+| Lucky Friday | @luckyfriday:matrix.org | North America   | In review   |
+| RadiumBlock  | @radiumblock:matrix.org | Asia            | In Review   |
