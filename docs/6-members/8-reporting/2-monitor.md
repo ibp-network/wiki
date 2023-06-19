@@ -115,15 +115,19 @@ nano .env
 
 The file's default content looks like this, please amend appropriately
 
-``` conf
+``` shell
 # public DNS address of the host - comment out if not used
 P2P_PUBLIC_HOST=ibp-monitor.example.com
+
 # public IPv4 or IPv6 address of the host - comment out if not used
 P2P_PUBLIC_IP=111.111.111.111
+
 # public port for peer-to-peer connections
 P2P_PUBLIC_PORT=30000
+
 # ui http port
 HTTP_PORT=30001
+
 # api http port
 API_PORT=30002
 ```
