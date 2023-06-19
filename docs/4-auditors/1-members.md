@@ -2,7 +2,18 @@
 sidebar_position: 1
 ---
 
-# Current Members
+# Members
+
+Here is the list of current members of the Infrastructure Builders' Programme
+
+### Hobbyist members
+
+| ID         | matrix | Region | Date joined |
+| ---------- | ------ | ------ | ----------- |
+| Come Join! |        |        |             |
+
+
+### Professional members
 
 | ID           | matrix                  | Region          | Date joined |
 | ------------ | ----------------------- | --------------- | ----------- |
