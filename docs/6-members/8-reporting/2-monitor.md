@@ -13,7 +13,13 @@ The code of this monitor solution is open source and can be found in this Github
 Before continuing with the procedures below, you must first:
 
 1. Provision a virtual machine or cloud instance with the provider of your choice, this machine must be accessible from the Internet.
+
+:::info
+current deployments are using 1 vCPU, 2GB RAM and 64GB storage.
+:::
+
 2. (optional) Arrange a DNS record in your own domain name (e.g. `ibp-monitor.example.com`) pointing to the IP of your machine above.
+
 3. Install `docker` as shown below:
 
 ``` shell
@@ -74,6 +80,11 @@ P2P_PUBLIC_HOST=ibp-monitor.test.org
 P2P_PUBLIC_IP=111.111.111.111
 ```
 
+Ok.. this is the end of the comment... continuing the document now
+--->
+
+You will need to make a local copy of the `config.js` file as `config.local.js`, which you can freely edit in your deployment
+
 ``` shell
 cd config
 cp config.js config.local.js
@@ -82,6 +93,7 @@ nano config.local.js
 
 ``` js
 // (...)
+// this is just an extract of the local editable file
 
 const config = {
   dateTimeFormat: 'DD/MM/YYYY HH:mm',
@@ -101,9 +113,6 @@ const config = {
 // (...)
 
 ```
-
-Ok.. this is the end of the comment... continuing the document now
---->
 
 Let's configure now some variables needed for the deployment
 
@@ -141,3 +150,9 @@ docker compose up -d
 And if you connect your browser to the port indicated in `HTTP_PORT` you will see the frontend of the monitor running:
 
 ![Monitor GUI](assets/2-monitoring-01.png)
+
+:::info
+You may want to make a backup of the network keys, in case you plan to keep your monitor id across redeployments and migrations.
+:::
+
+enjoy!
