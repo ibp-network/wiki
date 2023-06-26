@@ -56,7 +56,15 @@ The current advisors are:
 - Tom | Stake.Plus (exec)
 - Derek | metaspan (exec)
 
-### Members
+### Hobbyist Members
+
+- Aperture
+- Dozenodes
+- MathCrypto
+- STKD
+- Paranodes
+
+### Professional Members
 
 | ID           | Region          |
 | ------------ | --------------- |

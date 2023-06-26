@@ -18,8 +18,12 @@ Depending on the expertise and commitment capacity of the interested candidates,
 
 Please apply by completing the form [here](https://docs.google.com/forms/d/e/1FAIpQLSdhCFsscVz66ZocyKfPQzmsmoR9Y_ZlfGGyAUBJ6ThZDS8hRQ/viewform)
 
+:::info
+Applications are still open for the South America region, don't delay!
+:::
+
 ## Hobbyist Members
 
-:::note
-This membership path will be opened as soon as the required technical framework is developed and in place to allow automated monitoring of SLA (Service Level Agreement).
+:::info
+Applications are now closed, please check our matrix room [here](https://matrix.to/#/!tNVRcjndUHhSDzCKFF:matrix.org?via=parity.io&via=matrix.org&via=matrix.parity.io) for news on future expansion of the hobbyist team.
 :::
