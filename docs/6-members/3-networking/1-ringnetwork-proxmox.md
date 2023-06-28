@@ -70,7 +70,9 @@ iface vmbr7 inet static
 
 ```
 
-For newer NICs (e.g. 100Gbe) you need to set the MTU with `ovs_mtu 9000` in the `vmbr1`, `eno18` and `eno19` configs. You can check the RSTP status with
+For newer NICs (e.g. 100Gbe) you need to set the MTU with `ovs_mtu 9000` in the `vmbr1`, `eno18` and `eno19` configs.
+
+You can check the RSTP status with
 
 ``` shell
 ovs-appctl rstp/show

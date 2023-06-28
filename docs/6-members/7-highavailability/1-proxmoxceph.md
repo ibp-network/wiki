@@ -33,9 +33,14 @@ enp65s0f1        UP             fe80::b696:91ff:feb3:b0eb/64
 usb0             DOWN
 ovs-system       DOWN
 vmbr7            UNKNOWN        10.0.0.1/29 fe80::f47d:9aff:fec8:6c48/64
-vmbr0            UP             190.124.251.133/32 fe80::3eec:efff:fece:d050/64
+vmbr0            UP             150.114.151.103/32 fe80::3eec:efff:fece:d050/64
 vmbr1            UP             fe80::3eec:efff:fece:d051/64
 ```
+
+And you can also check this in the graphical interface of your hypervisor, e.g. in Proxmox:
+
+![Ring Network 01](assets/1-proxmox_ceph-01.png)
+
 and to reconfirm, try to ping the other servers:
 
 ```
