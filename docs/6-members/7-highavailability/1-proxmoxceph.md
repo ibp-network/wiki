@@ -28,8 +28,8 @@ which should show something like:
 lo               UNKNOWN        127.0.0.1/8 ::1/128
 eno1             UP
 eno2             UP
-enp65s0f0        UP             fe80::b696:91ff:feb3:b0ea/64
-enp65s0f1        UP             fe80::b696:91ff:feb3:b0eb/64
+enp65s0f0        UP             fe80::b696:900f:feb3:b0ea/64
+enp65s0f1        UP             fe80::b696:900f:feb3:b0eb/64
 usb0             DOWN
 ovs-system       DOWN
 vmbr7            UNKNOWN        10.0.0.1/29 fe80::f47d:9aff:fec8:6c48/64
@@ -37,9 +37,9 @@ vmbr0            UP             150.114.151.103/32 fe80::3eec:efff:fece:d050/64
 vmbr1            UP             fe80::3eec:efff:fece:d051/64
 ```
 
-And you can also check this in the graphical interface of your hypervisor, e.g. in Proxmox:
+You can also check this in the graphical interface of your hypervisor, e.g. in Proxmox:
 
-![Ring Network 01](assets/1-proxmox_ceph-01.png)
+![Ring Network OK](assets/1-network_ok-01.png)
 
 and to reconfirm, try to ping the other servers:
 
@@ -51,4 +51,42 @@ The following procedures have been derived from two videos made available at:
 
 1. [Instalar Proxmox Crear Cluster + CEPH + HA Parte 1](https://youtu.be/kPyZ-uzwMag)
 2. [Instalar Proxmox Crear Cluster + CEPH + HA Parte 2](https://youtu.be/JUye9q2GfXs)
+
+## Proxmox HA cluster
+
+![Proxmox HA Cluster 01](assets/1-proxmox_cluster-01.png)
+
+![Proxmox HA Cluster 02](assets/1-proxmox_cluster-02.png)
+
+![Proxmox HA Cluster 03](assets/1-proxmox_cluster-03.png)
+
+![Proxmox HA Cluster 04](assets/1-proxmox_cluster-04.png)
+
+![Proxmox HA Cluster 05](assets/1-proxmox_cluster-05.png)
+
+![Proxmox HA Cluster 06](assets/1-proxmox_cluster-06.png)
+
+![Proxmox HA Cluster 07](assets/1-proxmox_cluster-07.png)
+
+![Proxmox HA Cluster 08](assets/1-proxmox_cluster-08.png)
+
+## Proxmox Ceph SDS
+
+![Proxmox Ceph SDS 01](assets/1-proxmox_ceph-01.png)
+
+![Proxmox Ceph SDS 02](assets/1-proxmox_ceph-02.png)
+
+![Proxmox Ceph SDS 03](assets/1-proxmox_ceph-03.png)
+
+![Proxmox Ceph SDS 04](assets/1-proxmox_ceph-04.png)
+
+![Proxmox Ceph SDS 05](assets/1-proxmox_ceph-05.png)
+
+![Proxmox Ceph SDS 06](assets/1-proxmox_ceph-06.png)
+
+![Proxmox Ceph SDS 07](assets/1-proxmox_ceph-07.png)
+
+![Proxmox Ceph SDS 08](assets/1-proxmox_ceph-08.png)
+
+
 
