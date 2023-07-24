@@ -112,30 +112,30 @@ For this milestone, there is again some preliminary work needed for in the GeoDN
 
 For **Polkadot**'s system parachains:
 
-| Service    | Endpoint            | Administrator | Statemint                                             | Collectives                                           | BridgeHub |
-| ---------- | ------------------- | ------------- | ----------------------------------------------------- | ----------------------------------------------------- | --------- |
-| GeoDNS #1  | rpc.dotters.network | stake.plus    | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) | pending   |
-| GeoDNS #2  | rpc.ibp.network     | gatotech      | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) | pending   |
-| Anycast #1 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A       |
-| Anycast #2 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A       |
+| Service    | Endpoint            | Administrator | Statemint                                             | Collectives                                           | BridgeHub                                             |
+| ---------- | ------------------- | ------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
+| GeoDNS #1  | rpc.dotters.network | stake.plus    | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9725](https://github.com/polkadot-js/apps/pull/9725) |
+| GeoDNS #2  | rpc.ibp.network     | gatotech      | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9725](https://github.com/polkadot-js/apps/pull/9725) |
+| Anycast #1 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A                                                   |
+| Anycast #2 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A                                                   |
 
 For **Kusama**'s system parachains:
 
-| Service    | Endpoint            | Administrator | Statemine                                             | Encointer                                             | BridgeHub                                                    |
-| ---------- | ------------------- | ------------- | ----------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------ |
-| GeoDNS #1  | rpc.dotters.network | stake.plus    | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176)        |
-| GeoDNS #2  | rpc.ibp.network     | gatotech      | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) | pend[9176](https://github.com/polkadot-js/apps/pull/9176)ing |
-| Anycast #1 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A                                                          |
-| Anycast #2 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A                                                          |
+| Service    | Endpoint            | Administrator | Statemine                                             | Encointer                                             | BridgeHub                                                |
+| ---------- | ------------------- | ------------- | ----------------------------------------------------- | ----------------------------------------------------- | -------------------------------------------------------- |
+| GeoDNS #1  | rpc.dotters.network | stake.plus    | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176)    |
+| GeoDNS #2  | rpc.ibp.network     | gatotech      | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176)ing |
+| Anycast #1 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A                                                      |
+| Anycast #2 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A                                                      |
 
 For **Westend**'s system parachains:
 
-| Service    | Endpoint            | Administrator | Westmint                                              | Collectives                                           | BridgeHub |
-| ---------- | ------------------- | ------------- | ----------------------------------------------------- | ----------------------------------------------------- | --------- |
-| GeoDNS #1  | rpc.dotters.network | stake.plus    | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) | pending   |
-| GeoDNS #2  | rpc.ibp.network     | gatotech      | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) | pending   |
-| Anycast #1 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A       |
-| Anycast #2 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A       |
+| Service    | Endpoint            | Administrator | Westmint                                              | Collectives                                           | BridgeHub                                             |
+| ---------- | ------------------- | ------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
+| GeoDNS #1  | rpc.dotters.network | stake.plus    | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9725](https://github.com/polkadot-js/apps/pull/9725) |
+| GeoDNS #2  | rpc.ibp.network     | gatotech      | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9725](https://github.com/polkadot-js/apps/pull/9725) |
+| Anycast #1 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A                                                   |
+| Anycast #2 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A                                                   |
 
 With  these are registered, the services of the rest of the members will start be onboarded.
 

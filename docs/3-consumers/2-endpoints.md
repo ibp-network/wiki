@@ -20,7 +20,7 @@ Additionally, the IBP offers its endpoints via 2x domain names (i.e. `ibp.networ
 
 Please feel free to use any/all of the following endpoints:
 
-```
+```shell
 # For https connection:
 https://rpc.ibp.network/polkadot
 https://rpc.dotters.network/polkadot
@@ -34,7 +34,7 @@ wss://rpc.dotters.network/polkadot
 
 Please feel free to use any/all of the following endpoints:
 
-```
+```shell
 # For https connection:
 https://rpc.ibp.network/kusama
 https://rpc.dotters.network/kusama
@@ -48,7 +48,7 @@ wss://rpc.dotters.network/kusama
 
 Please feel free to use any/all of the following endpoints:
 
-```
+```shell
 # For https connection:
 https://rpc.ibp.network/westend
 https://rpc.dotters.network/westend
@@ -64,7 +64,7 @@ wss://rpc.dotters.network/westend
 
 Please feel free to use any/all of the following endpoints:
 
-```
+```shell
 # For https connection:
 https://sys.ibp.network/statemint
 https://sys.dotters.network/statemint
@@ -78,7 +78,7 @@ wss://sys.dotters.network/statemint
 
 Please feel free to use any/all of the following endpoints:
 
-```
+```shell
 # For https connection:
 https://sys.ibp.network/collectives-polkadot
 https://sys.dotters.network/collectives-polkadot
@@ -92,7 +92,7 @@ wss://sys.dotters.network/collectives-polkadot
 
 Please feel free to use any/all of the following endpoints:
 
-```
+```shell
 # For https connection:
 https://sys.ibp.network/bridgehub-polkadot
 https://sys.dotters.network/bridgehub-polkadot
@@ -108,7 +108,7 @@ wss://sys.dotters.network/bridgehub-polkadot
 
 Please feel free to use any/all of the following endpoints:
 
-```
+```shell
 # For https connection:
 https://sys.ibp.network/statemine
 https://sys.dotters.network/statemine
@@ -122,7 +122,7 @@ wss://sys.dotters.network/statemine
 
 Please feel free to use any/all of the following endpoints:
 
-```
+```shell
 # For https connection:
 https://sys.ibp.network/encointer-kusama
 https://sys.dotters.network/encointer-kusama
@@ -136,7 +136,7 @@ wss://sys.dotters.network/encointer-kusama
 
 Please feel free to use any/all of the following endpoints:
 
-```
+```shell
 # For https connection:
 https://sys.ibp.network/bridgehub-kusama
 https://sys.dotters.network/bridgehub-kusama
@@ -152,7 +152,7 @@ wss://sys.dotters.network/bridgehub-kusama
 
 Please feel free to use any/all of the following endpoints:
 
-```
+```shell
 # For https connection:
 https://sys.ibp.network/westmint
 https://sys.dotters.network/westmint
@@ -166,7 +166,7 @@ wss://sys.dotters.network/westmint
 
 Please feel free to use any/all of the following endpoints:
 
-```
+```shell
 # For https connection:
 https://sys.ibp.network/collectives-westend
 https://sys.dotters.network/collectives-westend
@@ -180,7 +180,7 @@ wss://sys.dotters.network/collectives-westend
 
 Please feel free to use any/all of the following endpoints:
 
-```
+```shell
 # For https connection:
 https://sys.ibp.network/bridgehub-westend
 https://sys.dotters.network/bridgehub-westend
