@@ -77,6 +77,7 @@ The current advisors are:
 | dwellir      | Africa          |
 | Polkadotters | Oceania         |
 | Rotko.net    | Asia            |
+| BlockOps     | South America   |
 
 ## Meetings
 

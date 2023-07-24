@@ -121,12 +121,12 @@ For **Polkadot**'s system parachains:
 
 For **Kusama**'s system parachains:
 
-| Service    | Endpoint            | Administrator | Statemine                                             | Encointer                                             | BridgeHub                                                |
-| ---------- | ------------------- | ------------- | ----------------------------------------------------- | ----------------------------------------------------- | -------------------------------------------------------- |
-| GeoDNS #1  | rpc.dotters.network | stake.plus    | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176)    |
-| GeoDNS #2  | rpc.ibp.network     | gatotech      | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176)ing |
-| Anycast #1 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A                                                      |
-| Anycast #2 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A                                                      |
+| Service    | Endpoint            | Administrator | Statemine                                             | Encointer                                             | BridgeHub                                             |
+| ---------- | ------------------- | ------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
+| GeoDNS #1  | rpc.dotters.network | stake.plus    | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) |
+| GeoDNS #2  | rpc.ibp.network     | gatotech      | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) | [9176](https://github.com/polkadot-js/apps/pull/9176) |
+| Anycast #1 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A                                                   |
+| Anycast #2 | N/A                 | N/A           | N/A                                                   | N/A                                                   | N/A                                                   |
 
 For **Westend**'s system parachains:
 
