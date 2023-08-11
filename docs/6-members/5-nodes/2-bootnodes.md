@@ -6,7 +6,7 @@ sidebar_position: 2
 
 A bootnode is a regular network node that is made available to new nodes to help them discover the rest of the nodes of the network.
 
-The details about the public bootnodes of a network are often hard-coded or embeded in the chain specification file and/or its executable binary, however, bootnodes can also be made available separately and added to the binary at time of execution.
+The details about the public bootnodes of a network are often hard-coded or embedded in the chain specification file and/or its executable binary, however, bootnodes can also be made available separately and added to the binary at time of execution.
 
 To provide bootnode services under the Infrastructure Builders' Program, you will need to cater for the following two use cases:
 
@@ -21,7 +21,7 @@ Let's see how this is done in your machine:
 
 ## Configure Bootnode Service
 
-The `systemd` service file needs to include all the configuration for the ports in the diagram above, as well as provide public advertisement of the addresses where the services will be available, this is done by speficing the following:
+The `systemd` service file needs to include all the configuration for the ports in the diagram above, as well as provide public advertisement of the addresses where the services will be available, this is done by specifying the following:
 
 ```shell
 # Edit the systemd service file to add listening ports and protocols
@@ -72,7 +72,7 @@ Please note that this service file makes use of the following flags:
 - `--state-pruning`: a typical value of 256 or less is possible for a bootnode, please note that using a value less than 256 does not imply savings of storage space.
 - `--sync`: the use of `warp` mode is supported for bootnodes, make use of it and speed up the syncing time!
 - `--listen-addr`: to open the relevant p2p ports in the node, here we have created four instances: combining IPv4 & IPv6 and vanilla p2p & Websocket p2p. 
-- `--public-addr`: this are the addresses that the node will advertise to the network, note that they are not indicated in terms of IPv6 or IPv4 but in DNS addresses instead, and that although the ports match for the vanilla p2p service, they are different for the internal websocket one (ending in `/ws`) and the public sercured one (ending in `/wss`).
+- `--public-addr`: this are the addresses that the node will advertise to the network, note that they are not indicated in terms of IPv6 or IPv4 but in DNS addresses instead, and that although the ports match for the vanilla p2p service, they are different for the internal websocket one (ending in `/ws`) and the public secured one (ending in `/wss`).
 - `--ws-external`, `--rpc-external`, and `--rpc-methods safe` are used to restrict the type of commands made available in the `rpc` and `ws` ports
 - The rest of the flags are there for convenience and performance.
 
@@ -213,7 +213,7 @@ In case that everything went well, after a while you will start to see, for each
 The new node is syncing, there is one (01) peer connected, and the `finalized block` is increasing, the bootnode connection was succesful! :tada:
 
 :::info
-This method, althougth effective, is under revision due to its deviation from a pure bootnode's perspective (note that the new node connects to the bootnode and start syncing the chain agasint that bootnode, but it really does not allow to discover more nodes).
+This method, although effective, is under revision due to its deviation from a pure bootnode's perspective (note that the new node connects to the bootnode and start syncing the chain against that bootnode, but it really does not allow to discover more nodes).
 :::
 
 ## Back up your network key
@@ -224,7 +224,7 @@ You can already note that the `networkid` code is very important, because this i
 May 15 10:36:46 dot-boot polkadot[5596]: 2023-05-15 10:36:46 💔 The bootnode you want to connect to at `/ip4/185.127.231.68/tcp/30333/ws/p2p/12D3KooWKvdDyRKqUfSAaUCbYiLwKY8uK3wDWpCuy2FiDLbkPTDJ` provided a different peer ID `12D3KooWFHkJaz1BxqdAjzeLK4xcubxXP25kTaYWZqsJukuex5Ly` than the one you expect `12D3KooWKvdDyRKqUfSAaUCbYiLwKY8uK3wDWpCuy2FiDLbkPTDJ`.
 ```
 
-And this would require you to create a new Pull Request to the project's Github repository to amend this problem. This is a lenghty process and you will potentially be responsible for flooding the journals with your error and it will be negative not only for your image, but for the reputation of the whole collective, thus please back up your network key as soon as you spin a new bootnode:
+And this would require you to create a new Pull Request to the project's Github repository to amend this problem. This is a lengthy process and you will potentially be responsible for flooding the journals with your error and it will be negative not only for your image, but for the reputation of the whole collective, thus please back up your network key as soon as you spin a new bootnode:
 
 ```shell title="In the bootnode machine"
 # Copy the network keys to your home directory
