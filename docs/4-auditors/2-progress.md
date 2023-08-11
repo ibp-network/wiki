@@ -100,7 +100,7 @@ And the following PRs belong to the Encointer repository:
 | Member      | Encointer (**Kusama**)                                           |
 | ----------- | ---------------------------------------------------------------- |
 | stake.plus  | [162](https://github.com/encointer/encointer-parachain/pull/162) |
-| metaspan    | [163](https://github.com/encointer/encointer-parachain/pull/163) |
+| metaspan    | [196](https://github.com/encointer/encointer-parachain/pull/196) |
 | turboflakes | [164](https://github.com/encointer/encointer-parachain/pull/164) |
 | gatotech    | [165](https://github.com/encointer/encointer-parachain/pull/165) |
 | amforc      | [166](https://github.com/encointer/encointer-parachain/pull/166) |
