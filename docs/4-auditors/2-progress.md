@@ -67,7 +67,7 @@ For **Polkadot**'s system parachains:
 | Member      | Statemint                                               | Collectives                                             | BridgeHub                                               |
 | ----------- | ------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- |
 | stake.plus  | [2176](https://github.com/paritytech/cumulus/pull/2176) | [2176](https://github.com/paritytech/cumulus/pull/2176) | Pending                                                 |
-| metaspan    | [2218](https://github.com/paritytech/cumulus/pull/2218) | [2218](https://github.com/paritytech/cumulus/pull/2218) | Pending                                                 |
+| metaspan    | [2218](https://github.com/paritytech/cumulus/pull/2218) | [2218](https://github.com/paritytech/cumulus/pull/2218) | [2993](https://github.com/paritytech/cumulus/pull/2993) |
 | turboflakes | [2223](https://github.com/paritytech/cumulus/pull/2223) | [2223](https://github.com/paritytech/cumulus/pull/2223) | [2924](https://github.com/paritytech/cumulus/pull/2924) |
 | gatotech    | [2237](https://github.com/paritytech/cumulus/pull/2237) | [2237](https://github.com/paritytech/cumulus/pull/2237) | [2689](https://github.com/paritytech/cumulus/pull/2689) |
 | amforc      | [2246](https://github.com/paritytech/cumulus/pull/2246) | [2246](https://github.com/paritytech/cumulus/pull/2246) | Pending                                                 |
@@ -89,7 +89,7 @@ For **Westend**'s system parachains
 | Member      | Westmint                                                | Collectives                                             | BridgeHub                                               |
 | ----------- | ------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- |
 | stake.plus  | [2176](https://github.com/paritytech/cumulus/pull/2176) | [2201](https://github.com/paritytech/cumulus/pull/2201) | Pending                                                 |
-| metaspan    | [2218](https://github.com/paritytech/cumulus/pull/2218) | [2218](https://github.com/paritytech/cumulus/pull/2218) | Pending                                                 |
+| metaspan    | [2218](https://github.com/paritytech/cumulus/pull/2218) | [2218](https://github.com/paritytech/cumulus/pull/2218) | [2993](https://github.com/paritytech/cumulus/pull/2993) |
 | turboflakes | [2223](https://github.com/paritytech/cumulus/pull/2223) | [2223](https://github.com/paritytech/cumulus/pull/2223) | [2924](https://github.com/paritytech/cumulus/pull/2924) |
 | gatotech    | [2237](https://github.com/paritytech/cumulus/pull/2237) | [2237](https://github.com/paritytech/cumulus/pull/2237) | [2689](https://github.com/paritytech/cumulus/pull/2689) |
 | amforc      | [2246](https://github.com/paritytech/cumulus/pull/2246) | [2246](https://github.com/paritytech/cumulus/pull/2246) | Pending                                                 |
