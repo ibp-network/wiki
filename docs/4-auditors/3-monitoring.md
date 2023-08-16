@@ -15,19 +15,18 @@ Each one of the members of the Programme should run a node of the monitoring net
 | Aperture     | Hobbyist     | https://ibp-monitor.aperturemining.com/ |
 | Dozenodes    | Hobbyist     | https://ibp-monitor.dozenodes.com/      |
 | MathCrypto   | Hobbyist     | https://ibp-monitor.math-crypto.com/    |
+| Paranodes    | Hobbyist     | https://ibp-monitor.paranodes.io/       |
 | STKD         | Hobbyist     | https://ibp-monitor.stkd.io/            |
-| Paranodes    | Hobbyist     | pending                                 |
-| stake.plus   | Professional | https://monitor.dotters.network/        |
-| helikon      | Professional | https://ibp-monitor.helikon.io/         |
-| amforc       | Professional | pending                                 |
-| metaspan     | Professional | https://ibp-monitor.metaspan.io/        |
-| gatotech     | Professional | https://ibp-monitor.gatotech.network/   |
-| turboflakes  | Professional | https://ibp-monitor.turboflakes.io/     |
-| dwellir      | Professional | pending                                 |
-| Crifferent   | Professional | pending                                 |
+| Stake.Plus   | Professional | https://monitor.dotters.network/        |
+| Helikon      | Professional | pending                                 |
+| Amforc       | Professional | pending                                 |
+| Metaspan     | Professional | https://ibp-monitor.metaspan.io/        |
+| Gatotech     | Professional | pending                                 |
+| Turboflakes  | Professional | https://ibp-monitor.turboflakes.io/     |
+| Dwellir      | Professional | pending                                 |
+| RadiumBlock  | Professional | pending                                 |
 | Polkadotters | Professional | pending                                 |
 | Rotko.net    | Professional | pending                                 |
 | Lucky Friday | Professional | pending                                 |
-| RadiumBlock  | Professional | pending                                 |
 | BlockOps     | Professional | pending                                 |
 
