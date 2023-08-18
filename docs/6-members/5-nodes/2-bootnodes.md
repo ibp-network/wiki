@@ -40,7 +40,7 @@ Wants=network-online.target
 User=polkadot
 Group=polkadot
 ExecStart=/usr/local/bin/polkadot \
-  --name MyBootnode_01 \
+  --name MY_BOOTNODE_01 \
   --chain polkadot \
   --base-path '/var/lib/polkadot/polkadot1' \
   --state-pruning 256 \
@@ -69,11 +69,11 @@ WantedBy=multi-user.target
 
 Please note that this service file makes use of the following flags:
 
-- `--state-pruning`: a typical value of 256 or less is possible for a bootnode, please note that using a value less than 256 does not imply savings of storage space.
-- `--sync`: the use of `warp` mode is supported for bootnodes, make use of it and speed up the syncing time!
-- `--listen-addr`: to open the relevant p2p ports in the node, here we have created four instances: combining IPv4 & IPv6 and vanilla p2p & Websocket p2p. 
-- `--public-addr`: this are the addresses that the node will advertise to the network, note that they are not indicated in terms of IPv6 or IPv4 but in DNS addresses instead, and that although the ports match for the vanilla p2p service, they are different for the internal websocket one (ending in `/ws`) and the public secured one (ending in `/wss`).
-- `--ws-external`, `--rpc-external`, and `--rpc-methods safe` are used to restrict the type of commands made available in the `rpc` and `ws` ports
+- `--state-pruning`: a typical value of *`256`* or less is possible for a bootnode, please note that using a value less than 256 does not imply savings of storage space.
+- `--sync`: the use of *`warp`* mode is supported for bootnodes, make use of it and speed up the syncing time!
+- `--listen-addr`: to open the relevant p2p ports in the node, here we have created four instances: both IPv4 & IPv6 and both vanilla p2p & Websocket p2p. 
+- `--public-addr`: these are the addresses that the node will advertise to the network, note that they are not indicated in terms of IPv6 or IPv4 but in DNS addresses instead, and that although the port is a match for the vanilla p2p service, it is different for the internal websocket (ending in *`/ws`*) that is advertised as secured in another port (ending in *`/wss`*).
+- `--ws-external`, `--rpc-external`, and `--rpc-methods safe` are used to restrict the type of commands made available in the **rpc** and **ws** ports
 - The rest of the flags are there for convenience and performance.
 
 ## Configure HAProxy Service
@@ -106,7 +106,7 @@ Known bugs: http://www.haproxy.org/bugs/bugs-2.7.0.html
 Running on: Linux 5.4.0-91-generic #102-Ubuntu SMP Fri Nov 5 16:31:28 UTC 2023 x86_64
 ```
 
-By default, HAProxy is not configured to listen on nay ports. In this step, since we are going to configure it as a reverse proxy, we are going to make changes to the default HAProxy configuration. 
+By default, HAProxy is not configured to listen on any ports. In this step, since we are going to configure it as a reverse proxy, we are going to make changes to the default HAProxy configuration. 
 
 ```shell
 # Make a copy of the current configuration for backup
