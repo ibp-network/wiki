@@ -20,8 +20,8 @@ The Pull Request below belongs to the Parity Polkadot repository:
 | Turboflakes  | [6628](https://github.com/paritytech/polkadot/pull/6628) | [6628](https://github.com/paritytech/polkadot/pull/6628) | [6628](https://github.com/paritytech/polkadot/pull/6628) |
 | Dwellir      | [7097](https://github.com/paritytech/polkadot/pull/7097) | [7097](https://github.com/paritytech/polkadot/pull/7097) | [7097](https://github.com/paritytech/polkadot/pull/7097) |
 | RadiumBlock  | [7519](https://github.com/paritytech/polkadot/pull/7519) | [7519](https://github.com/paritytech/polkadot/pull/7519) | [7519](https://github.com/paritytech/polkadot/pull/7519) |
+| Rotko.net  | [7658](https://github.com/paritytech/polkadot/pull/7658) | [7658](https://github.com/paritytech/polkadot/pull/7658) | [7658](https://github.com/paritytech/polkadot/pull/7658) |
 | Polkadotters | pending                                                  | pending                                                  | pending                                                  |
-| Rotko.net    | pending                                                  | pending                                                  | pending                                                  |
 | Lucky Friday | pending                                                  | pending                                                  | pending                                                  |
 | BlockOps     | pending                                                  | pending                                                  | pending                                                  |
 
