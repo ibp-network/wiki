@@ -19,7 +19,7 @@ This setup requires the use of Open vSwitch (OVS) as it supports RSTP (Rapid Spa
 
 First the package `openvswitch-switch` needs to be installed on all nodes:
 
-```
+``` shell
 apt install openvswitch-switch
 ```
 
@@ -29,9 +29,9 @@ The network configuration will look the same for each node, except maybe for the
 nano /etc/network/interfaces
 ```
 
-Edit the content to add the Open vSwitch configuration to both NICs and to the virtual bridge 
+Edit the content to add the Open vSwitch configuration to both NICs and to the virtual bridge
 
-```
+``` conf
 auto lo
 iface lo inet loopback
 
@@ -80,7 +80,7 @@ ovs-appctl rstp/show
 
 it will show the following report:
 
-```
+``` terminal
 ---- vmbr7 ----
 Root ID:
   stp-priority    32768
@@ -124,7 +124,7 @@ iperf -c 10.0.0.1 -P8 --sum-only
 
 and the result should show like below:
 
-```
+``` terminal
 ------------------------------------------------------------
 Client connecting to 10.0.0.1, TCP port 5001
 TCP window size:  325 KByte (default)

@@ -29,4 +29,3 @@ Each one of the members of the Programme should run a node of the monitoring net
 | Rotko.net    | Professional | pending                                 |
 | Lucky Friday | Professional | pending                                 |
 | BlockOps     | Professional | pending                                 |
-

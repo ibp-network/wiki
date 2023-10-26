@@ -4,9 +4,9 @@ sidebar_position: 2
 
 # Operations
 
-The originary documentation for the Infrastructure Builders' Programme indicated that it would extend the mission of Polkadot's and Kusama's [Thousand Validators Programme](https://wiki.polkadot.network/docs/thousand-validators) to include the provisionof core infrastructure services in a decentralized, autonomous, fault-tolerant, and self-sustaining manner. 
+The original documentation for the Infrastructure Builders' Programme indicated that it would extend the mission of Polkadot's and Kusama's [Thousand Validators Programme](https://wiki.polkadot.network/docs/thousand-validators) to include the provision of core infrastructure services in a decentralized, autonomous, fault-tolerant, and self-sustaining manner.
 
-Operators chosen for the Infrastructure Builders' Programme would lease rack space at unique facilities and deploy owned hardware to provide common endpoint and functionality for a variety of core infrastructure services (RPC endppoints, Snapshots, Bootnodes, Validators, Telemetry). 
+Operators chosen for the Infrastructure Builders' Programme would lease rack space at unique facilities and deploy owned hardware to provide common endpoint and functionality for a variety of core infrastructure services (RPC endpoints, Snapshots, Bootnodes, Validators, Telemetry).
 
 More details are available in the documentation below:
 
@@ -54,7 +54,7 @@ The current curators of the programme are:
 The current advisors are:
 
 - Tom | Stake.Plus (exec)
-- Derek | metaspan (exec)
+- Derek | Metaspan (exec)
 
 ### Hobbyist Members
 
@@ -68,15 +68,16 @@ The current advisors are:
 
 | ID           | Region          |
 | ------------ | --------------- |
-| stake.plus   | North America   |
-| helikon      | Middle East     |
-| amforc       | Europe          |
-| metaspan     | Europe          |
-| gatotech     | Central America |
-| turboflakes  | Europe          |
-| dwellir      | Africa          |
+| Stake.Plus   | North America   |
+| Helikon      | Middle East     |
+| Amforc       | Europe          |
+| Metaspan     | Europe          |
+| Gatotech     | Central America |
+| Turboflakes  | Europe          |
+| Dwellir      | Africa          |
+| RadiumBlock  | Asia            |
 | Polkadotters | Oceania         |
-| Rotko.net    | Asia            |
+| Rotko        | Asia            |
 | BlockOps     | South America   |
 
 ## Meetings

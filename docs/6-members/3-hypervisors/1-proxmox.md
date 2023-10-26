@@ -14,13 +14,13 @@ With the integrated web-based user interface you can manage VMs and containers, 
 
 Download the ISO image of proxmox [here](https://www.proxmox.com/en/downloads/category/iso-images-pve)
 
-In case you don’t have access to virtual media via IPMI, then the ISO image must be loaded into an USB drive with a tool like USBimager [here](https://gitlab.com/bztsrc/usbimager). 
+In case you don’t have access to virtual media via IPMI, then the ISO image must be loaded into an USB drive with a tool like USBimager [here](https://gitlab.com/bztsrc/usbimager).
 
 ## Install Proxmox
 
 Insert the USB, power on your rig and follow the on-screen instructions to install Proxmox.
 
-Be specially carefull when entering the timezone and networking information.
+Be specially careful when entering the timezone and networking information.
 
 After installation and restart, you will be presented with a log-in screen showing:
 
@@ -66,17 +66,13 @@ Before provisioning your first machine, you may want to install Proxmox in the r
 
 :::caution
 
-Before the creation of your first machine, please make sure that you have provisioned the appropriate storage type to the Proxmox environment, that is, for example, an local LVM device for a stand-alone server, or a Ceph pool for a High Availability cluster, please note that migrating between the these is a non-trivial and error-prone maneouvre.
+Before the creation of your first machine, please make sure that you have provisioned the appropriate storage type to the Proxmox environment, that is, for example, an local LVM device for a stand-alone server, or a Ceph pool for a High Availability cluster, please note that migrating between the these is a non-trivial and error-prone manoeuvre.
 
 :::
-
-
 
 In the Proxmox GUI, make click on the blue `Create VM` button and a wizard will guide you through the process:
 
 ![Create VM - 01](assets/1-proxmox_machine-01.png)
-
-
 
 ![Create VM - 02](assets/1-proxmox_machine-02.png)
 
@@ -119,7 +115,7 @@ sudo reboot
 
 You may want to perform some minor configuration in your freshly deployed VM by following the instruction in this [section](/docs/6-members/4-machines/1-ubuntu.md).
 
-Once you are happy with the basic accessibilty and security of the virtual machine, you can then proceed to convert it in a template for future and recursive use in deploying additional machines of the same basic characteristics.
+Once you are happy with the basic accessibility and security of the virtual machine, you can then proceed to convert it in a template for future and recursive use in deploying additional machines of the same basic characteristics.
 
 :::danger
 
@@ -161,7 +157,7 @@ sudo rm .bash_history
 
 ## Cloning from Template
 
-After spawning, 
+After spawning,
 
 ```shell
 sudo nano /etc/hostname

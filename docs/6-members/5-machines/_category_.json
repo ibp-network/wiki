@@ -1,6 +1,6 @@
 {
   "label": "Machines",
-  "position": 4,
+  "position": 5,
   "link": {
     "type": "generated-index",
     "description": "The following are some guidelines to deploy a Virtual Machine with minimum reasonable security considerations."
