@@ -8,14 +8,14 @@ A bootnode is a regular network node used to discover other nodes.
 
 Most of the time the information about bootnodes are included in the network's chain specification file, so the end users do not need to provision these details separately.
 
-However, you can also manually specify additional bootnodes via the command line interface (CLI) for most Subtrate-based networks, like that:
+However, you can also manually specify additional bootnodes via the command line interface (CLI) for most Substrate-based networks, like that:
 
 ``` shell
 # This is only an example
 polkadot --bootnodes <MULTIADDR>
 ```
 
-For the `MULTIADDR` argument, you can specify one or several bootnodes' [multiaddresses](https://docs.libp2p.io/concepts/fundamentals/addressing/) separared by spaces.
+For the `MULTIADDR` argument, you can specify one or several bootnodes' [multiaddresses](https://docs.libp2p.io/concepts/fundamentals/addressing/) separated by spaces.
 
 For all bootnodes listed in this document, you can quickly test if it is working by using the below generic command (adjust according to your chain)
 
@@ -27,14 +27,14 @@ polkadot --no-hardware-benchmarks --no-mdns --chain polkadot --reserved-only --r
 ```
 
 :::info
-This method, althougth effective, is under revision due to its deviation from a pure bootnode's perspective (the new node connects to the bootnode and allows syncing the chain, but it doesn't allow to discover more nodes).
+This method, although effective, is under revision due to its deviation from a pure bootnode's perspective (the new node connects to the bootnode and allows syncing the chain, but it doesn't allow to discover more nodes).
 :::
 
 The bootnodes from the Infrastructure Builders' Programme are available in three different connection alternatives, including basic TCP transport between peers  and websockets encapsulated in TCP with or without TLS-encryption.
 
-## Peer-to-peer (p2p) 
+## Peer-to-peer (p2p)
 
-This is the default protocol used to connect nodes nodes directly to other nodes of the network via a TCP (Transmission Control Protocol) connection, so it is the one prefered when a new node (e.g. a validator) is deployed.
+This is the default protocol used to connect nodes nodes directly to other nodes of the network via a TCP (Transmission Control Protocol) connection, so it is the one preferred when a new node (e.g. a validator) is deployed.
 
 The p2p bootnodes from the Infrastructure Builder's Programme are:
 
@@ -102,4 +102,3 @@ The p2p bootnodes from the Infrastructure Builder's Programme are:
 ## Websocket (over p2p)
 
 ## Secured Websocket (over p2p)
-

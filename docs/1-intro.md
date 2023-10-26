@@ -5,7 +5,7 @@ slug: /
 
 # Welcome To The Docs
 
-![IBP Social Card](/img/ibp-social-card.jpg)
+![IBP Social Card](../static/img/ibp-social-card.jpg)
 
 This wiki has been created for you.
 

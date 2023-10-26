@@ -26,19 +26,19 @@ Most binaries for Substrate-based networks are coded in Rust and compiled for Li
 
 Under the Infrastructure Builders' Programme, the standard recommended specifications for the virtual machines running relaychain archive nodes is:
 
-```
+```text
 Processor: 4 vCPU.
 Technology: AMD Zen 3 or Intel 11th Gen (Rocket Lake).
 Memory: 16GB RAM.
 Storage (NVMe): Westend 512 GB, Kusama 2.0 TB, Polkadot 1.5 TB. (May 2023)
-Bandwitdh: 400 Mbps symmetrical.
+Bandwidth: 400 Mbps symmetrical.
 Traffic: 2.0 TB/month.
 Operating System: Ubuntu Server.
 Security: hardened, specially against DDoS attacks.
 ```
 
 :::note
-These specifications should be understood as the typical deployment, but you may want to increase processing power and memory for those networks showing signs of degradation or when performing the initial syncronisation of the databases.
+These specifications should be understood as the typical deployment, but you may want to increase processing power and memory for those networks showing signs of degradation or when performing the initial synchronisation of the databases.
 :::
 
 ## Create Users
@@ -89,9 +89,10 @@ sudo chmod 755 /var/lib/polkadot
 # Verify the changes:
 ls -l /var/lib/
 ```
+
 It should result in the a similar output to:
 
-```
+```text
 (...)
 drwxr-xr-x  3 polkadot  polkadot  4096 May 12 03:08 polkadot
 (...)
@@ -105,7 +106,7 @@ The binaries for the different Substrate-based relaychains and parachains are us
 - **Most Parachains (Cumulus)**: e.g. Statemint, Statemine, Westmint, available at https://github.com/paritytech/cumulus.
 - **Encointer only**: available at https://github.com/encointer/encointer-parachain.
 
-so for example, to download and make ready the lastest binary (May 2023) of the polkadot relaychain, you would perform the following commands:
+so for example, to download and make ready the latest binary (May 2023) of the polkadot relaychain, you would perform the following commands:
 
 ```shell
 # Download the binary from the Github releases:
@@ -123,7 +124,7 @@ ls -l /usr/local/bin/
 
 It should show the following output so indicate it's ready to be executed:
 
-```
+```text
 (...)
 -rwxr-xr-x 1 polkadot polkadot 125085504 May 12 02:47 polkadot
 (...)
@@ -180,7 +181,7 @@ sudo journalctl -f -u polkadot
 
 Which should result in the following flood of information, feel free to exit the command with the `Ctrl + C` key combination.
 
-```
+```text
 2023-05-25 16:11:20 Parity Polkadot
 2023-05-25 16:11:20 ✌️  version 0.9.42-9b1fc27cec4
 2023-05-25 16:11:20 ❤️  by Parity Technologies <admin@parity.io>, 2017-2023
@@ -226,7 +227,7 @@ sudo systemctl enable polkadot1
 sudo systemctl status polkadot1
 ```
 
-```
+```text
 ● polkadot1.service - Polkadot Node
      Loaded: loaded (/etc/systemd/system/polkadot1.service; enabled; vendor preset: enabled)
      Active: active (running) since Sun 2023-05-21 08:34:25 UTC; 4 days ago
@@ -245,4 +246,3 @@ May 25 16:21:06 dot-boot polkadot[864]: 2023-05-25 16:21:06 ✨ Imported #156788
 Please note that the second line states that the file `/etc/systemd/system/polkadot1.service` is `enabled`.
 
 In the next chapters you will be able to modify the configuration of your node to make it a bootnode or a full archive node, depending on your needs to provide services under the Infrastructure Builders' Programme.
-

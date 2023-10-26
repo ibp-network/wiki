@@ -73,14 +73,14 @@ WantedBy=multi-user.target
 Note that this service file makes use of the following flags:
 
 - `--state-pruning` and `--block-pruning` must both be set to *`archive`* for the node to be able so store the whole blockchain and serve historical information right from the genesis block.
-- `--listen-addr`: to open the relevant p2p ports in the node, here we have created four instances: both IPv4 & IPv6 and both vanilla http & websocket endpoints. 
+- `--listen-addr`: to open the relevant p2p ports in the node, here we have created four instances: both IPv4 & IPv6 and both vanilla http & websocket endpoints.
 - `--public-addr`: these are the addresses that the node will advertise to the network, note that they are not indicated in terms of IPv6 or IPv4 but in DNS addresses instead.
 - `--max-runtime-instances` set to `256` and `--runtime-cache-size` set to `64` will prevent the *`Ran out of free WASM instances`* error message occurring under load in the Polkadot and Kusama networks.
 - The rest of the flags are there for convenience and performance.
 
 ## Configure HAProxy Service
 
-If not already installed, please follow the following commands to install the latest version of HAProxy 
+If not already installed, please follow the following commands to install the latest version of HAProxy
 
 ```shell
 # Install dependencies
@@ -101,14 +101,14 @@ sudo haproxy -v
 
 If HAProxy was correctly installed, the output will be similar to this one:
 
-```
+```text
 HAProxy version 2.7.0-1ppa1~focal 2021/11/26 - https://haproxy.org/
 Status: stable branch - will stop receiving fixes around Q3 2023.
 Known bugs: http://www.haproxy.org/bugs/bugs-2.7.0.html
 Running on: Linux 5.4.0-91-generic #102-Ubuntu SMP Fri Nov 5 16:31:28 UTC 2023 x86_64
 ```
 
-By default, HAProxy is not configured to listen on any ports. In this step, since we are going to configure it as a reverse proxy, we are going to make changes to the default HAProxy configuration. 
+By default, HAProxy is not configured to listen on any ports. In this step, since we are going to configure it as a reverse proxy, we are going to make changes to the default HAProxy configuration.
 
 ```shell
 # Make a copy of the current configuration for backup
@@ -265,7 +265,9 @@ backend statemint-wss-backend
 # END RELAYCHAIN CONFIGURATIONS
 ####
 ```
+
 Now the setup is ready for:
+
 ## Restart the Services
 
 Apply the following commands in the shell to start the services.
@@ -296,7 +298,7 @@ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method":
 
 If everything went well, that command should return a response message similar to the one below.
 
-```
+```text
 {"jsonrpc":"2.0","result":{"peers":20,"isSyncing":false,"shouldHavePeers":true},"id":1}
 ```
 

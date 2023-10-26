@@ -6,7 +6,7 @@ sidebar_position: 2
 
 An endpoint, in the realm of the Infrastructure Builders' Programme, refers to the location where 3rd party applications can submit their Remote Procedure Call (RPC) requests.
 
-Most of the standard tooling developed for the substrate networks can benefit from the IBP's endpoints and some of them (e.g. polkajs wallet, polkassembly, subsquare, etc.) already use our services.
+Most of the standard tooling developed for the substrate networks can benefit from the IBP's endpoints and some of them (e.g. polkadot{js} wallet, polkassembly, subsquare, etc.) already use our services.
 
 ## Geolocation
 

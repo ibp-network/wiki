@@ -60,7 +60,7 @@ The file should download in a few seconds / minutes, depending on your connectio
 
 :::info
 
-Before provisioning your first machine, you may want to install Proxmox in the rest of your physical servers an interconnect them in a High Availability cluster, as shown in the relevant [guide](/docs/6-members/7-highavailability/1-proxmoxceph.md)
+Before provisioning your first machine, you may want to install Proxmox in the rest of your physical servers an interconnect them in a High Availability cluster, as shown in the relevant [guide](/docs/6-members/8-highavailability/1-proxmoxceph.md)
 
 :::
 
@@ -113,7 +113,7 @@ sudo reboot
 
 ## Preconfigure VM
 
-You may want to perform some minor configuration in your freshly deployed VM by following the instruction in this [section](/docs/6-members/4-machines/1-ubuntu.md).
+You may want to perform some minor configuration in your freshly deployed VM by following the instruction in this [section](/docs/6-members/5-machines/1-ubuntu.md).
 
 Once you are happy with the basic accessibility and security of the virtual machine, you can then proceed to convert it in a template for future and recursive use in deploying additional machines of the same basic characteristics.
 

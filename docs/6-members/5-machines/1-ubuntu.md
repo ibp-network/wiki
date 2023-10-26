@@ -8,7 +8,7 @@ One of the most popular operating systems at the time of publishing is **Ubuntu 
 
 ## Download and Installation
 
-The process of downloading the Ubuntu Server installer and/or its ISO image will likely depend on your hypervisor technology (e.g. EXSi, [Proxmox](/docs/6-members/2-hypervisors/1-proxmox.md), etc).
+The process of downloading the Ubuntu Server installer and/or its ISO image will likely depend on your hypervisor technology (e.g. EXSi, [Proxmox](/docs/6-members/3-hypervisors/1-proxmox.md), etc).
 
 Once the Virtual Machine is started up and launches the installation procedure, you will see the following screen:
 
@@ -58,9 +58,9 @@ From any terminal in your local machine (e.g. DOS, PowerShell, etc.) access your
 ssh username@ipaddress
 ```
 
-and you should get a response of the terminal similar to 
+and you should get a response of the terminal similar to
 
-```
+```text
 Ubuntu 22.04.1 LTS ipaddress tty1
 
 ipaddress login:
@@ -89,7 +89,7 @@ In the commands above, the `sudo` part is not needed if you are in fact using th
 
 :::
 
-You will be disconnected from the remote server and may need to wait for a short moment while it reboots, if you try to connect too soon you will have either no response or an error returned from the below command:      
+You will be disconnected from the remote server and may need to wait for a short moment while it reboots, if you try to connect too soon you will have either no response or an error returned from the below command:
 
 ```shell
 ssh username@ipaddress
@@ -119,15 +119,15 @@ logout
 
 ### Create your custom user(s)
 
-Using a root user directly is not recommended in most cases, particularly for systems which will be accessed by several users, or when the applications are compartmentalised to use several application-level users. 
+Using a root user directly is not recommended in most cases, particularly for systems which will be accessed by several users, or when the applications are compartmentalised to use several application-level users.
 
-Create a customised user (to replace the default credentials by VPS provider): 
+Create a customised user (to replace the default credentials by VPS provider):
 
 ```shell
 sudo adduser yourusername
 ```
 
-You can check that the user was created by inspecting the relevant file: 
+You can check that the user was created by inspecting the relevant file:
 
 ```shell
 tail /etc/passwd
@@ -135,7 +135,7 @@ tail /etc/passwd
 
 the output should look similar to:
 
-```
+```text
 landscape:x:111:116::/var/lib/landscape:/usr/sbin/nologin
 ubuntu:x:1000:1000:Ubuntu:/home/ubuntu:/bin/bash
 lxd:x:999:100::/var/snap/lxd/common/lxd:/bin/false
@@ -157,7 +157,7 @@ groups yourusername
 
 The output should be similar to:
 
-```
+```text
 yourusername: yourusername sudo
 ```
 
@@ -197,7 +197,7 @@ A **keypair**, on the other hand is a set of two related keys used in asymmetric
 
 ### Deploy SSH keypair
 
-To best protect the way you establish SSH connections to your remote server, let's create a SSH key pair directly in your local terminal (for this, please have prepared a good passphrase with at least 128 bits of entropy, and store it securely, preferably in a offline medium). Note: you may prefer creating ed25519 keys instead of default RSA ones, like that: 
+To best protect the way you establish SSH connections to your remote server, let's create a SSH key pair directly in your local terminal (for this, please have prepared a good passphrase with at least 128 bits of entropy, and store it securely, preferably in a offline medium). Note: you may prefer creating ed25519 keys instead of default RSA ones, like that:
 
 ```shell
 ssh-keygen -t ed25519
@@ -260,8 +260,11 @@ Banner /etc/issue.net
 ```
 
 :::note
+
 As you are using Pluggable Authentication Modules (PAM), you may want to study this particular service and make additional security checks to the default behaviour, a good starting point may be this one:
+
 - [The Linux Documentation Project: Securing User Authentication](https://tldp.org/HOWTO/User-Authentication-HOWTO/x263.html)
+
 :::
 
 Now you can edit the default banner that is presented when the server requires the password/passphrases:
@@ -270,9 +273,9 @@ Now you can edit the default banner that is presented when the server requires t
 sudo nano /etc/issue.net
 ```
 
-A message like the following one will not deter any convinced attacker, but it will let them know that you may be watching! 
+A message like the following one will not deter any convinced attacker, but it will let them know that you may be watching!
 
-```
+```text
 ***************************************************************************
                             NOTICE TO USERS
 
@@ -307,7 +310,7 @@ sudo nano /etc/motd
 
 and insert your custom message here
 
-```
+```text
  █████╗  ██████╗███╗   ███╗███████╗    ██╗███╗   ██╗ ██████╗   
 ██╔══██╗██╔════╝████╗ ████║██╔════╝    ██║████╗  ██║██╔════╝   
 ███████║██║     ██╔████╔██║█████╗      ██║██╔██╗ ██║██║        
@@ -343,7 +346,7 @@ Now remember to use the following command structure to connect to your server wi
 ssh -p yourcustomport yourusername@yourhost.yourdomain.tld
 ```
 
-### Using SSH Agent 
+### Using SSH Agent
 
 Another alternative to providing the passphrase on every connection start is to use “agents” to facilitate the exchange of keys via SSH for authentication, this is specially useful when logging in and out frequently, or when maintaining a considerable number of deferent servers. To start an agent instance, you use the command:
 
@@ -359,7 +362,7 @@ ps axo pid,comm
 
 which returns a list like this one:
 
-```
+```text
   PID COMMAND
     1 init
     9 init
@@ -383,13 +386,13 @@ ssh -p yourcustomport username@yourhost.yourdomain.tld
 
 ### Configure local SSH settings
 
-In order to match the remote SSH daemon configuration with your local machine, you can set up the following entries: 
+In order to match the remote SSH daemon configuration with your local machine, you can set up the following entries:
 
 ```shell
 sudo nano /etc/ssh/ssh_config
 ```
 
-You should add the following block under `Host yourserver`, before the block titled `Host *`, that acts like a placeholder for the rest of the default settings. 
+You should add the following block under `Host yourserver`, before the block titled `Host *`, that acts like a placeholder for the rest of the default settings.
 
 ```conf
 Host yourserver
@@ -454,7 +457,7 @@ sudo ufw status verbose
 
 and will show the following result for a SSH service in the customised port #2222:
 
-```
+```text
 Status: active
 Logging: on (low)
 Default: deny (incoming), allow (outgoing), disabled (routed)
@@ -468,7 +471,7 @@ To                         Action      From
 
 ### Configure Intrusion Prevention
 
-Install Fail2ban, this is an intrusion prevention software framework designed to block unknown IP addresses that are trying to penetrate your system. 
+Install Fail2ban, this is an intrusion prevention software framework designed to block unknown IP addresses that are trying to penetrate your system.
 
 ```shell
 sudo apt update
@@ -513,7 +516,8 @@ sudo fail2ban-client status
 ```
 
 If everything is OK, the standard installation should protect SSH by default:
-```
+
+```text
 Status
 |- Number of jail:      1
 `- Jail list:   sshd
@@ -543,7 +547,7 @@ speedtest
 
 To get the following illustrative results, which you can then compare with what the hosting provider is telling about the services contracted for your server:
 
-```
+```text
    Speedtest by Ookla
 
       Server: Schlueter Onlinedienste - Ruethen (id: 29806)
@@ -571,7 +575,7 @@ sudo systemctl status vnstat
 
 If the configuration is correct, you will see that the status is active (running) in the output below:
 
-```
+```text
 ● vnstat.service - vnStat network traffic monitor
      Loaded: loaded (/lib/systemd/system/vnstat.service; enabled; vendor preset: enabled)
      Active: active (running) since Fri 2022-10-07 16:23:38 UTC; 22s ago
@@ -599,7 +603,7 @@ vnstat
 
 Which will present the standard report shown below (and it can be also customised to your particular needs and hosting parameters)
 
-```
+```text
 Database updated: 2022-10-07 16:35:00
    ens3 since 2022-10-07
           rx:  45.98 KiB      tx:  141.59 KiB      total:  187.57 KiB
@@ -638,7 +642,7 @@ openssl speed ed25519
 
 Every type of test will yield a particular set of results, like the ones below:
 
-```
+```text
 CPUINFO: OPENSSL_ia32cap=0x7ed8320b078bffff:0x40069c219c97a9
 
 The 'numbers' are in 1000s of bytes per second processed.
@@ -672,7 +676,7 @@ free
 
 resulting in:
 
-```
+```text
                total        used        free      shared  buff/cache   available
 Mem:        65773828     6504404     8267284        2816    51002140    58537528
 Swap:        1048568           0     1048568
@@ -694,7 +698,7 @@ sysbench --test=memory --memory-block-size=1M --memory-total-size=10G run
 
 This will display the memory speed in MiB/s, as well as the access latency associated with it:
 
-```
+```text
 sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
 
 Running the test with following options:
@@ -752,6 +756,7 @@ sudo apt install ncdu
 cd /
 sudo ncdu
 ```
+
 as it provides a graphical interface to explore the usage of your disk space:
 
 << Insert screenshot here>>
@@ -777,7 +782,7 @@ sudo fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=test
 
 These will be a sample the results:
 
-```
+```text
 test: (groupid=0, jobs=1): err= 0: pid=4760: Thu Mar  2 13:23:28 2017
   read : io=7884.0KB, bw=864925B/s, iops=211, runt=  9334msec
   write: io=2356.0KB, bw=258468B/s, iops=63, runt=  9334msec

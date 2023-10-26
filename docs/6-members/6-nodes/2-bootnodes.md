@@ -71,14 +71,14 @@ Please note that this service file makes use of the following flags:
 
 - `--state-pruning`: a typical value of *`256`* or less is possible for a bootnode, please note that using a value less than 256 does not imply savings of storage space.
 - `--sync`: the use of *`warp`* mode is supported for bootnodes, make use of it and speed up the syncing time!
-- `--listen-addr`: to open the relevant p2p ports in the node, here we have created four instances: both IPv4 & IPv6 and both vanilla p2p & Websocket p2p. 
+- `--listen-addr`: to open the relevant p2p ports in the node, here we have created four instances: both IPv4 & IPv6 and both vanilla p2p & Websocket p2p.
 - `--public-addr`: these are the addresses that the node will advertise to the network, note that they are not indicated in terms of IPv6 or IPv4 but in DNS addresses instead, and that although the port is a match for the vanilla p2p service, it is different for the internal websocket (ending in *`/ws`*) that is advertised as secured in another port (ending in *`/wss`*).
 - `--ws-external`, `--rpc-external`, and `--rpc-methods safe` are used to restrict the type of commands made available in the **rpc** and **ws** ports
 - The rest of the flags are there for convenience and performance.
 
 ## Configure HAProxy Service
 
-If not already installed, please follow the following commands to install the latest version of HAProxy 
+If not already installed, please follow the following commands to install the latest version of HAProxy
 
 ```shell
 # Install dependencies
@@ -99,14 +99,14 @@ sudo haproxy -v
 
 If HAProxy was correctly installed, the output will be similar to this one:
 
-```
+```text
 HAProxy version 2.7.0-1ppa1~focal 2021/11/26 - https://haproxy.org/
 Status: stable branch - will stop receiving fixes around Q3 2023.
 Known bugs: http://www.haproxy.org/bugs/bugs-2.7.0.html
 Running on: Linux 5.4.0-91-generic #102-Ubuntu SMP Fri Nov 5 16:31:28 UTC 2023 x86_64
 ```
 
-By default, HAProxy is not configured to listen on any ports. In this step, since we are going to configure it as a reverse proxy, we are going to make changes to the default HAProxy configuration. 
+By default, HAProxy is not configured to listen on any ports. In this step, since we are going to configure it as a reverse proxy, we are going to make changes to the default HAProxy configuration.
 
 ```shell
 # Make a copy of the current configuration for backup
@@ -155,7 +155,7 @@ backend backend
 
 ## Restart the services
 
-Finally, let's restart the services 
+Finally, let's restart the services
 
 ```shell
 # Restart the reverse proxy service
@@ -173,7 +173,7 @@ sudo journalctl -n 1000 -u polkadot1 | grep "Local node identity"
 
 You will obtain a result like the one below, take note of the code, which is the `networkid` of your bootnode
 
-```
+```test
 2023-05-25 23:14:13 🏷  Local node identity is: 12D3KooWK4Esdsg3xxC4RfrDVgcZzExg8Q3Q2G7ABUUitks1w
 ```
 
@@ -199,7 +199,7 @@ sudo ./polkadot --chain polkadot --reserved-only --reserved-nodes "/dns/mybootno
 
 In case that everything went well, after a while you will start to see, for each of the tests above, the following entries in the terminal:
 
-```
+```text
 (...)
 2023-05-25 23:14:18 ⚙️  Syncing, target=#15683014 (1 peers), best: #73951 (0x7d47…6f48), finalized #73728 (0x1b64…d0cc), ⬇ 217.1kiB/s ⬆ 2.7kiB/s
 2023-05-25 23:14:23 ⚙️  Syncing 661.4 bps, target=#15683014 (1 peers), best: #77258 (0x009e…7ba1), finalized #76800 (0xf7b5…4250), ⬇ 279.6kiB/s ⬆ 2.6kiB/s
@@ -210,7 +210,7 @@ In case that everything went well, after a while you will start to see, for each
 (...)
 ```
 
-The new node is syncing, there is one (01) peer connected, and the `finalized block` is increasing, the bootnode connection was succesful! :tada:
+The new node is syncing, there is one (01) peer connected, and the `finalized block` is increasing, the bootnode connection was successful! :tada:
 
 :::info
 This method, although effective, is under revision due to its deviation from a pure bootnode's perspective (note that the new node connects to the bootnode and start syncing the chain against that bootnode, but it really does not allow to discover more nodes).
@@ -220,7 +220,7 @@ This method, although effective, is under revision due to its deviation from a p
 
 You can already note that the `networkid` code is very important, because this is an unique code that identifies the bootnode in the network, should you ever need to recover your services (because anything happens to the bootnode itself or to the machine hosting it), the new bootnode will obtain a new random `networkid` and every user in the network will receive a message of the broken link:
 
-```
+```text
 May 15 10:36:46 dot-boot polkadot[5596]: 2023-05-15 10:36:46 💔 The bootnode you want to connect to at `/ip4/185.127.231.68/tcp/30333/ws/p2p/12D3KooWKvdDyRKqUfSAaUCbYiLwKY8uK3wDWpCuy2FiDLbkPTDJ` provided a different peer ID `12D3KooWFHkJaz1BxqdAjzeLK4xcubxXP25kTaYWZqsJukuex5Ly` than the one you expect `12D3KooWKvdDyRKqUfSAaUCbYiLwKY8uK3wDWpCuy2FiDLbkPTDJ`.
 ```
 
@@ -240,11 +240,12 @@ Now from your local PC:
 # Transfer the file securely to local
 scp myself@mybootnode.mydomain.tld:~/secret_ed25519 .
 ```
+
 And store it safely!
 
 ## Submit a Pull Request
 
-Now you are ready to include your bootnode in the chain specification of the networks!... 
+Now you are ready to include your bootnode in the chain specification of the networks!...
 
 To do that, go to the relevant Github repository (e.g. Polkadot) and identify the correct file containing the chain specifications.
 

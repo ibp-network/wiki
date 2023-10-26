@@ -53,7 +53,7 @@ sudo ufw status verbose
 
 and it should result in something similar to:
 
-```
+```text
 Status: active
 Logging: on (low)
 Default: deny (incoming), allow (outgoing), disabled (routed)
@@ -82,6 +82,7 @@ Your have the option to follow the instructions in the IBP's [github repository]
 ### Virtual Machine
 
 Please provide a VM with the following minimum requirements:
+
 - 1 CPU core.
 - 1 GHz.
 - 1 GB RAM.
@@ -200,7 +201,7 @@ sudo promtool check rules /etc/prometheus/rules.yml
 
 And it should result in a clean output like below:
 
-```
+```text
 Checking /etc/prometheus/rules.yml
   SUCCESS: 1 rule found
 ```
@@ -291,7 +292,7 @@ sudo promtool check config /etc/prometheus/prometheus.yml
 
 A successful test should look like this:
 
-```
+```text
 Checking /etc/prometheus/prometheus.yml
   SUCCESS: 1 rule files found
  SUCCESS: /etc/prometheus/prometheus.yml is valid prometheus config file syntax
@@ -347,7 +348,7 @@ sudo curl localhost:9090/metrics
 
 It should provide a long list of metrics like the one below:
 
-```
+```text
 # HELP go_gc_duration_seconds A summary of the pause duration of garbage collection cycles.
 # TYPE go_gc_duration_seconds summary
 go_gc_duration_seconds{quantile="0"} 2.9579e-05
@@ -390,7 +391,7 @@ sudo ufw status verbose
 
 and if everything went well, you should receive the following output:
 
-```
+```text
 Status: active
 Logging: on (low)
 Default: deny (incoming), allow (outgoing), disabled (routed)
@@ -434,7 +435,7 @@ backend prometheus-backend
 # (...)
 ```
 
-Then restart the service to update the proxy to the latest configuration. 
+Then restart the service to update the proxy to the latest configuration.
 
 ```shell
 # Restart the reverse proxy service

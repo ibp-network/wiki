@@ -14,7 +14,7 @@ This section assumes the creation of a HA cluster from freshly created Proxmox s
 
 Firstly, you need at least to allocate three (3x) Proxmox servers already provisioned to follow the instructions of this wiki, if you want some guidance to deploy these, please refer to the relevant section here.
 
-After that, you need to think about the appropriate network configuration to allow the HA cluster to perform at it best. You need the fastest available solution to interconnect the servers in your cluster. This is not always achievable using a standard network switch, thus for cluster with 4 or less nodes, we propose you to deploy a ring network as outlines [here](/docs/6-members/3-networking/1-ringnetwork-proxmox.md).
+After that, you need to think about the appropriate network configuration to allow the HA cluster to perform at it best. You need the fastest available solution to interconnect the servers in your cluster. This is not always achievable using a standard network switch, thus for cluster with 4 or less nodes, we propose you to deploy a ring network as outlines [here](/docs/6-members/4-networking/1-ringnetwork-proxmox.md).
 
 After setting up your dedicated high-speed network, make sure that the relevant interfaces are up:
 
@@ -24,7 +24,7 @@ ip -br a
 
 which should show something like:
 
-```
+```text
 lo               UNKNOWN        127.0.0.1/8 ::1/128
 eno1             UP
 eno2             UP
@@ -43,7 +43,7 @@ You can also check this in the graphical interface of your hypervisor, e.g. in P
 
 and to reconfirm, try to ping the other servers:
 
-```
+```shell
 ping 10.0.0.2
 ```
 
@@ -87,6 +87,3 @@ The following procedures have been derived from two videos made available at:
 ![Proxmox Ceph SDS 07](assets/1-proxmox_ceph-07.png)
 
 ![Proxmox Ceph SDS 08](assets/1-proxmox_ceph-08.png)
-
-
-

@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Here is the list of current members of the Infrastructure Builders' Programme
 
-### Hobbyist members
+## Hobbyist members
 
 | ID         | matrix                   | Region                | Date joined |
 | ---------- | ------------------------ | --------------------- | ----------- |
@@ -16,7 +16,7 @@ Here is the list of current members of the Infrastructure Builders' Programme
 | Paranodes  | @paradoxxx:matrix.org    | South America (TT)    | In review   |
 | STKD       | @frazzled:matrix.org     | North America (US-?)  | In review   |
 
-### Professional members
+## Professional members
 
 | ID           | matrix                   | Region                | Date joined |
 | ------------ | ------------------------ | --------------------- | ----------- |

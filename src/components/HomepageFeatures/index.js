@@ -20,7 +20,7 @@ const FeatureList = [
     description: (
       <>
         Every edge deployment is built with resilience in mind: only fully owned equipment installed
-        in independent datacenters around the world, with redundant power, cooling and connectivity.
+        in independent datacentres around the world, with redundant power, cooling and connectivity.
       </>
     ),
   },

@@ -4,11 +4,11 @@ sidebar_position: 2
 
 # Monitor
 
-Each member of the Infrastructure Builders' Programme, whether in the hobbyist or in the professional tracks, must run a node as part of the monitoring network that will measure the serive levels of the programme.
+Each member of the Infrastructure Builders' Programme, whether in the hobbyist or in the professional tracks, must run a node as part of the monitoring network that will measure the service levels of the programme.
 
 The code of this monitor solution is open source and can be found in this Github repository: [ibp-monitoring](https://github.com/ibp-network/ibp-monitor).
 
-## Prerequisites:
+## Prerequisites
 
 Before continuing with the procedures below, you must first:
 
