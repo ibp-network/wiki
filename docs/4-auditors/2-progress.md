@@ -21,7 +21,7 @@ The Pull Request below belongs to the Parity Polkadot repository:
 | Dwellir      | [7097](https://github.com/paritytech/polkadot/pull/7097)     | [7097](https://github.com/paritytech/polkadot/pull/7097)     | [7097](https://github.com/paritytech/polkadot/pull/7097)     |
 | RadiumBlock  | [7519](https://github.com/paritytech/polkadot/pull/7519)     | [7519](https://github.com/paritytech/polkadot/pull/7519)     | [7519](https://github.com/paritytech/polkadot/pull/7519)     |
 | Rotko.net    | [1185](https://github.com/paritytech/polkadot-sdk/pull/1185) | [1185](https://github.com/paritytech/polkadot-sdk/pull/1185) | [1185](https://github.com/paritytech/polkadot-sdk/pull/1185) |
-| Polkadotters | pending                                                      | pending                                                      | pending                                                      |
+| Polkadotters | [6476](https://github.com/paritytech/polkadot/pull/6476)     | [6476](https://github.com/paritytech/polkadot/pull/6476)     | [6476](https://github.com/paritytech/polkadot/pull/6476)     |
 | Lucky Friday | pending                                                      | pending                                                      | pending                                                      |
 | BlockOps     | pending                                                      | pending                                                      | pending                                                      |
 
