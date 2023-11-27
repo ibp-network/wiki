@@ -39,8 +39,8 @@ The following is the result of the candidates interview and status of the creden
 | Turboflakes  | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
 | Dwellir      | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
 | RadiumBlock  | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
-| Polkadotters | :grey_question:     | :grey_question:      | :grey_question:    | :grey_question:    | :grey_question:      | :grey_question:      | :grey_question:    |
-| Rotko.net    | :grey_question:     | :grey_question:      | :grey_question:    | :grey_question:    | :grey_question:      | :grey_question:      | :grey_question:    |
+| Polkadotters | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
+| Rotko.net    | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
 | Lucky Friday | :grey_question:     | :grey_question:      | :grey_question:    | :grey_question:    | :grey_question:      | :grey_question:      | :grey_question:    |
 | BlockOps     | :grey_question:     | :grey_question:      | :grey_question:    | :grey_question:    | :grey_question:      | :grey_question:      | :grey_question:    |
 
@@ -60,15 +60,15 @@ The rest of the members of the Infrastructure Builders' Programme must report th
 | Member       | Region                | Polkadot | Kusama | Westend |
 | ------------ | --------------------- | -------- | ------ | ------- |
 | Stake.plus   | North America (US-DC) | 2        | 2      | 2       |
-| Helikon      | Middle East (TR)      | 3        | 2      | 3       |
+| Helikon      | Middle East (TR)      | 2        | 2      | 2       |
 | Amforc       | Europe (CH)           | 2        | 2      | 2       |
-| Metaspan     | Europe (GB)           | 2        | 2      | 3       |
+| Metaspan     | Europe (GB)           | 2        | 2      | 2       |
 | Gatotech     | Central America (CR)  | 2        | 2      | 2       |
 | Turboflakes  | Europe (PT)           | 2        | 2      | 2       |
-| Dwellir      | Africa (NG)           | 1        | 1      | 2       |
-| RadiumBlock  | Asia (IN)             | -        | -      | -       |
+| Dwellir      | Africa (NG)           | 2        | 2      | 2       |
+| RadiumBlock  | Asia (IN)             | 2        | 2      | 2       |
 | Polkadotters | Oceania (NZ)          | -        | -      | -       |
-| Rotko.net    | Asia (TH)             | -        | -      | -       |
+| Rotko.net    | Asia (TH)             | 2        | 2      | 2       |
 | Lucky Friday | North America (WA)    | -        | -      | -       |
 | BlockOps     | South America (BR)    | -        | -      | -       |
 
