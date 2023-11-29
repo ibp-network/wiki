@@ -185,7 +185,7 @@ Now you will need access to another machine, and right there on your home direct
 
 ```shell
 # download the polkadot binary
-sudo wget https://github.com/paritytech/polkadot/releases/download/v0.9.42/polkadot
+sudo wget https://github.com/paritytech/polkadot-sdk/releases/download/v1.4.0/polkadot
 
 # make it executable
 sudo chmod 755 polkadot

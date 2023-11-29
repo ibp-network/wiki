@@ -22,8 +22,8 @@ The Pull Request below belongs to the Parity Polkadot repository:
 | RadiumBlock  | [7519](https://github.com/paritytech/polkadot/pull/7519)     | [7519](https://github.com/paritytech/polkadot/pull/7519)     | [7519](https://github.com/paritytech/polkadot/pull/7519)     |
 | Rotko.net    | [1185](https://github.com/paritytech/polkadot-sdk/pull/1185) | [1185](https://github.com/paritytech/polkadot-sdk/pull/1185) | [1185](https://github.com/paritytech/polkadot-sdk/pull/1185) |
 | Polkadotters | [6476](https://github.com/paritytech/polkadot/pull/6476)     | [6476](https://github.com/paritytech/polkadot/pull/6476)     | [6476](https://github.com/paritytech/polkadot/pull/6476)     |
-| Lucky Friday | pending                                                      | pending                                                      | pending                                                      |
-| BlockOps     | pending                                                      | pending                                                      | pending                                                      |
+| Lucky Friday | [2538](https://github.com/paritytech/polkadot-sdk/pull/2538) | [2538](https://github.com/paritytech/polkadot-sdk/pull/2538) | [2538](https://github.com/paritytech/polkadot-sdk/pull/2538) |
+| STKD         | pending                                                      | pending                                                      | pending                                                      |
 
 ### Requirements for Milestone P2
 
@@ -42,7 +42,7 @@ The following is the result of the candidates interview and status of the creden
 | Polkadotters | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
 | Rotko.net    | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
 | Lucky Friday | :grey_question:     | :grey_question:      | :grey_question:    | :grey_question:    | :grey_question:      | :grey_question:      | :grey_question:    |
-| BlockOps     | :grey_question:     | :grey_question:      | :grey_question:    | :grey_question:    | :grey_question:      | :grey_question:      | :grey_question:    |
+| STKD         | :grey_question:     | :grey_question:      | :grey_question:    | :grey_question:    | :grey_question:      | :grey_question:      | :grey_question:    |
 
 ### Requirements for Milestone P3
 
@@ -70,7 +70,7 @@ The rest of the members of the Infrastructure Builders' Programme must report th
 | Polkadotters | Oceania (NZ)          | -        | -      | -       |
 | Rotko.net    | Asia (TH)             | 2        | 2      | 2       |
 | Lucky Friday | North America (WA)    | -        | -      | -       |
-| BlockOps     | South America (BR)    | -        | -      | -       |
+| STKD         | South America (?)     | -        | -      | -       |
 
 ### Requirements for Milestone P4
 
@@ -91,7 +91,7 @@ For **Polkadot**'s system parachains:
 | Polkadotters | pending                                                 | pending                                                 | pending                                                 |
 | Rotko.net    | pending                                                 | pending                                                 | pending                                                 |
 | Lucky Friday | pending                                                 | pending                                                 | pending                                                 |
-| BlockOps     | pending                                                 | pending                                                 | pending                                                 |
+| STKD         | pending                                                 | pending                                                 | pending                                                 |
 
 For **Kusama**'s system parachains:
 
@@ -108,7 +108,7 @@ For **Kusama**'s system parachains:
 | Polkadotters | pending                                                 | pending     | pending                                                 |
 | Rotko.net    | pending                                                 | pending     | pending                                                 |
 | Lucky Friday | pending                                                 | pending     | pending                                                 |
-| BlockOps     | pending                                                 | pending     | pending                                                 |
+| STKD         | pending                                                 | pending     | pending                                                 |
 
 For **Westend**'s system parachains
 
@@ -125,7 +125,7 @@ For **Westend**'s system parachains
 | Polkadotters | pending                                                 | pending                                                 | pending                                                 |
 | Rotko.net    | pending                                                 | pending                                                 | pending                                                 |
 | Lucky Friday | pending                                                 | pending                                                 | pending                                                 |
-| BlockOps     | pending                                                 | pending                                                 | pending                                                 |
+| STKD         | pending                                                 | pending                                                 | pending                                                 |
 
 And the following PRs belong to the Encointer repository:
 
@@ -142,7 +142,7 @@ And the following PRs belong to the Encointer repository:
 | Polkadotters | pending                                                          |
 | Rotko.net    | pending                                                          |
 | Lucky Friday | pending                                                          |
-| BlockOps     | pending                                                          |
+| STKD         | pending                                                          |
 
 ### Requirements for Milestone P5
 
@@ -160,17 +160,17 @@ For **Polkadot**'s system parachains:
 | Member       | Region                | AssetHub | Collectives | BridgeHub |
 | ------------ | --------------------- | -------- | ----------- | --------- |
 | Stake.plus   | North America (US-DC) | 2        | 2           | 2         |
-| Helikon      | Middle East (TR)      | 2        | 2           | 1         |
-| Amforc       | Europe (CH)           | 3        | 2           | 2         |
-| Metaspan     | Europe (GB)           | 1        | 1           | 1         |
+| Helikon      | Middle East (TR)      | 2        | 2           | 2         |
+| Amforc       | Europe (CH)           | 2        | 2           | 2         |
+| Metaspan     | Europe (GB)           | 2        | 2           | 2         |
 | Gatotech     | Central America (CR)  | 2        | 2           | 2         |
-| Turboflakes  | Europe (PT)           | 3        | 3           | 3         |
+| Turboflakes  | Europe (PT)           | 2        | 2           | 2         |
 | Dwellir      | Africa (NG)           | 1        | 1           | 1         |
 | RadiumBlock  | Asia (IN)             | -        | -           | -         |
 | Polkadotters | Oceania (NZ)          | -        | -           | -         |
 | Rotko.net    | Asia (TH)             | -        | -           | -         |
 | Lucky Friday | North America (WA)    | -        | -           | -         |
-| BlockOps     | South America (BR)    | -        | -           | -         |
+| STKD         | South America (BR)    | -        | -           | -         |
 
 For **Kusama**'s system parachains:
 
@@ -194,7 +194,7 @@ For **Kusama**'s system parachains:
 | Polkadotters | Oceania (NZ)          | -        | -         | -         |
 | Rotko.net    | Asia (TH)             | -        | -         | -         |
 | Lucky Friday | North America (WA)    | -        | -         | -         |
-| BlockOps     | South America (BR)    | -        | -         | -         |
+| STKD         | South America (BR)    | -        | -         | -         |
 
 For **Westend**'s system parachains:
 
@@ -218,7 +218,7 @@ For **Westend**'s system parachains:
 | Polkadotters | Oceania (NZ)          | -        | -           | -         |
 | Rotko.net    | Asia (TH)             | -        | -           | -         |
 | Lucky Friday | North America (WA)    | -        | -           | -         |
-| BlockOps     | South America (BR)    | -        | -           | -         |
+| STKD         | South America (BR)    | -        | -           | -         |
 
 ## Hobbyist Milestones
 
