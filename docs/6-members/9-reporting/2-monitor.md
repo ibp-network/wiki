@@ -56,6 +56,10 @@ sudo docker run hello-world
 Now you are going to download the code of the monitor directly from the IBP's github page
 
 ``` shell
+# Get root privileges
+sudo su -
+cd /opt
+
 # Clone the repository in the machine
 git clone https://github.com/ibp-network/ibp-monitor.git
 
@@ -63,7 +67,7 @@ git clone https://github.com/ibp-network/ibp-monitor.git
 cd ibp-monitor
 
 # Select the latest stable version
-git checkout 0.1.0
+git checkout main
 ```
 
 <!--- The following configuration seems unnecessary for docker deployment (TBC):
@@ -154,5 +158,11 @@ And if you connect your browser to the port indicated in `HTTP_PORT` you will se
 :::info
 You may want to make a backup of the network keys, in case you plan to keep your monitor id across redeployments and migrations.
 :::
+
+``` shell
+cd /keys
+ll
+cat readme.md
+```
 
 enjoy!
