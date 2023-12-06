@@ -21,11 +21,11 @@ Each one of the members of the Programme should run a node of the monitoring net
 | Helikon      | Professional | pending                                 |
 | Amforc       | Professional | pending                                 |
 | Metaspan     | Professional | https://ibp-monitor.metaspan.io/        |
-| Gatotech     | Professional | pending                                 |
+| Gatotech     | Professional | https://ibp-monitor.gatotech.network/   |
 | Turboflakes  | Professional | https://ibp-monitor.turboflakes.io/     |
 | Dwellir      | Professional | pending                                 |
 | RadiumBlock  | Professional | pending                                 |
-| Polkadotters | Professional | pending                                 |
-| Rotko.net    | Professional | pending                                 |
+| Polkadotters | Professional | https://ibp-monitor.polkadotters.com/                                 |
+| Rotko.net    | Professional | https://ibp.rotko.net/monitor           |
 | Lucky Friday | Professional | pending                                 |
 | BlockOps     | Professional | pending                                 |
