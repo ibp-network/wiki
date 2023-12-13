@@ -85,7 +85,7 @@ If not already installed, please follow the following commands to install the la
 sudo apt install software-properties-common
 
 # Add the repository of the haproxy project
-sudo add-apt-repository ppa:vbernat/haproxy-2.7
+sudo add-apt-repository ppa:vbernat/haproxy-2.8
 
 # Update the database of available packages
 sudo apt update
@@ -100,10 +100,10 @@ sudo haproxy -v
 If HAProxy was correctly installed, the output will be similar to this one:
 
 ```text
-HAProxy version 2.7.0-1ppa1~focal 2021/11/26 - https://haproxy.org/
-Status: stable branch - will stop receiving fixes around Q3 2023.
-Known bugs: http://www.haproxy.org/bugs/bugs-2.7.0.html
-Running on: Linux 5.4.0-91-generic #102-Ubuntu SMP Fri Nov 5 16:31:28 UTC 2023 x86_64
+HAProxy version 2.8.4-2ppa1~jammy 2023/11/22 - https://haproxy.org/
+Status: long-term supported branch - will stop receiving fixes around Q2 2028.
+Known bugs: http://www.haproxy.org/bugs/bugs-2.8.4.html
+Running on: Linux 5.15.0-91-generic #101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 x86_64
 ```
 
 By default, HAProxy is not configured to listen on any ports. In this step, since we are going to configure it as a reverse proxy, we are going to make changes to the default HAProxy configuration.
@@ -144,13 +144,13 @@ defaults
    timeout server 300s
 
 frontend frontend
-   bind *:30334 ssl crt /etc/pki/my_ssl_certificate.pem
+   bind *:30335 ssl crt /etc/pki/my_ssl_certificate.pem
    mode http
    default_backend backend
 
 backend backend
    mode http
-   server local 192.168.0.1:30335 check inter 2s
+   server local 192.168.0.1:30334 check inter 2s
 ```
 
 ## Restart the services
