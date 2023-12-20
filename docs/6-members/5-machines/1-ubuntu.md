@@ -205,8 +205,8 @@ ssh-keygen -t ed25519
 
 After providing a passphrase, two files will be created in a hidden folder of your home directory:
 
-- /home/username/.ssh/id_ed25519 <- Caution!, this is your **Private Key**!!
-- /home/username/.ssh/id_ed25519.pub <- this is the **Public Key** (you can share this file)
+- /home/username/.ssh/id_ed25519 :point_left: Caution!, this is your **Private Key**!!
+- /home/username/.ssh/id_ed25519.pub :point_left: this is the **Public Key** (you can share this file)
 
 The next step is to copy the public key to the correct directory of remote server, and that is done by means of the following command (this action will prompt for the current password of the user in the remote server):
 
@@ -664,7 +664,7 @@ htop
 
 This launches an interface in which you will be able to see every one of the active processes and their contribution to the CPU load:
 
-<< image here>>
+(insert image here)
 
 ### Memory performance
 
@@ -759,7 +759,7 @@ sudo ncdu
 
 as it provides a graphical interface to explore the usage of your disk space:
 
-<< Insert screenshot here>>
+(Insert screenshot here)
 
 But in terms of speed, look nowhere else than in `fio` to test your rig:
 

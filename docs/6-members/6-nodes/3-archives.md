@@ -283,7 +283,7 @@ sudo rm -r /var/lib/polkadot/*
 sudo systemctl restart polkadot1
 ```
 
-:::warn
+:::danger
 Before removing the old database, be warned that the full syncing of the main relay chains (i.e. Polkadot and Kusama) are taking between 2 to 4 weeks depending on node performance and peer availability.
 :::
 
