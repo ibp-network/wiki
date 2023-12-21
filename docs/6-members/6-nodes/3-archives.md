@@ -302,9 +302,9 @@ If everything went well, that command should return a response message similar t
 {"jsonrpc":"2.0","result":{"peers":20,"isSyncing":false,"shouldHavePeers":true},"id":1}
 ```
 
-To test the websocket endpoint, the easiest way is to add it to the polkadot.{js} interface and check that the app is connecting to the appropriate chain:
+To test the websocket endpoint, the easiest way is to add it to the `polkadot.{js}` interface and check that the app is connecting to the appropriate chain:
 
-1. Head up to your preferred browser and navigate to https://polkadot.js.org/apps, you will be presented with the initial interface:
+1. Head up to your preferred browser and navigate to [https://polkadot.js.org/apps](https://polkadot.js.org/apps), you will be presented with the initial interface:
 
 ![Polkajs test 1](assets/3-archive-02.png)
 
