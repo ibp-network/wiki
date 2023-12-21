@@ -46,7 +46,7 @@ The following is the result of the candidates interview and status of the creden
 
 ### Requirements for Milestone P3
 
-For this milestone, there is some preliminary work to be done by the members in charge of GeoDNS and Anycast services for IBP, as for example, to launch the services and register these in the polkadot{js} app repository:
+For this milestone, there is some preliminary work to be done by the members in charge of GeoDNS and Anycast services for IBP, as for example, to launch the services and register these in the `polkadot{js}` app repository:
 
 | Service    | Endpoint            | Administrator | Polkadot                                              | Kusama                                                | Westend                                               |
 | ---------- | ------------------- | ------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
