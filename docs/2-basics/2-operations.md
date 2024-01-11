@@ -6,7 +6,7 @@ sidebar_position: 2
 
 The original documentation for the Infrastructure Builders' Programme indicated that it would extend the mission of Polkadot's and Kusama's [Thousand Validators Programme](https://wiki.polkadot.network/docs/thousand-validators) to include the provision of core infrastructure services in a decentralized, autonomous, fault-tolerant, and self-sustaining manner.
 
-Operators chosen for the Infrastructure Builders' Programme would lease rack space at unique facilities and deploy owned hardware to provide common endpoint and functionality for a variety of core infrastructure services (RPC endpoints, Snapshots, Bootnodes, Validators, Telemetry).
+Operators chosen for the Infrastructure Builders' Programme would lease rack space at unique facilities and deploy owned hardware to provide common endpoint and functionality for a variety of core infrastructure services (RPC endpoints, Snapshots, Bootnodes, Validators, Telemetry, and so on).
 
 More details are available in the documentation below:
 
@@ -14,16 +14,14 @@ More details are available in the documentation below:
 - Kusama's [Referenda 35](https://kusama.polkassembly.io/referenda/35).
 
 :::info
-
 These documents are historical and some administrative and technical aspects (e.g. stage numbering and scope, High availability requirements, etc) may have changed, please refer to the information in this wiki to have the updated version of these concepts
-
 :::
 
 ## Bounty Management
 
-The programme is initially funded by a bounty of the Kusama treasury.
+The programme was initially funded by a bounty of the Kusama treasury, it will be maintained in the future with funding from both Polkadot and Kusama bounties.
 
-This is managed by its relevant curators via a 3/5 multi-sig account.
+The bounties are managed by their relevant curators via a 3/5 multi-sig account.
 
 Each curator provides a secured account that is used to create the 3/5 multi-sig.
 
@@ -44,9 +42,7 @@ The current curators of the programme are:
 - will | Parity (non-exec)
 
 :::note Transparency Disclaimer
-
 **exec** positions are compensated for performing additional tasks.
-
 :::
 
 ### Advisors
@@ -78,7 +74,6 @@ The current advisors are:
 | RadiumBlock  | Asia            |
 | Polkadotters | Oceania         |
 | Rotko        | Asia            |
-| BlockOps     | South America   |
 
 ## Meetings
 

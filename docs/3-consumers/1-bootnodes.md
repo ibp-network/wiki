@@ -6,60 +6,107 @@ sidebar_position: 1
 
 A bootnode is a regular network node used to discover other nodes.
 
-Most of the time the information about bootnodes are included in the network's chain specification file, so the end users do not need to provision these details separately.
+Most of the time the bootnodes' mechanisms are already included in the network's chain specification file, and the end users do not concern about those details.
 
 However, you can also manually specify additional bootnodes via the command line interface (CLI) for most Substrate-based networks, like that:
 
-``` shell
+```shell
+# The generic command:
+<BINARY> --bootnodes <MULTIADDRESS>
+
 # This is only an example
-polkadot --bootnodes <MULTIADDR>
+polkadot --bootnodes "/dns/boot.gatotech.network/tcp/33100/p2p/12D3KooWK4E16jKk9nRhvC4RfrDVgcZzExg8Q3Q2G7ABUUitks1w"
 ```
 
-For the `MULTIADDR` argument, you can specify one or several bootnodes' [multiaddresses](https://docs.libp2p.io/concepts/fundamentals/addressing/) separated by spaces.
+The `<MULTIADDR>` argument can hold one or more bootnodes' [multiaddresses](https://docs.libp2p.io/concepts/fundamentals/addressing/) separated by spaces.
+
+## Testing a bootnode
 
 For all bootnodes listed in this document, you can quickly test if it is working by using the below generic command (adjust according to your chain)
 
-``` shell
+```shell
 # Testing a bootnode
-<BINARY> --chain <CHAIN> --reserved-only --reserved-nodes <MULTIADDR>
-# example for Gatotech's Polkadot bootnode over p2p connection
-polkadot --no-hardware-benchmarks --no-mdns --chain polkadot --reserved-only --reserved-nodes "/dns/dot-bootnode-cr.gatotech.network/tcp/31310/p2p/12D3KooWK4E16jKk9nRhvC4RfrDVgcZzExg8Q3Q2G7ABUUitks1w"
+<BINARY> --chain <CHAIN> --bootnodes <MULTIADDR>
+
+# This is only an example
+polkadot --no-hardware-benchmarks --no-mdns --chain polkadot.json --bootnodes "/dns/boot.gatotech.network/tcp/33100/p2p/12D3KooWK4E16jKk9nRhvC4RfrDVgcZzExg8Q3Q2G7ABUUitks1w"
 ```
 
+Let us dive in the recommended command flags:
+- `--chain`: please use the modified chainspec files available at this [IBP Repository](https://github.com/ibp-network/config/tree/main/chain-spec) these are basically the same chainspecs of the original networks but the bootnodes' information has been removed.
+- `--bootnodes`: in here you specify the bootnode(s) you want to test.
+- `--no-hardware-benchmarks`: (optional) this may speed up the test execution by omitting the initial hardware checks.
+- `--no-mdns`: (optional) this could also help mitigating the search of peers in the local network so focus is on the remote bootnode only.
+
 :::info
-This method, although effective, is under revision due to its deviation from a pure bootnode's perspective (the new node connects to the bootnode and allows syncing the chain, but it doesn't allow to discover more nodes).
+There was a previous methodology, used historically to test bootnodes, that leveraged on the flags `--reserved-only` and `--reserved-nodes`. The IBP has decided that such methodology failed to test the core function of a bootnode and recommends the correct test indicated above.
 :::
 
-The bootnodes from the Infrastructure Builders' Programme are available in three different connection alternatives, including basic TCP transport between peers  and websockets encapsulated in TCP with or without TLS-encryption.
+## Endpoint flavours
 
-## Peer-to-peer (p2p)
+All bootnodes from the Infrastructure Builders' Programme are available in at least two different mandatory connection alternatives, and most members also including a third one in case there is use for that in the served community:
+
+- **TCP over P2P**: basic transport protocol (TCP) allowing the connection between peers (P2P). This is the standard connectivity that is established among almost all nodes in the network, so it is only right that all IBP members provide an endpoint for this protocol.
+- **WS over P2P**:  Websocket-encapsulated in TCP over the P2P network is a intermediate step towards the following alternative, however, little use-cases has been identified for this alternative (it is useful for testing and troubleshooting, though :wink:).
+- **WSS over P2P**: Secured Websocket over the P2P network is the alternative used by all light-client nodes in the substrate chains, so this is the second endpoint that all IBP members provide to the community.
+
+## TCP Endpoints
 
 This is the default protocol used to connect nodes nodes directly to other nodes of the network via a TCP (Transmission Control Protocol) connection, so it is the one preferred when a new node (e.g. a validator) is deployed.
 
-The p2p bootnodes from the Infrastructure Builder's Programme are:
+The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Programme are:
 
-### Polkadot
+### Polkadot Chains
+
+#### Relaychain
 
 ```shell
-# Dwellir
+# Dwellir - Nigeria
 /dns/polkadot-boot.dwellir.com/tcp/30334/ws/p2p/12D3KooWKvdDyRKqUfSAaUCbYiLwKY8uK3wDWpCuy2FiDLbkPTDJ
-# Stake.plus
+
+# Stake.plus - United States (DC)
 /dns/boot.stake.plus/tcp/30333/p2p/12D3KooWKT4ZHNxXH4icMjdrv7EwWBkfbz5duxE5sdJKKeWFYi5n
-# Helikon
+
+# Helikon - Turkey
 /dns/boot-node.helikon.io/tcp/7070/p2p/12D3KooWS9ZcvRxyzrSf6p63QfTCWs12nLoNKhGux865crgxVA4H
-# Amforc
+
+# Amforc - Switzerland
 /dns/polkadot.bootnode.amforc.com/tcp/30333/p2p/12D3KooWAsuCEVCzUVUrtib8W82Yne3jgVGhQZN3hizko5FTnDg3
-# Polkadotters
+
+# Polkadotters - New Zealand
 /dns/polkadot-bootnode.polkadotters.com/tcp/30333/p2p/12D3KooWPAVUgBaBk6n8SztLrMk8ESByncbAfRKUdxY1nygb9zG3
-# Gatotech
+
+# Gatotech - Costa Rica
 /dns/dot-bootnode-cr.gatotech.network/tcp/31310/p2p/12D3KooWK4E16jKk9nRhvC4RfrDVgcZzExg8Q3Q2G7ABUUitks1w
-# Metaspan
+
+# Metaspan - United Kingdom
 /dns/boot-polkadot.metaspan.io/tcp/13012/p2p/12D3KooWRjHFApinuqSBjoaDjQHvxwubQSpEVy5hrgC9Smvh92WF
-# Turboflakes
+
+# Turboflakes - Portugal
 /dns/polkadot-bootnode.turboflakes.io/tcp/30300/p2p/12D3KooWHJBMZgt7ymAdTRtadPcGXpJw79vBGe8z53r9JMkZW7Ha
 ```
 
-### Kusama
+#### AssetHub
+
+```shell
+
+```
+
+#### BridgeHub
+
+```shell
+
+```
+
+#### Collectives
+
+```shell
+
+```
+
+### Kusama Chains
+
+#### Relaychain
 
 ```shell
 # Dwellir
@@ -80,7 +127,27 @@ The p2p bootnodes from the Infrastructure Builder's Programme are:
 /dns/kusama-bootnode.turboflakes.io/tcp/30305/p2p/12D3KooWR6cMhCYRhbJdqYZfzWZT6bcck3unpRLk8GBQGmHBgPwu
 ```
 
-### Westend
+#### AssetHub
+
+```shell
+
+```
+
+#### BridgeHub
+
+```shell
+
+```
+
+#### Encointer
+
+```shell
+
+```
+
+### Westend Chains
+
+#### Relaychain
 
 ```shell
 # Stake.plus
@@ -99,6 +166,152 @@ The p2p bootnodes from the Infrastructure Builder's Programme are:
 /dns/westend-bootnode.turboflakes.io/tcp/30310/p2p/12D3KooWJvPDCZmReU46ghpCMJCPVUvUCav4WQdKtXQhZgJdH6tZ
 ```
 
-## Websocket (over p2p)
+#### AssetHub
 
-## Secured Websocket (over p2p)
+```shell
+
+```
+
+#### BridgeHub
+
+```shell
+
+```
+
+#### Collectives
+
+```shell
+
+```
+
+### Paseo Chains
+
+#### Relaychain
+
+```shell
+
+```
+
+#### AssetHub
+
+```shell
+
+```
+
+#### BridgeHub
+
+```shell
+
+```
+
+#### Collectives
+
+```shell
+
+```
+
+## WSS Endpoints
+
+### Polkadot Chains
+
+#### Relaychain
+
+```shell
+
+```
+
+#### AssetHub
+
+```shell
+
+```
+
+#### BridgeHub
+
+```shell
+
+```
+
+#### Collectives
+
+```shell
+
+```
+
+### Kusama Chains
+
+#### Relaychain
+
+```shell
+
+```
+
+#### AssetHub
+
+```shell
+
+```
+
+#### BridgeHub
+
+```shell
+
+```
+
+#### Encointer
+
+```shell
+
+```
+
+### Westend Chains
+
+#### Relaychain
+
+```shell
+
+```
+
+#### AssetHub
+
+```shell
+
+```
+
+#### BridgeHub
+
+```shell
+
+```
+
+#### Collectives
+
+```shell
+
+```
+
+### Paseo Chains
+
+#### Relaychain
+
+```shell
+
+```
+
+#### AssetHub
+
+```shell
+
+```
+
+#### BridgeHub
+
+```shell
+
+```
+
+#### Collectives
+
+```shell
+
+```
