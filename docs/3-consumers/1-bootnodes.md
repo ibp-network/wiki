@@ -61,29 +61,38 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 #### Relaychain
 
 ```shell
-# Dwellir - Nigeria
-/dns/polkadot-boot.dwellir.com/tcp/30334/ws/p2p/12D3KooWKvdDyRKqUfSAaUCbYiLwKY8uK3wDWpCuy2FiDLbkPTDJ
+# Lagos, Nigeria, Africa.
+/dns/polkadot-boot-ng.dwellir.com/tcp/30336/p2p/12D3KooWFFqjBKoSdQniRpw1Y8W6kkV7takWv1DU2ZMkaA81PYVq
 
-# Stake.plus - United States (DC)
+# San Jose, Costa Rica, Central America
+/dns/boot-cr.gatotech.network/tcp/33100/p2p/12D3KooWK4E16jKk9nRhvC4RfrDVgcZzExg8Q3Q2G7ABUUitks1w
+
+# Washington DC, United States, North America.
 /dns/boot.stake.plus/tcp/30333/p2p/12D3KooWKT4ZHNxXH4icMjdrv7EwWBkfbz5duxE5sdJKKeWFYi5n
 
-# Helikon - Turkey
+# Seattle WA, United States, North America.
+/dns/ibp-boot-polkadot.luckyfriday.io/tcp/30333/p2p/12D3KooWEjk6QXrZJ26fLpaajisJGHiz6WiQsR8k7mkM9GmWKnRZ
+
+# Mumbai, India, Asia.
+/dns/polkadot-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWNwWNRrPrTk4qMah1YszudMjxNw2qag7Kunhw3Ghs9ea5
+
+# Bangkok, Thailand, Asia.
+/dns/dot14.rotko.net/tcp/35214/wss/p2p/12D3KooWPyEvPEXghnMC67Gff6PuZiSvfx3fmziKiPZcGStZ5xff
+
+# Istanbul, Turkey, Asia.
 /dns/boot-node.helikon.io/tcp/7070/p2p/12D3KooWS9ZcvRxyzrSf6p63QfTCWs12nLoNKhGux865crgxVA4H
 
-# Amforc - Switzerland
-/dns/polkadot.bootnode.amforc.com/tcp/30333/p2p/12D3KooWAsuCEVCzUVUrtib8W82Yne3jgVGhQZN3hizko5FTnDg3
-
-# Polkadotters - New Zealand
-/dns/polkadot-bootnode.polkadotters.com/tcp/30333/p2p/12D3KooWPAVUgBaBk6n8SztLrMk8ESByncbAfRKUdxY1nygb9zG3
-
-# Gatotech - Costa Rica
-/dns/dot-bootnode-cr.gatotech.network/tcp/31310/p2p/12D3KooWK4E16jKk9nRhvC4RfrDVgcZzExg8Q3Q2G7ABUUitks1w
-
-# Metaspan - United Kingdom
+# High Wycombe, England, Europe.
 /dns/boot-polkadot.metaspan.io/tcp/13012/p2p/12D3KooWRjHFApinuqSBjoaDjQHvxwubQSpEVy5hrgC9Smvh92WF
 
-# Turboflakes - Portugal
+# Lisbon, Portugal, Europe.
 /dns/polkadot-bootnode.turboflakes.io/tcp/30300/p2p/12D3KooWHJBMZgt7ymAdTRtadPcGXpJw79vBGe8z53r9JMkZW7Ha
+
+# Lucerne, Switzerland, Europe.
+/dns/polkadot.bootnode.amforc.com/tcp/30333/p2p/12D3KooWAsuCEVCzUVUrtib8W82Yne3jgVGhQZN3hizko5FTnDg3
+
+# Christchurch, New Zealand, Oceania.
+/dns/polkadot-bootnode.polkadotters.com/tcp/30333/p2p/12D3KooWPAVUgBaBk6n8SztLrMk8ESByncbAfRKUdxY1nygb9zG3
 ```
 
 #### AssetHub
@@ -109,22 +118,38 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 #### Relaychain
 
 ```shell
-# Dwellir
-/dns/kusama-boot.dwellir.com/tcp/30333/ws/p2p/12D3KooWFj2ndawdYyk2spc42Y2arYwb2TUoHLHFAsKuHRzWXwoJ
-# Stake.plus
+# Lagos, Nigeria, Africa.
+/dns/kusama-boot-ng.dwellir.com/tcp/30334/p2p/12D3KooWLswepVYVdCNduvWRTyNTaDMXEBcmvJdZ9Bhw3u2Jhad2
+
+# San Jose, Costa Rica, Central America
+/dns/boot-cr.gatotech.network/tcp/33200/p2p/12D3KooWRNZXf99BfzQDE1C8YhuBbuy7Sj18UEf7FNpD8egbURYD
+
+# Washington DC, United States, North America.
 /dns/boot.stake.plus/tcp/31333/p2p/12D3KooWLa1UyG5xLPds2GbiRBCTJjpsVwRWHWN7Dff14yiNJRpR
-# Helikon
+
+# Seattle WA, United States, North America.
+/dns/ibp-boot-kusama.luckyfriday.io/tcp/30333/p2p/12D3KooW9vu1GWHBuxyhm7rZgD3fhGZpNajPXFexadvhujWMgwfT
+
+# Mumbai, India, Asia.
+/dns/kusama-bootnode.radiumblock.com/tcp/30335/wss/p2p/12D3KooWGzKffWe7JSXeKMQeSQC5xfBafZtgBDCuBVxmwe2TJRuc
+
+# Bangkok, Thailand, Asia.
+/dns/ksm14.rotko.net/tcp/33224/p2p/12D3KooWAa5THTw8HPfnhEei23HdL8P9McBXdozG2oTtMMksjZkK
+
+# Istanbul, Turkey, Asia.
 /dns/boot-node.helikon.io/tcp/7060/p2p/12D3KooWL4KPqfAsPE2aY1g5Zo1CxsDwcdJ7mmAghK7cg6M2fdbD
-# Amforc
-/dns/kusama.bootnode.amforc.com/tcp/30333/p2p/12D3KooWLx6nsj6Fpd8biP1VDyuCUjazvRiGWyBam8PsqRJkbUb9
-# Polkadotters
-/dns/kusama-bootnode.polkadotters.com/tcp/30333/p2p/12D3KooWHB5rTeNkQdXNJ9ynvGz8Lpnmsctt7Tvp7mrYv6bcwbPG
-# Gatotech
-/dns/ksm-bootnode-cr.gatotech.network/tcp/31320/p2p/12D3KooWRNZXf99BfzQDE1C8YhuBbuy7Sj18UEf7FNpD8egbURYD
-# Metaspan
+
+# High Wycombe, England, Europe.
 /dns/boot-kusama.metaspan.io/tcp/23012/p2p/12D3KooWE1tq9ZL9AAxMiUBBqy1ENmh5pwfWabnoBPMo8gFPXhn6
-# Turboflakes
+
+# Lisbon, Portugal, Europe.
 /dns/kusama-bootnode.turboflakes.io/tcp/30305/p2p/12D3KooWR6cMhCYRhbJdqYZfzWZT6bcck3unpRLk8GBQGmHBgPwu
+
+# Lucerne, Switzerland, Europe.
+/dns/kusama.bootnode.amforc.com/tcp/30333/p2p/12D3KooWLx6nsj6Fpd8biP1VDyuCUjazvRiGWyBam8PsqRJkbUb9
+
+# Christchurch, New Zealand, Oceania.
+/dns/kusama-bootnode.polkadotters.com/tcp/30333/p2p/12D3KooWHB5rTeNkQdXNJ9ynvGz8Lpnmsctt7Tvp7mrYv6bcwbPG
 ```
 
 #### AssetHub
@@ -150,20 +175,38 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 #### Relaychain
 
 ```shell
-# Stake.plus
+# Lagos, Nigeria, Africa.
+/dns/westend-boot-ng.dwellir.com/tcp/30335/p2p/12D3KooWJifoDhCL3swAKt7MWhFb7wLRFD9oG33AL3nAathmU24x
+
+# San Jose, Costa Rica, Central America
+/dns/boot-cr.gatotech.network/tcp/33300/p2p/12D3KooWQGR1vUhoy6mvQorFp3bZFn6NNezhQZ6NWnVV7tpFgoPd
+
+# Washington DC, United States, North America.
 /dns/boot.stake.plus/tcp/32333/p2p/12D3KooWK8fjVoSvMq5copQYMsdYreSGPGgcMbGMgbMDPfpf3sm7
-# Helikon
+
+# Seattle WA, United States, North America.
+/dns/ibp-boot-westend.luckyfriday.io/tcp/30333/p2p/12D3KooWDg1YEytdwFFNWroFj6gio4YFsMB3miSbHKgdpJteUMB9
+
+# Mumbai, India, Asia.
+/dns/westend-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWJBowJuX1TaWNWHt8Dz8z44BoCZunLCfFqxA2rLTn6TBD
+
+# Bangkok, Thailand, Asia.
+/dns/wnd14.rotko.net/tcp/33234/p2p/12D3KooWLK8Zj1uZ46phU3vQwiDVda8tB76S8J26rXZQLHpwWkDJ
+
+# Istanbul, Turkey, Asia.
 /dns/boot-node.helikon.io/tcp/7080/p2p/12D3KooWRFDPyT8vA8mLzh6dJoyujn4QNjeqi6Ch79eSMz9beKXC
-# Amforc
-/dns/westend.bootnode.amforc.com/tcp/30333/p2p/12D3KooWJ5y9ZgVepBQNW4aabrxgmnrApdVnscqgKWiUu4BNJbC8
-# Polkadotters
-/dns/westend-bootnode.polkadotters.com/tcp/30333/p2p/12D3KooWHPHb64jXMtSRJDrYFATWeLnvChL8NtWVttY67DCH1eC5
-# Gatotech
-/dns/wnd-bootnode-cr.gatotech.network/tcp/31330/p2p/12D3KooWQGR1vUhoy6mvQorFp3bZFn6NNezhQZ6NWnVV7tpFgoPd
-# Metaspan
+
+# High Wycombe, England, Europe.
 /dns/boot-westend.metaspan.io/tcp/33012/p2p/12D3KooWNTau7iG4G9cUJSwwt2QJP1W88pUf2SgqsHjRU2RL8pfa
-# Turboflakes
+
+# Lisbon, Portugal, Europe.
 /dns/westend-bootnode.turboflakes.io/tcp/30310/p2p/12D3KooWJvPDCZmReU46ghpCMJCPVUvUCav4WQdKtXQhZgJdH6tZ
+
+# Lucerne, Switzerland, Europe.
+/dns/westend.bootnode.amforc.com/tcp/30333/p2p/12D3KooWJ5y9ZgVepBQNW4aabrxgmnrApdVnscqgKWiUu4BNJbC8
+
+# Christchurch, New Zealand, Oceania.
+/dns/westend-bootnode.polkadotters.com/tcp/30333/p2p/12D3KooWHPHb64jXMtSRJDrYFATWeLnvChL8NtWVttY67DCH1eC5
 ```
 
 #### AssetHub
@@ -189,6 +232,37 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 #### Relaychain
 
 ```shell
+# Lagos, Nigeria, Africa.
+
+
+# San Jose, Costa Rica, Central America
+/dns/boot.gatotech.network/tcp/33400/p2p/12D3KooWEvz5Ygv3MhCUNTVQbUTVhzhvf4KKcNoe5M5YbVLPBeeW
+
+# Washington DC, United States, North America.
+
+
+# Seattle WA, United States, North America.
+
+
+# Mumbai, India, Asia.
+/dns/paseo-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWADeaC8zag4Qrb4GosSn65MmfVZztRPMaBdgZnQqXRo
+
+# Bangkok, Thailand, Asia.
+
+
+# Istanbul, Turkey, Asia.
+/dns/boot-node.helikon.io/tcp/10020/p2p/12D3KooWBetfzZpf6tGihKrqCo5z854Ub4ZNAUUTRT6eYHNh7FYi
+
+# High Wycombe, England, Europe.
+
+
+# Lisbon, Portugal, Europe.
+
+
+# Lucerne, Switzerland, Europe.
+/dns/paseo.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWFD81HC9memUwuGMLvhDDEfmXjn6jC4n7zyNs3vToXapS
+
+# Christchurch, New Zealand, Oceania.
 
 ```
 
@@ -217,6 +291,37 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 #### Relaychain
 
 ```shell
+# Lagos, Nigeria, Africa.
+
+
+# San Jose, Costa Rica, Central America
+
+
+# Washington DC, United States, North America.
+
+
+# Seattle WA, United States, North America.
+
+
+# Mumbai, India, Asia.
+
+
+# Bangkok, Thailand, Asia.
+
+
+# Istanbul, Turkey, Asia.
+
+
+# High Wycombe, England, Europe.
+
+
+# Lisbon, Portugal, Europe.
+
+
+# Lucerne, Switzerland, Europe.
+
+
+# Christchurch, New Zealand, Oceania.
 
 ```
 
@@ -243,6 +348,37 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 #### Relaychain
 
 ```shell
+# Lagos, Nigeria, Africa.
+
+
+# San Jose, Costa Rica, Central America
+
+
+# Washington DC, United States, North America.
+
+
+# Seattle WA, United States, North America.
+
+
+# Mumbai, India, Asia.
+
+
+# Bangkok, Thailand, Asia.
+
+
+# Istanbul, Turkey, Asia.
+
+
+# High Wycombe, England, Europe.
+
+
+# Lisbon, Portugal, Europe.
+
+
+# Lucerne, Switzerland, Europe.
+
+
+# Christchurch, New Zealand, Oceania.
 
 ```
 
@@ -269,6 +405,37 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 #### Relaychain
 
 ```shell
+# Lagos, Nigeria, Africa.
+
+
+# San Jose, Costa Rica, Central America
+
+
+# Washington DC, United States, North America.
+
+
+# Seattle WA, United States, North America.
+
+
+# Mumbai, India, Asia.
+
+
+# Bangkok, Thailand, Asia.
+
+
+# Istanbul, Turkey, Asia.
+
+
+# High Wycombe, England, Europe.
+
+
+# Lisbon, Portugal, Europe.
+
+
+# Lucerne, Switzerland, Europe.
+
+
+# Christchurch, New Zealand, Oceania.
 
 ```
 
@@ -295,6 +462,37 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 #### Relaychain
 
 ```shell
+# Lagos, Nigeria, Africa.
+
+
+# San Jose, Costa Rica, Central America
+
+
+# Washington DC, United States, North America.
+
+
+# Seattle WA, United States, North America.
+
+
+# Mumbai, India, Asia.
+
+
+# Bangkok, Thailand, Asia.
+
+
+# Istanbul, Turkey, Asia.
+
+
+# High Wycombe, England, Europe.
+
+
+# Lisbon, Portugal, Europe.
+
+
+# Lucerne, Switzerland, Europe.
+
+
+# Christchurch, New Zealand, Oceania.
 
 ```
 
