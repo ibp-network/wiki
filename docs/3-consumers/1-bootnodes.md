@@ -33,6 +33,7 @@ polkadot --no-hardware-benchmarks --no-mdns --chain polkadot.json --bootnodes "/
 ```
 
 Let us dive in the recommended command flags:
+
 - `--chain`: please use the modified chainspec files available at this [IBP Repository](https://github.com/ibp-network/config/tree/main/chain-spec) these are basically the same chainspecs of the original networks but the bootnodes' information has been removed.
 - `--bootnodes`: in here you specify the bootnode(s) you want to test.
 - `--no-hardware-benchmarks`: (optional) this may speed up the test execution by omitting the initial hardware checks.
@@ -67,11 +68,11 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 # San Jose, Costa Rica, Central America
 /dns/boot-cr.gatotech.network/tcp/33100/p2p/12D3KooWK4E16jKk9nRhvC4RfrDVgcZzExg8Q3Q2G7ABUUitks1w
 
+# Phoenix AZ, United States, North America.
+/dns/ibp-boot-polkadot.luckyfriday.io/tcp/30333/p2p/12D3KooWEjk6QXrZJ26fLpaajisJGHiz6WiQsR8k7mkM9GmWKnRZ
+
 # Washington DC, United States, North America.
 /dns/boot.stake.plus/tcp/30333/p2p/12D3KooWKT4ZHNxXH4icMjdrv7EwWBkfbz5duxE5sdJKKeWFYi5n
-
-# Seattle WA, United States, North America.
-/dns/ibp-boot-polkadot.luckyfriday.io/tcp/30333/p2p/12D3KooWEjk6QXrZJ26fLpaajisJGHiz6WiQsR8k7mkM9GmWKnRZ
 
 # Mumbai, India, Asia.
 /dns/polkadot-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWNwWNRrPrTk4qMah1YszudMjxNw2qag7Kunhw3Ghs9ea5
@@ -124,11 +125,11 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 # San Jose, Costa Rica, Central America
 /dns/boot-cr.gatotech.network/tcp/33200/p2p/12D3KooWRNZXf99BfzQDE1C8YhuBbuy7Sj18UEf7FNpD8egbURYD
 
+# Phoenix AZ, United States, North America.
+/dns/ibp-boot-kusama.luckyfriday.io/tcp/30333/p2p/12D3KooW9vu1GWHBuxyhm7rZgD3fhGZpNajPXFexadvhujWMgwfT
+
 # Washington DC, United States, North America.
 /dns/boot.stake.plus/tcp/31333/p2p/12D3KooWLa1UyG5xLPds2GbiRBCTJjpsVwRWHWN7Dff14yiNJRpR
-
-# Seattle WA, United States, North America.
-/dns/ibp-boot-kusama.luckyfriday.io/tcp/30333/p2p/12D3KooW9vu1GWHBuxyhm7rZgD3fhGZpNajPXFexadvhujWMgwfT
 
 # Mumbai, India, Asia.
 /dns/kusama-bootnode.radiumblock.com/tcp/30335/wss/p2p/12D3KooWGzKffWe7JSXeKMQeSQC5xfBafZtgBDCuBVxmwe2TJRuc
@@ -181,11 +182,11 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 # San Jose, Costa Rica, Central America
 /dns/boot-cr.gatotech.network/tcp/33300/p2p/12D3KooWQGR1vUhoy6mvQorFp3bZFn6NNezhQZ6NWnVV7tpFgoPd
 
+# Phoenix AZ, United States, North America.
+/dns/ibp-boot-westend.luckyfriday.io/tcp/30333/p2p/12D3KooWDg1YEytdwFFNWroFj6gio4YFsMB3miSbHKgdpJteUMB9
+
 # Washington DC, United States, North America.
 /dns/boot.stake.plus/tcp/32333/p2p/12D3KooWK8fjVoSvMq5copQYMsdYreSGPGgcMbGMgbMDPfpf3sm7
-
-# Seattle WA, United States, North America.
-/dns/ibp-boot-westend.luckyfriday.io/tcp/30333/p2p/12D3KooWDg1YEytdwFFNWroFj6gio4YFsMB3miSbHKgdpJteUMB9
 
 # Mumbai, India, Asia.
 /dns/westend-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWJBowJuX1TaWNWHt8Dz8z44BoCZunLCfFqxA2rLTn6TBD
@@ -238,10 +239,10 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 # San Jose, Costa Rica, Central America
 /dns/boot.gatotech.network/tcp/33400/p2p/12D3KooWEvz5Ygv3MhCUNTVQbUTVhzhvf4KKcNoe5M5YbVLPBeeW
 
+# Phoenix AZ, United States, North America.
+
+
 # Washington DC, United States, North America.
-
-
-# Seattle WA, United States, North America.
 
 
 # Mumbai, India, Asia.
@@ -297,10 +298,10 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 # San Jose, Costa Rica, Central America
 
 
+# Phoenix AZ, United States, North America.
+
+
 # Washington DC, United States, North America.
-
-
-# Seattle WA, United States, North America.
 
 
 # Mumbai, India, Asia.
@@ -354,10 +355,10 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 # San Jose, Costa Rica, Central America
 
 
+# Phoenix AZ, United States, North America.
+
+
 # Washington DC, United States, North America.
-
-
-# Seattle WA, United States, North America.
 
 
 # Mumbai, India, Asia.
@@ -411,10 +412,10 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 # San Jose, Costa Rica, Central America
 
 
+# Phoenix AZ, United States, North America.
+
+
 # Washington DC, United States, North America.
-
-
-# Seattle WA, United States, North America.
 
 
 # Mumbai, India, Asia.
@@ -468,10 +469,10 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 # San Jose, Costa Rica, Central America
 
 
+# Phoenix AZ, United States, North America.
+
+
 # Washington DC, United States, North America.
-
-
-# Seattle WA, United States, North America.
 
 
 # Mumbai, India, Asia.

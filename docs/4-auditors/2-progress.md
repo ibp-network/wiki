@@ -8,22 +8,22 @@ sidebar_position: 2
 
 ### Requirements for Milestone P1
 
-The Pull Request below belongs to the Parity Polkadot repository:
+The Pull Request below belongs to the relevant Github repositories:
 
-| Member       | Polkadot                                                     | Kusama                                                       | Westend                                                      |
-| ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Stake.Plus   | [6159](https://github.com/paritytech/polkadot/pull/6159)     | [6159](https://github.com/paritytech/polkadot/pull/6159)     | [6159](https://github.com/paritytech/polkadot/pull/6159)     |
-| Helikon      | [6240](https://github.com/paritytech/polkadot/pull/6240)     | [6240](https://github.com/paritytech/polkadot/pull/6240)     | [6240](https://github.com/paritytech/polkadot/pull/6240)     |
-| Amforc       | [6077](https://github.com/paritytech/polkadot/pull/6077)     | [6077](https://github.com/paritytech/polkadot/pull/6077)     | [6434](https://github.com/paritytech/polkadot/pull/6434)     |
-| Metaspan     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [6499](https://github.com/paritytech/polkadot/pull/6499)     |
-| Gatotech     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [6499](https://github.com/paritytech/polkadot/pull/6499)     |
-| Turboflakes  | [6628](https://github.com/paritytech/polkadot/pull/6628)     | [6628](https://github.com/paritytech/polkadot/pull/6628)     | [6628](https://github.com/paritytech/polkadot/pull/6628)     |
-| Dwellir      | [7097](https://github.com/paritytech/polkadot/pull/7097)     | [7097](https://github.com/paritytech/polkadot/pull/7097)     | [7097](https://github.com/paritytech/polkadot/pull/7097)     |
-| RadiumBlock  | [7519](https://github.com/paritytech/polkadot/pull/7519)     | [7519](https://github.com/paritytech/polkadot/pull/7519)     | [7519](https://github.com/paritytech/polkadot/pull/7519)     |
-| Rotko.net    | [1185](https://github.com/paritytech/polkadot-sdk/pull/1185) | [1185](https://github.com/paritytech/polkadot-sdk/pull/1185) | [1185](https://github.com/paritytech/polkadot-sdk/pull/1185) |
-| Polkadotters | [6476](https://github.com/paritytech/polkadot/pull/6476)     | [6476](https://github.com/paritytech/polkadot/pull/6476)     | [6476](https://github.com/paritytech/polkadot/pull/6476)     |
-| Lucky Friday | [2538](https://github.com/paritytech/polkadot-sdk/pull/2538) | [2538](https://github.com/paritytech/polkadot-sdk/pull/2538) | [2538](https://github.com/paritytech/polkadot-sdk/pull/2538) |
-| STKD         | pending                                                      | pending                                                      | pending                                                      |
+| Member       | Polkadot                                                     | Kusama                                                       | Westend                                                      | Paseo                                                   |
+| ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------- |
+| Stake.Plus   | [6159](https://github.com/paritytech/polkadot/pull/6159)     | [6159](https://github.com/paritytech/polkadot/pull/6159)     | [6159](https://github.com/paritytech/polkadot/pull/6159)     | pending                                                 |
+| Helikon      | [6240](https://github.com/paritytech/polkadot/pull/6240)     | [6240](https://github.com/paritytech/polkadot/pull/6240)     | [6240](https://github.com/paritytech/polkadot/pull/6240)     | [10](https://github.com/paseo-network/runtimes/pull/10) |
+| Amforc       | [6077](https://github.com/paritytech/polkadot/pull/6077)     | [6077](https://github.com/paritytech/polkadot/pull/6077)     | [6434](https://github.com/paritytech/polkadot/pull/6434)     | [6](https://github.com/paseo-network/runtimes/pull/6)   |
+| Metaspan     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [13](https://github.com/paseo-network/runtimes/pull/13) |
+| Gatotech     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [9](https://github.com/paseo-network/runtimes/pull/9)   |
+| Turboflakes  | [6628](https://github.com/paritytech/polkadot/pull/6628)     | [6628](https://github.com/paritytech/polkadot/pull/6628)     | [6628](https://github.com/paritytech/polkadot/pull/6628)     | [16](https://github.com/paseo-network/runtimes/pull/16) |
+| Dwellir      | [7097](https://github.com/paritytech/polkadot/pull/7097)     | [7097](https://github.com/paritytech/polkadot/pull/7097)     | [7097](https://github.com/paritytech/polkadot/pull/7097)     | [14](https://github.com/paseo-network/runtimes/pull/14) |
+| RadiumBlock  | [7519](https://github.com/paritytech/polkadot/pull/7519)     | [7519](https://github.com/paritytech/polkadot/pull/7519)     | [7519](https://github.com/paritytech/polkadot/pull/7519)     | [12](https://github.com/paseo-network/runtimes/pull/12) |
+| Rotko.net    | [1185](https://github.com/paritytech/polkadot-sdk/pull/1185) | [1185](https://github.com/paritytech/polkadot-sdk/pull/1185) | [1185](https://github.com/paritytech/polkadot-sdk/pull/1185) | [17](https://github.com/paseo-network/runtimes/pull/17) |
+| Polkadotters | [6476](https://github.com/paritytech/polkadot/pull/6476)     | [6476](https://github.com/paritytech/polkadot/pull/6476)     | [6476](https://github.com/paritytech/polkadot/pull/6476)     | pending                                                 |
+| Lucky Friday | [2538](https://github.com/paritytech/polkadot-sdk/pull/2538) | [2538](https://github.com/paritytech/polkadot-sdk/pull/2538) | [2538](https://github.com/paritytech/polkadot-sdk/pull/2538) | pending                                                 |
+| STKD         | pending                                                      | pending                                                      | pending                                                      | pending                                                 |
 
 ### Requirements for Milestone P2
 
@@ -41,7 +41,7 @@ The following is the result of the candidates interview and status of the creden
 | RadiumBlock  | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
 | Polkadotters | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
 | Rotko.net    | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
-| Lucky Friday | :grey_question:     | :grey_question:      | :grey_question:    | :grey_question:    | :grey_question:      | :grey_question:      | :grey_question:    |
+| Lucky Friday | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
 | STKD         | :grey_question:     | :grey_question:      | :grey_question:    | :grey_question:    | :grey_question:      | :grey_question:      | :grey_question:    |
 
 ### Requirements for Milestone P3
@@ -57,24 +57,24 @@ For this milestone, there is some preliminary work to be done by the members in 
 
 The rest of the members of the Infrastructure Builders' Programme must report their services to the monitoring system so the endpoint administrators add their locations to the applicable geographic territories, members can only be added when they are providing services (at least 1 backend server) in each and every of these networks:
 
-| Member       | Region                | Polkadot | Kusama | Westend |
-| ------------ | --------------------- | -------- | ------ | ------- |
-| Stake.plus   | North America (US-DC) | 2        | 2      | 2       |
-| Helikon      | Middle East (TR)      | 2        | 2      | 2       |
-| Amforc       | Europe (CH)           | 2        | 2      | 2       |
-| Metaspan     | Europe (GB)           | 2        | 2      | 2       |
-| Gatotech     | Central America (CR)  | 2        | 2      | 2       |
-| Turboflakes  | Europe (PT)           | 2        | 2      | 2       |
-| Dwellir      | Africa (NG)           | 2        | 2      | 2       |
-| RadiumBlock  | Asia (IN)             | 2        | 2      | 2       |
-| Polkadotters | Oceania (NZ)          | -        | -      | -       |
-| Rotko.net    | Asia (TH)             | 2        | 2      | 2       |
-| Lucky Friday | North America (WA)    | -        | -      | -       |
-| STKD         | South America (?)     | -        | -      | -       |
+| Member       | Region                | Polkadot | Kusama | Westend | Paseo |
+| ------------ | --------------------- | -------- | ------ | ------- | ----- |
+| Stake.plus   | North America (US-DC) | 2        | 2      | 2       | -     |
+| Helikon      | Middle East (TR)      | 2        | 2      | 2       | 2     |
+| Amforc       | Europe (CH)           | 2        | 2      | 2       | 2     |
+| Metaspan     | Europe (GB)           | 2        | 2      | 2       | 2     |
+| Gatotech     | Central America (CR)  | 2        | 2      | 2       | 2     |
+| Turboflakes  | Europe (PT)           | 2        | 2      | 2       | 2     |
+| Dwellir      | Africa (NG)           | 2        | 2      | 2       | 2     |
+| RadiumBlock  | Asia (IN)             | 2        | 2      | 2       | 2     |
+| Polkadotters | Oceania (NZ)          | -        | -      | -       | -     |
+| Rotko.net    | Asia (TH)             | 2        | 2      | 2       | -     |
+| Lucky Friday | North America (US-AZ) | 2        | 2      | 2       | -     |
+| STKD         | South America (?)     | -        | -      | -       | -     |
 
 ### Requirements for Milestone P4
 
-The Pull requests below belongs to the Parity Cumulus repository:
+The Pull requests below belongs to the relevant Github repositories:
 
 For **Polkadot**'s system parachains:
 

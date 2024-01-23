@@ -57,23 +57,26 @@ The current advisors are:
 - Aperture
 - Dozenodes
 - MathCrypto
-- STKD
 - Paranodes
 
 ### Professional Members
 
-| ID           | Region          |
-| ------------ | --------------- |
-| Stake.Plus   | North America   |
-| Helikon      | Middle East     |
-| Amforc       | Europe          |
-| Metaspan     | Europe          |
-| Gatotech     | Central America |
-| Turboflakes  | Europe          |
-| Dwellir      | Africa          |
-| RadiumBlock  | Asia            |
-| Polkadotters | Oceania         |
-| Rotko        | Asia            |
+| ID           | Region                |
+| ------------ | --------------------- |
+| Dwellir      | Africa (West)         |
+| StakePlus    | America (North East)  |
+| LuckyFriday  | America (North West)  |
+| Gatotech     | America (Central)     |
+| STKD         | America (South)*      |
+| Helikon      | Asia (West)           |
+| RadiumBlock  | Asia (South)          |
+| Rotko        | Asia (South East)     |
+| Amforc       | Europe (Central)      |
+| Metaspan     | Europe (West)         |
+| Turboflakes  | Europe (South)        |
+| Polkadotters | Oceania (Australasia) |
+
+(*) pending deployment.
 
 ## Meetings
 
