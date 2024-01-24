@@ -19,7 +19,7 @@ The Pull Request below belongs to the relevant Github repositories:
 | Gatotech     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [9](https://github.com/paseo-network/runtimes/pull/9)   |
 | Turboflakes  | [6628](https://github.com/paritytech/polkadot/pull/6628)     | [6628](https://github.com/paritytech/polkadot/pull/6628)     | [6628](https://github.com/paritytech/polkadot/pull/6628)     | [16](https://github.com/paseo-network/runtimes/pull/16) |
 | Dwellir      | [7097](https://github.com/paritytech/polkadot/pull/7097)     | [7097](https://github.com/paritytech/polkadot/pull/7097)     | [7097](https://github.com/paritytech/polkadot/pull/7097)     | [14](https://github.com/paseo-network/runtimes/pull/14) |
-| RadiumBlock  | [7519](https://github.com/paritytech/polkadot/pull/7519)     | [7519](https://github.com/paritytech/polkadot/pull/7519)     | [7519](https://github.com/paritytech/polkadot/pull/7519)     | [12](https://github.com/paseo-network/runtimes/pull/12) |
+| RadiumBlock  | [7519](https://github.com/paritytech/polkadot/pull/7519)     | [7519](https://github.com/paritytech/polkadot/pull/7519)     | [7519](https://github.com/paritytech/polkadot/pull/7519)     | [15](https://github.com/paseo-network/runtimes/pull/15) |
 | Rotko.net    | [1185](https://github.com/paritytech/polkadot-sdk/pull/1185) | [1185](https://github.com/paritytech/polkadot-sdk/pull/1185) | [1185](https://github.com/paritytech/polkadot-sdk/pull/1185) | [17](https://github.com/paseo-network/runtimes/pull/17) |
 | Polkadotters | [6476](https://github.com/paritytech/polkadot/pull/6476)     | [6476](https://github.com/paritytech/polkadot/pull/6476)     | [6476](https://github.com/paritytech/polkadot/pull/6476)     | pending                                                 |
 | Lucky Friday | [2538](https://github.com/paritytech/polkadot-sdk/pull/2538) | [2538](https://github.com/paritytech/polkadot-sdk/pull/2538) | [2538](https://github.com/paritytech/polkadot-sdk/pull/2538) | pending                                                 |
@@ -59,7 +59,7 @@ The rest of the members of the Infrastructure Builders' Programme must report th
 
 | Member       | Region                | Polkadot | Kusama | Westend | Paseo |
 | ------------ | --------------------- | -------- | ------ | ------- | ----- |
-| Stake.plus   | North America (US-DC) | 2        | 2      | 2       | -     |
+| Stake.plus   | North America (US-DC) | 2        | 2      | 2       | 2     |
 | Helikon      | Middle East (TR)      | 2        | 2      | 2       | 2     |
 | Amforc       | Europe (CH)           | 2        | 2      | 2       | 2     |
 | Metaspan     | Europe (GB)           | 2        | 2      | 2       | 2     |
