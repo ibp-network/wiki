@@ -10,16 +10,18 @@ Operators chosen for the Infrastructure Builders' Programme would lease rack spa
 
 More details are available in the documentation below:
 
-- Proposal's [Document](https://docs.google.com/document/d/16USQYVhlyAlrU829EUB2TRoqUC0nnfoS_uCdZ84HT8k).
-- Kusama's [Referenda 35](https://kusama.polkassembly.io/referenda/35).
+| No. | Date          | Governance | Proposal                                                        | Full Document                                                                                                                                       |
+| --- | ------------- | ---------- | --------------------------------------------------------------- |
+| 1   | November 2022 | Kusama     | [Referenda 35](https://kusama.polkassembly.io/referenda/35)     | [Infrastructure Builders Program](https://docs.google.com/document/d/16USQYVhlyAlrU829EUB2TRoqUC0nnfoS_uCdZ84HT8k)                                  |
+| 2   | April 2024    | Polkadot   | [Referenda 649](https://polkadot.polkassembly.io/referenda/649) | [Decentralized Infrastructure Services for the Polkadot Ecosystem](https://docs.google.com/document/d/1WENGgO1KwJKkLJ_c6AGxRkLtOhhAjd4OW1v_yWaEUqY) |
 
 :::info
-These documents are historical and some administrative and technical aspects (e.g. stage numbering and scope, High availability requirements, etc) may have changed, please refer to the information in this wiki to have the updated version of these concepts
+Some of these documents are historical and some administrative and technical aspects (e.g. stage numbering and scope, High availability requirements, etc) may have changed, please refer to the information in this wiki to have the updated version of these concepts
 :::
 
 ## Bounty Management
 
-The programme was initially funded by a bounty of the Kusama treasury, it will be maintained in the future with funding from both Polkadot and Kusama bounties.
+As shown above, the programme was initially funded by a bounty of the Kusama treasury, and it will be maintained in the future with funding from both Polkadot and Kusama bounties.
 
 The bounties are managed by their relevant curators via a 3/5 multi-sig account.
 
@@ -54,29 +56,32 @@ The current advisors are:
 
 ### Hobbyist Members
 
-- Aperture
-- Dozenodes
-- MathCrypto
-- Paranodes
+- [Aperture](https://aperturemining.com/)
+- [Dozenodes](https://www.dozenodes.com/)
+- [MathCrypto](https://www.math-crypto.com/)
+- [Paranodes](https://paranodes.io/)
+- [STKD](https://stkd.io/) *
+
+(*): pending migration to Professional track
 
 ### Professional Members
 
-| ID           | Region                |
-| ------------ | --------------------- |
-| Dwellir      | Africa (West)         |
-| StakePlus    | America (North East)  |
-| LuckyFriday  | America (North West)  |
-| Gatotech     | America (Central)     |
-| STKD         | America (South)*      |
-| Helikon      | Asia (West)           |
-| RadiumBlock  | Asia (South)          |
-| Rotko        | Asia (South East)     |
-| Amforc       | Europe (Central)      |
-| Metaspan     | Europe (West)         |
-| Turboflakes  | Europe (South)        |
-| Polkadotters | Oceania (Australasia) |
+| ID                                         | Region                |
+| ------------------------------------------ | --------------------- |
+| [Dwellir](https://www.dwellir.com/)        | Africa (West)         |
+| [StakePlus](https://stake.plus/)           | America (North East)  |
+| [LuckyFriday](https://luckyfriday.io/)     | America (North West)  |
+| [Gatotech](https://gatotech.uk/)           | America (Central)     |
+| [STKD](https://stkd.io/)                   | America (South)*      |
+| [Helikon](https://helikon.io/)             | Asia (West)           |
+| [RadiumBlock](https://radiumblock.com/)    | Asia (South)          |
+| [Rotko](https://rotko.net/)                | Asia (South East)     |
+| [Amforc](https://amforc.com/)              | Europe (Central)      |
+| [Metaspan](https://metaspan.io/)           | Europe (West)         |
+| [Turboflakes](https://www.turboflakes.io/) | Europe (South)        |
+| [Polkadotters](https://polkadotters.com/)  | Oceania (Australasia) |
 
-(*) pending deployment.
+(*): pending deployment.
 
 ## Meetings
 
@@ -84,4 +89,4 @@ All meetings are recorded, and posted to the [IBP Youtube Channel](https://www.y
 
 ## Announcements
 
-- Progress reports: TBC, the Curators will decide on the regularity of reporting - either monthly or quarterly.
+Progress reports: TBC, the Curators will decide on the regularity of reporting - either monthly or quarterly.
