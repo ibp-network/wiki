@@ -11,7 +11,7 @@ Operators chosen for the Infrastructure Builders' Programme would lease rack spa
 More details are available in the documentation below:
 
 | No. | Date          | Governance | Proposal                                                        | Full Document                                                                                                                                       |
-| --- | ------------- | ---------- | --------------------------------------------------------------- |
+| --- | ------------- | ---------- | --------------------------------------------------------------- |---|
 | 1   | November 2022 | Kusama     | [Referenda 35](https://kusama.polkassembly.io/referenda/35)     | [Infrastructure Builders Program](https://docs.google.com/document/d/16USQYVhlyAlrU829EUB2TRoqUC0nnfoS_uCdZ84HT8k)                                  |
 | 2   | April 2024    | Polkadot   | [Referenda 649](https://polkadot.polkassembly.io/referenda/649) | [Decentralized Infrastructure Services for the Polkadot Ecosystem](https://docs.google.com/document/d/1WENGgO1KwJKkLJ_c6AGxRkLtOhhAjd4OW1v_yWaEUqY) |
 
