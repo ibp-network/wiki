@@ -6,7 +6,7 @@ sidebar_position: 1
 
 A bootnode is a regular network node used to discover other nodes.
 
-Most of the time the bootnodes' mechanisms are already included in the network's chain specification file, and the end users do not concern about those details.
+Most of the time the bootnodes' mechanisms are already included in the relevant network's chain specification file, and the end users do not need to concern about those details.
 
 However, you can also manually specify additional bootnodes via the command line interface (CLI) for most Substrate-based networks, like that:
 
@@ -18,42 +18,20 @@ However, you can also manually specify additional bootnodes via the command line
 polkadot --bootnodes "/dns/boot.gatotech.network/tcp/33100/p2p/12D3KooWK4E16jKk9nRhvC4RfrDVgcZzExg8Q3Q2G7ABUUitks1w"
 ```
 
+::: info
 The `<MULTIADDR>` argument can hold one or more bootnodes' [multiaddresses](https://docs.libp2p.io/concepts/fundamentals/addressing/) separated by spaces.
-
-## Testing a bootnode
-
-For all bootnodes listed in this document, you can quickly test if it is working by using the below generic command (adjust according to your chain)
-
-```shell
-# Testing a bootnode
-<BINARY> --chain <CHAIN> --bootnodes <MULTIADDR>
-
-# This is only an example
-polkadot --no-hardware-benchmarks --no-mdns --chain polkadot.json --bootnodes "/dns/boot.gatotech.network/tcp/33100/p2p/12D3KooWK4E16jKk9nRhvC4RfrDVgcZzExg8Q3Q2G7ABUUitks1w"
-```
-
-Let us dive in the recommended command flags:
-
-- `--chain`: please use the modified chainspec files available at this [IBP Repository](https://github.com/ibp-network/config/tree/main/chain-spec) these are basically the same chainspecs of the original networks but the bootnodes' information has been removed.
-- `--bootnodes`: in here you specify the bootnode(s) you want to test.
-- `--no-hardware-benchmarks`: (optional) this may speed up the test execution by omitting the initial hardware checks.
-- `--no-mdns`: (optional) this could also help mitigating the search of peers in the local network so focus is on the remote bootnode only.
-
-:::info
-There was a previous methodology, used historically to test bootnodes, that leveraged on the flags `--reserved-only` and `--reserved-nodes`. The IBP has decided that such methodology failed to test the core function of a bootnode and recommends the correct test indicated above.
 :::
 
 ## Endpoint flavours
 
-All bootnodes from the Infrastructure Builders' Programme are available in at least two different mandatory connection alternatives, and most members also including a third one in case there is use for that in the served community:
+All bootnodes from the Infrastructure Builders' Programme are available in at least two different mandatory connection alternatives:
 
-- **TCP over P2P**: basic transport protocol (TCP) allowing the connection between peers (P2P). This is the standard connectivity that is established among almost all nodes in the network, so it is only right that all IBP members provide an endpoint for this protocol.
-- **WS over P2P**:  Websocket-encapsulated in TCP over the P2P network is a intermediate step towards the following alternative, however, little use-cases has been identified for this alternative (it is useful for testing and troubleshooting, though :wink:).
+- **TCP over P2P**: basic Transmission Control Protocol (TCP) allowing the connection between peers (P2P). This is the standard connectivity that is established among almost all nodes in the network, so it is only right that all IBP members provide an endpoint for this protocol.
 - **WSS over P2P**: Secured Websocket over the P2P network is the alternative used by all light-client nodes in the substrate chains, so this is the second endpoint that all IBP members provide to the community.
 
-## TCP Endpoints
+## TCP over P2P
 
-This is the default protocol used to connect nodes nodes directly to other nodes of the network via a TCP (Transmission Control Protocol) connection, so it is the one preferred when a new node (e.g. a validator) is deployed.
+This is the default protocol that nodes use to connect directly to other nodes of the network, so it is the one preferred when a new node (e.g. a validator) is deployed.
 
 The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Programme are:
 
@@ -74,11 +52,14 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 # Washington DC, United States, North America.
 /dns/boot.stake.plus/tcp/30333/p2p/12D3KooWKT4ZHNxXH4icMjdrv7EwWBkfbz5duxE5sdJKKeWFYi5n
 
+# Santiago, Chile, South America
+#pending 
+
 # Mumbai, India, Asia.
 /dns/polkadot-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWNwWNRrPrTk4qMah1YszudMjxNw2qag7Kunhw3Ghs9ea5
 
 # Bangkok, Thailand, Asia.
-/dns/dot14.rotko.net/tcp/35214/wss/p2p/12D3KooWPyEvPEXghnMC67Gff6PuZiSvfx3fmziKiPZcGStZ5xff
+/dns/dot14.rotko.net/tcp/33214/p2p/12D3KooWPyEvPEXghnMC67Gff6PuZiSvfx3fmziKiPZcGStZ5xff
 
 # Istanbul, Turkey, Asia.
 /dns/boot-node.helikon.io/tcp/7070/p2p/12D3KooWS9ZcvRxyzrSf6p63QfTCWs12nLoNKhGux865crgxVA4H
@@ -95,6 +76,10 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 # Christchurch, New Zealand, Oceania.
 /dns/polkadot-bootnode.polkadotters.com/tcp/30333/p2p/12D3KooWPAVUgBaBk6n8SztLrMk8ESByncbAfRKUdxY1nygb9zG3
 ```
+
+<!---
+20240422 Polkadotters DOT bootnode failed to function, waiting for reply
+-->
 
 #### AssetHub
 
@@ -514,3 +499,26 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 ```shell
 
 ```
+
+## Testing a bootnode
+
+For all bootnodes listed in this document, you can quickly test if it is working by using the below generic command (adjust according to your chain)
+
+```shell
+# Testing a bootnode
+<BINARY> --chain <CHAIN> --bootnodes <MULTIADDR>
+
+# This is only an example
+polkadot --no-hardware-benchmarks --no-mdns --chain polkadot.json --bootnodes "/dns/boot.gatotech.network/tcp/33100/p2p/12D3KooWK4E16jKk9nRhvC4RfrDVgcZzExg8Q3Q2G7ABUUitks1w"
+```
+
+Let us dive in the recommended command flags:
+
+- `--chain`: please use the modified chainspec files available at this [IBP Repository](https://github.com/ibp-network/config/tree/main/chain-spec) these are basically the same chainspecs of the original networks but the bootnodes' information has been removed.
+- `--bootnodes`: in here you specify the bootnode(s) you want to test.
+- `--no-hardware-benchmarks`: (optional) this may speed up the test execution by omitting the initial hardware checks.
+- `--no-mdns`: (optional) this could also help mitigating the search of peers in the local network so focus is on the remote bootnode only.
+
+:::info
+There was a previous methodology, used historically to test bootnodes, that leveraged on the flags `--reserved-only` and `--reserved-nodes`. The IBP has decided that such methodology failed to test the core function of a bootnode and recommends the correct test indicated above.
+:::
