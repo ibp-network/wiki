@@ -39,7 +39,7 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 
 #### Relaychain
 
-```shell
+``` shell
 # Lagos, Nigeria, Africa.
 /dns/polkadot-boot-ng.dwellir.com/tcp/30336/p2p/12D3KooWFFqjBKoSdQniRpw1Y8W6kkV7takWv1DU2ZMkaA81PYVq
 
@@ -78,14 +78,55 @@ The p2p TCP multiaddresses of the bootnodes from the Infrastructure Builder's Pr
 ```
 
 <!---
+20240422 Last audited 22 APR 2024
 20240422 Polkadotters DOT bootnode failed to function, waiting for reply
 -->
 
 #### AssetHub
 
-```shell
+``` shell
+# Lagos, Nigeria, Africa.
+/dns/statemint-boot-ng.dwellir.com/tcp/30344/p2p/12D3KooWEFrNuNk8fPdQS2hf34Gmqi6dGSvrETshGJUrqrvfRDZr
 
+# San Jose, Costa Rica, Central America
+/dns/boot.gatotech.network/tcp/33110/p2p/12D3KooWKgwQfAeDoJARdtxFNNWfbYmcu6s4yUuSifnNoDgzHZgm
+
+# Phoenix AZ, United States, North America.
+#pending
+
+# Washington DC, United States, North America.
+/dns/boot.stake.plus/tcp/35333/p2p/12D3KooWFrQjYaPZSSLLxEVmoaHFcrF6VoY4awG4KRSLaqy3JCdQ
+
+# Santiago, Chile, South America
+#pending 
+
+# Mumbai, India, Asia.
+/dns/statemint-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWLKxHom7f3XawRJqrF8RwiKK5Sj3qZqz5c7hF6eJeXhTx
+
+# Bangkok, Thailand, Asia.
+/dns/mint14.rotko.net/tcp/33514/p2p/12D3KooWKkzLjYF6M5eEs7nYiqEtRqY8SGVouoCwo3nCWsRnThDW
+
+# Istanbul, Turkey, Asia.
+/dns/boot-node.helikon.io/tcp/10220/p2p/12D3KooW9uybhguhDjVJc3U3kgZC3i8rWmAnSpbnJkmuR7C6ZsRW
+
+# High Wycombe, England, Europe.
+/dns/boot.metaspan.io/tcp/16052/p2p/12D3KooWLwiJuvqQUB4kYaSjLenFKH9dWZhGZ4qi7pSb3sUYU651
+
+# Lisbon, Portugal, Europe.
+/dns/statemint-bootnode.turboflakes.io/tcp/30315/p2p/12D3KooWL8CyLww3m3pRySQGGYGNJhWDMqko3j5xi67ckP7hDUvo
+
+# Lucerne, Switzerland, Europe.
+/dns/statemint.bootnode.amforc.com/tcp/30341/p2p/12D3KooWByohP9FXn7ao8syS167qJsbFdpa7fY2Y24xbKtt3r7Ls
+
+# Christchurch, New Zealand, Oceania.
+/dns/asset-hub-polkadot.bootnodes.polkadotters.com/tcp/30508/p2p/12D3KooWKbfY9a9oywxMJKiALmt7yhrdQkjXMtvxhhDDN23vG93R
 ```
+
+<!---
+20240426 Last audited 26 APR 2024.
+20240426 LuckyFriday bootnode p2p endpoint missing, waiting reply.
+20240426 Polkadotters bootnode failed, waiting reply.
+-->
 
 #### BridgeHub
 
