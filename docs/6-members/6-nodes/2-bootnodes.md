@@ -177,9 +177,83 @@ You will obtain a result like the one below, take note of the code, which is the
 2023-05-25 23:14:13 🏷  Local node identity is: 12D3KooWK4Esdsg3xxC4RfrDVgcZzExg8Q3Q2G7ABUUitks1w
 ```
 
+### Build your bootnode's multiaddress
+
+Now it is important that you know how to connect all pieces of information regarding your bootnode so it can be correctly communicated in the network and configured during operations.
+
+The convention we use to build this path structure is called a [multiaddresses](https://docs.libp2p.io/concepts/fundamentals/addressing/) and we are only using a very specific case of this standard.
+
+Again, you need at least two (2x) endpoints for your bootnode, one for TCP connections and one for WSS connections, these two were already introduced in the flag `--public-addr` inside the bootnode's service file [here](#configure-bootnode-service) and now we complement it with the `networkid` obtained in the previous step above:
+
+1. for TCP connections:
+
+```shell
+# Structure
+/dns/mybootnode.mydomain.tld/tcp/port/p2p/networkid
+
+# Example
+/dns/mybootnode.mydomain.tld/tcp/30333/p2p/12D3KooWK4Esdsg3xxC4RfrDVgcZzExg8Q3Q2G7ABUUitks1w
+```
+
+2. for WSS connections:
+
+```shell
+# Structure
+/dns/mybootnode.mydomain.tld/tcp/port/wss/p2p/networkid
+
+# Example
+/dns/mybootnode.mydomain.tld/tcp/30335/wss/p2p/12D3KooWK4Esdsg3xxC4RfrDVgcZzExg8Q3Q2G7ABUUitks1w
+```
+
 ## Test your Bootnode
 
-In order to test your bootnode, you will need the `networkid` recovered in the previous title.
+In order to test your bootnode, you will need:
+
+1. the target multiaddress of your bootnode
+   - see previous subtitle [here](#build-your-bootnodes-multiaddress).
+2. a cleaned-up version of the appropriate chain specification.
+   - all chainspec files used by the IBP are available [here](https://github.com/ibp-network/config/tree/main/chain-spec).
+   - these versions are created by deleting bootnodes from the official repositories listed [here](https://github.com/ibp-network/config/blob/main/chain-spec/README.md)
+3. a test machine where you can run the executable binary.
+   - remember to use the adequate binary for the relevant chainspecs. 
+
+The testing procedure is relatively simple and it utilises the CLI flag `--bootnodes` to pass the target multiaddress to the executable:
+
+```shell
+# Testing a bootnode
+<BINARY> --chain <CHAINSPEC> --bootnodes <MULTIADDR>
+
+# This is only an example with additional recommended flags
+polkadot --no-hardware-benchmarks --no-mdns --chain polkadot.json --bootnodes "/dns/mybootnode.mydomain.tld/tcp/30333/p2p/12D3KooWK4Esdsg3xxC4RfrDVgcZzExg8Q3Q2G7ABUUitks1w"
+```
+
+Let us dive in the recommended command flags:
+
+- `--chain`: please input the full path of your chainspec file.
+- `--bootnodes`: in here you specify the multiaddress of the target bootnode you want to test.
+- `--no-hardware-benchmarks`: (optional) this may speed up the test execution by omitting the initial hardware checks.
+- `--no-mdns`: (optional) this could also help mitigating the search of peers in the local network.
+
+After executing such a command, you should see an output like the one below is the bootnode wat set correctly:
+
+```shell
+(...)
+2024-04-26 00:14:10 ⚙️  Syncing, target=#20504263 (6 peers), best: #151731 (0x1a15…be74), finalized #151552 (0xfce1…5cbb), ⬇ 351.9kiB/s ⬆ 18.6kiB/s
+2024-04-26 00:14:15 ⚙️  Syncing 589.0 bps, target=#20504264 (6 peers), best: #154678 (0x04fa…5a19), finalized #154624 (0x4043…1ff4), ⬇ 226.9kiB/s ⬆ 2.8kiB/s
+2024-04-26 00:14:20 ⚙️  Syncing 580.6 bps, target=#20504265 (6 peers), best: #157581 (0xff28…2ade), finalized #157184 (0x365d…5cc7), ⬇ 251.0kiB/s ⬆ 21.6kiB/s
+2024-04-26 00:14:25 ⚙️  Syncing 577.4 bps, target=#20504266 (8 peers), best: #160468 (0x9a9a…13d8), finalized #160256 (0x8154…1770), ⬇ 361.2kiB/s ⬆ 5.8kiB/s
+2024-04-26 00:14:40 ⚙️  Syncing 574.6 bps, target=#20504267 (9 peers), best: #169145 (0xd3cd…bdea), finalized #168960 (0x9fe9…e507), ⬇ 319.9kiB/s ⬆ 17.3kiB/s
+(...)
+```
+
+Please note how the quantity of peers increments, indicating that the node is successfully finding additional nodes to continue with their synchronisation of blocks. This is the expected result!
+
+
+### Old test procedure --Not recommended--
+
+:::warning
+This is a superseded methodology that was used historically to test bootnodes, it leveraged on the flags `--reserved-only` and `--reserved-nodes`. The IBP has decided that such methodology failed to test the core function of a bootnode and therefore recommends the correct test indicated above.
+:::
 
 Now you will need access to another machine, and right there on your home directory you can try:
 
@@ -213,7 +287,7 @@ In case that everything went well, after a while you will start to see, for each
 The new node is syncing, there is one (01) peer connected, and the `finalized block` is increasing, the bootnode connection was successful! :tada:
 
 :::info
-This method, although effective, is under revision due to its deviation from a pure bootnode's perspective (note that the new node connects to the bootnode and start syncing the chain against that bootnode, but it really does not allow to discover more nodes).
+This method, although somehow effective, is discouraged due to its deviation from a pure bootnode's perspective (note that the new node connects to the bootnode and start syncing the chain against that single bootnode's connection, but it really does not allow to discover more nodes).
 :::
 
 ## Back up your network key
