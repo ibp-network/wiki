@@ -72,10 +72,10 @@ WantedBy=multi-user.target
 
 Note that this service file makes use of the following flags:
 
-- `--state-pruning` and `--block-pruning` must both be set to *`archive`* for the node to be able so store the whole blockchain and serve historical information right from the genesis block.
+- `--state-pruning` and `--block-pruning` must both be set to _`archive`_ for the node to be able so store the whole blockchain and serve historical information right from the genesis block.
 - `--listen-addr`: to open the relevant p2p ports in the node, here we have created four instances: both IPv4 & IPv6 and both vanilla http & websocket endpoints.
 - `--public-addr`: these are the addresses that the node will advertise to the network, note that they are not indicated in terms of IPv6 or IPv4 but in DNS addresses instead.
-- `--max-runtime-instances` set to `256` and `--runtime-cache-size` set to `64` will prevent the *`Ran out of free WASM instances`* error message occurring under load in the Polkadot and Kusama networks.
+- `--max-runtime-instances` set to `256` and `--runtime-cache-size` set to `64` will prevent the _`Ran out of free WASM instances`_ error message occurring under load in the Polkadot and Kusama networks.
 - The rest of the flags are there for convenience and performance.
 
 ## Configure HAProxy Service
@@ -160,7 +160,7 @@ frontend relaychains-frontend
    timeout client 300s
 
    # Web sockets
-   acl wss hdr(Upgrade) -i websocket 
+   acl wss hdr(Upgrade) -i websocket
 
    # Relay chains
    acl polkadot path_beg -i /polkadot
@@ -190,6 +190,9 @@ frontend relaychains-frontend
 backend polkadot-rpc-backend
    mode http
    balance leastconn
+   http-check connect port 9933 # check the rpc for node health
+   http-check send meth GET uri /health/readiness
+   http-check expect status 200
    server polkadot-rpc-1 10.50.50.110:10000 check inter 2s maxconn 40
    server polkadot-rpc-2 10.50.50.111:11000 check inter 2s maxconn 40
    server polkadot-rpc-3 10.50.50.112:12000 check inter 2s maxconn 40
@@ -198,6 +201,10 @@ backend polkadot-rpc-backend
 backend polkadot-wss-backend
    mode http
    balance leastconn
+   option httpchk
+   http-check connect port 9933 # check the rpc for node health
+   http-check send meth GET uri /health/readiness
+   http-check expect status 200
    server polkadot-rpc-1 10.50.50.110:10001 check inter 2s maxconn 40
    server polkadot-rpc-2 10.50.50.111:11001 check inter 2s maxconn 40
    server polkadot-rpc-3 10.50.50.112:12001 check inter 2s maxconn 40
@@ -206,6 +213,10 @@ backend polkadot-wss-backend
 backend kusama-rpc-backend
    mode http
    balance leastconn
+   option httpchk
+   http-check connect port 9933 # check the rpc for node health
+   http-check send meth GET uri /health/readiness
+   http-check expect status 200
    server kusama-rpc-1 10.50.50.120:10000 check inter 2s maxconn 40
    server kusama-rpc-2 10.50.50.121:11000 check inter 2s maxconn 40
    server kusama-rpc-3 10.50.50.122:12000 check inter 2s maxconn 40
@@ -214,6 +225,10 @@ backend kusama-rpc-backend
 backend kusama-wss-backend
    mode http
    balance leastconn
+   option httpchk
+   http-check connect port 9933 # check the rpc for node health
+   http-check send meth GET uri /health/readiness
+   http-check expect status 200
    server kusama-rpc-1 10.50.50.120:10001 check inter 2s maxconn 40
    server kusama-rpc-2 10.50.50.121:11001 check inter 2s maxconn 40
    server kusama-rpc-3 10.50.50.122:12001 check inter 2s maxconn 40
@@ -222,43 +237,75 @@ backend kusama-wss-backend
 backend westend-rpc-backend
    mode http
    balance leastconn
+   option httpchk
+   http-check connect port 9933 # check the rpc for node health
+   http-check send meth GET uri /health/readiness
+   http-check expect status 200
    server westend-rpc-1 10.50.50.130:10000 check inter 2s maxconn 40
    server westend-rpc-2 10.50.50.131:11000 check inter 2s maxconn 40
 
 backend westend-wss-backend
    mode http
    balance leastconn
+   option httpchk
+   http-check connect port 9933 # check the rpc for node health
+   http-check send meth GET uri /health/readiness
+   http-check expect status 200
    server westend-rpc-1 10.50.50.130:10001 check inter 2s maxconn 40
    server westend-rpc-2 10.50.50.131:11001 check inter 2s maxconn 40
 
 backend westmint-rpc-backend
    mode http
    balance leastconn
+   option httpchk
+   http-check connect port 9933 # check the rpc for node health
+   http-check send meth GET uri /health/readiness
+   http-check expect status 200
    server westmint-rpc-1 10.50.50.140:10000 check inter 2s maxconn 40
 
 backend westmint-wss-backend
    mode http
    balance leastconn
+   option httpchk
+   http-check connect port 9933 # check the rpc for node health
+   http-check send meth GET uri /health/readiness
+   http-check expect status 200
    server westmint-rpc-1 10.50.50.140:10001 check inter 2s maxconn 40
 
 backend statemine-rpc-backend
    mode http
    balance leastconn
+   option httpchk
+   http-check connect port 9933 # check the rpc for node health
+   http-check send meth GET uri /health/readiness
+   http-check expect status 200
    server statemine-rpc-1 10.50.50.150:10000 check inter 2s maxconn 40
 
 backend statemine-wss-backend
    mode http
    balance leastconn
+   option httpchk
+   http-check connect port 9933 # check the rpc for node health
+   http-check send meth GET uri /health/readiness
+   http-check expect status 200
    server statemine-rpc-1 10.50.50.150:10001 check inter 2s maxconn 40
 
 backend statemint-rpc-backend
    mode http
    balance leastconn
+   option httpchk
+   http-check connect port 9933 # check the rpc for node health
+   http-check send meth GET uri /health/readiness
+   http-check expect status 200
    server statemint-rpc-1 10.50.50.160:10000 check inter 2s maxconn 40
 
 backend statemint-wss-backend
    mode http
    balance leastconn
+   option httpchk
+   http-check connect port 9933 # check the rpc for node health
+   http-check send meth GET uri /health/readiness
+   http-check expect status 200
    server statemint-rpc-1 10.50.50.160:10001 check inter 2s maxconn 40
 
 ####
