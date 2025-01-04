@@ -149,6 +149,27 @@ defaults
 
 ####
 #
+# PROMETHEUS CONFIGURATION
+#
+####
+frontend prometheus
+   bind *:8405
+   mode http
+   http-request use-service prometheus-exporter if { path /metrics }
+   no log
+
+####
+#
+# HEALTH CHECK CONFIGURATION
+#
+####
+frontend http_health_check
+   bind 0.0.0.0:60001 # this needs to be a unique port.
+   mode http
+   monitor-uri /health
+
+####
+#
 # RELAYCHAIN CONFIGURATIONS
 #
 ####
