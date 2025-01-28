@@ -7,6 +7,8 @@ tags: [news, tech, youtube]
 
 Welcome to monitoring v0.2 !
 
+<!-- truncate -->
+
 The [monitor](https://github.com/ibp-network/ibp-monitor) of the Infrastructure Builders' Programme is receiving the informal bump to v0.2.
 
 Informal because part of the ongoing discussion revolves around deciding a versioning system for this project.

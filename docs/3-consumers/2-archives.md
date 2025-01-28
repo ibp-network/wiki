@@ -12,11 +12,16 @@ Most of the standard tooling developed for the substrate networks can benefit fr
 
 The latest specifications for the RPC endpoints are:
 
-- maximum request size: 1 MByte.
-- maximum response size: 15 MByte.
+- maximum request size: 16 MByte.
+- maximum response size: 32 MByte.
+- no rate limiting, no API throttling.
 
 :::info
-These specifications are subject to change in accordance with the social agreements agreed with the networks, so please check these capabilities and limitations periodically.
+These specifications are subject to change in accordance with the social agreements with the networks, so please check these capabilities and limitations periodically.
+:::
+
+:::warning
+In this page you will find only the latest syntax for the endpoints of the RPC services provided by the IBP, please note that from time to time developers and project teams may rename their chains and the IBP may update these names for better usability (e.g. `statemint` to  `asset-hub-polkadot`). The IBP will make its best effort to support the previous names or syntaxes for the longest terms possible, but this is not guaranteed.
 :::
 
 ## Geolocation
@@ -27,168 +32,438 @@ Additionally, the IBP offers its endpoints via 2x domain names (i.e. `ibp.networ
 
 ## Polkadot Chains
 
-### Relaychain
+### Polkadot Relay Chain
 
 ```shell
 # For https connection:
 https://rpc.ibp.network/polkadot
-https://rpc.dotters.network/polkadot
+https://polkadot.dotters.network
 
 # For secure Websocket connection:
 wss://rpc.ibp.network/polkadot
-wss://rpc.dotters.network/polkadot
+wss://polkadot.dotters.network
 ```
 
-### AssetHub
+### Polkadot System Chains
+
+#### Polkadot AssetHub
 
 ```shell
 # For https connection:
-https://sys.ibp.network/statemint
-https://sys.dotters.network/statemint
+https://sys.ibp.network/asset-hub-polkadot
+https://asset-hub-polkadot.dotters.network
 
 # For secure Websocket connection:
-wss://sys.ibp.network/statemint
-wss://sys.dotters.network/statemint
+wss://sys.ibp.network/asset-hub-polkadot
+wss://asset-hub-polkadot.dotters.network
 ```
 
-### BridgeHub
+#### Polkadot BridgeHub
 
 ```shell
 # For https connection:
 https://sys.ibp.network/bridgehub-polkadot
-https://sys.dotters.network/bridgehub-polkadot
+https://bridge-hub-polkadot.dotters.network
 
 # For secure Websocket connection:
 wss://sys.ibp.network/bridgehub-polkadot
-wss://sys.dotters.network/bridgehub-polkadot
+wss://bridge-hub-polkadot.dotters.network
 ```
 
-### Collectives
+#### Polkadot Collectives
 
 ```shell
 # For https connection:
 https://sys.ibp.network/collectives-polkadot
-https://sys.dotters.network/collectives-polkadot
+https://collectives-polkadot.dotters.network
 
 # For secure Websocket connection:
 wss://sys.ibp.network/collectives-polkadot
-wss://sys.dotters.network/collectives-polkadot
+wss://collectives-polkadot.dotters.network
+```
+
+#### Polkadot People
+
+```shell
+# For https connection:
+https://sys.ibp.network/people-polkadot
+https://people-polkadot.dotters.network
+
+# For secure Websocket connection:
+wss://sys.ibp.network/people-polkadot
+wss://people-polkadot.dotters.network
+```
+
+#### Polkadot Coretime
+
+```shell
+# For https connection:
+https://sys.ibp.network/coretime-polkadot
+https://coretime-polkadot.dotters.network
+
+# For secure Websocket connection:
+wss://sys.ibp.network/coretime-polkadot
+wss://coretime-polkadot.dotters.network
+```
+
+### Polkadot Parachains
+
+#### Polkadot Acala
+
+```shell
+# For https connection:
+https://acala.ibp.network
+https://acala.dotters.network
+
+# For secure Websocket connection:
+wss://acala.ibp.network
+wss://acala.dotters.network
+```
+
+#### Polkadot Ajuna
+
+```shell
+# For https connection:
+https://ajuna.ibp.network
+https://ajuna.dotters.network
+
+# For secure Websocket connection:
+wss://ajuna.ibp.network
+wss://ajuna.dotters.network
+```
+
+#### Polkadot Bifrost
+
+```shell
+# For https connection:
+https://bifrost-polkadot.ibp.network
+https://bifrost-polkadot.dotters.network
+
+# For secure Websocket connection:
+wss://bifrost-polkadot.ibp.network
+wss://bifrost-polkadot.dotters.network
+```
+
+#### Polkadot Hydration
+
+```shell
+# For https connection:
+https://hydration.ibp.network
+https://hydration.dotters.network
+
+# For secure Websocket connection:
+wss://hydration.ibp.network
+wss://hydration.dotters.network
+```
+
+#### Polkadot Hyperbridge
+
+```shell
+# For https connection:
+https://nexus.ibp.network
+https://nexus.dotters.network
+
+# For secure Websocket connection:
+wss://nexus.ibp.network
+wss://nexus.dotters.network
+```
+
+#### Polkadot InvArch
+
+```shell
+# For https connection:
+https://invarch.ibp.network
+https://invarch.dotters.network
+
+# For secure Websocket connection:
+wss://invarch.ibp.network
+wss://invarch.dotters.network
+```
+
+#### Polkadot Kilt
+
+```shell
+# For https connection:
+https://kilt.ibp.network
+https://kilt.dotters.network
+
+# For secure Websocket connection:
+wss://kilt.ibp.network
+wss://kilt.dotters.network
+```
+
+#### Polkadot Moonbeam
+
+```shell
+# For https connection:
+https://moonbeam.ibp.network
+https://moonbeam.dotters.network
+
+# For secure Websocket connection:
+wss://moonbeam.ibp.network
+wss://moonbeam.dotters.network
+```
+
+#### Polkadot Mythos
+
+```shell
+# For https connection:
+https://mythos.ibp.network
+https://mythos.dotters.network
+
+# For secure Websocket connection:
+wss://mythos.ibp.network
+wss://mythos.dotters.network
+```
+
+#### Polkadot Polimec
+
+```shell
+# For https connection:
+https://polimec.ibp.network
+https://polimec.dotters.network
+
+# For secure Websocket connection:
+wss://polimec.ibp.network
+wss://polimec.dotters.network
+```
+
+#### Polkadot Unique
+
+```shell
+# For https connection:
+https://unique.ibp.network
+https://unique.dotters.network
+
+# For secure Websocket connection:
+wss://unique.ibp.network
+wss://unique.dotters.network
 ```
 
 ## Kusama Chains
 
-### Relaychain
+### Kusama Relay Chain
 
 ```shell
 # For https connection:
 https://rpc.ibp.network/kusama
-https://rpc.dotters.network/kusama
+https://kusama.dotters.network
 
 # For secure Websocket connection:
 wss://rpc.ibp.network/kusama
-wss://rpc.dotters.network/kusama
+wss://kusama.dotters.network
 ```
 
-### AssetHub
+### Kusama System Chains
+
+#### Kusama AssetHub
 
 ```shell
 # For https connection:
-https://sys.ibp.network/statemine
-https://sys.dotters.network/statemine
+https://sys.ibp.network/asset-hub-kusama
+https://asset-hub-kusama.dotters.network
 
 # For secure Websocket connection:
-wss://sys.ibp.network/statemine
-wss://sys.dotters.network/statemine
+wss://sys.ibp.network/asset-hub-kusama
+wss://asset-hub-kusama.dotters.network
 ```
 
-### BridgeHub
+#### Kusama BridgeHub
 
 ```shell
 # For https connection:
 https://sys.ibp.network/bridgehub-kusama
-https://sys.dotters.network/bridgehub-kusama
+https://bridge-hub-kusama.dotters.network
 
 # For secure Websocket connection:
 wss://sys.ibp.network/bridgehub-kusama
-wss://sys.dotters.network/bridgehub-kusama
+wss://bridge-hub-kusama.dotters.network
 ```
 
-### Encointer
+#### Kusama Encointer
 
 ```shell
 # For https connection:
 https://sys.ibp.network/encointer-kusama
-https://sys.dotters.network/encointer-kusama
+https://encointer-kusama.dotters.network
 
 # For secure Websocket connection:
 wss://sys.ibp.network/encointer-kusama
-wss://sys.dotters.network/encointer-kusama
+wss://encointer-kusama.dotters.network
+```
+
+#### Kusama People
+
+```shell
+# For https connection:
+https://sys.ibp.network/people-kusama
+https://people-kusama.dotters.network
+
+# For secure Websocket connection:
+wss://sys.ibp.network/people-kusama
+wss://people-kusama.dotters.network
+```
+
+#### Kusama Coretime
+
+```shell
+# For https connection:
+https://sys.ibp.network/coretime-kusama
+https://coretime-kusama.dotters.network
+
+# For secure Websocket connection:
+wss://sys.ibp.network/coretime-kusama
+wss://coretime-kusama.dotters.network
 ```
 
 ## Westend Chains
 
-### Relaychain
+### Westend Relay Chain
 
 ```shell
 # For https connection:
 https://rpc.ibp.network/westend
-https://rpc.dotters.network/westend
+https://westend.dotters.network
 
 # For secure Websocket connection:
 wss://rpc.ibp.network/westend
-wss://rpc.dotters.network/westend
+wss://westend.dotters.network
 ```
 
-### AssetHub
+### Westend System Chains
+
+#### Westend AssetHub
 
 ```shell
 # For https connection:
-https://sys.ibp.network/westmint
-https://sys.dotters.network/westmint
+https://sys.ibp.network/asset-hub-westend
+https://asset-hub-westend.dotters.network
 
 # For secure Websocket connection:
-wss://sys.ibp.network/westmint
-wss://sys.dotters.network/westmint
+wss://sys.ibp.network/asset-hub-westend
+wss://asset-hub-westend.dotters.network
 ```
 
-### BridgeHub
+#### Westend BridgeHub
 
 ```shell
 # For https connection:
 https://sys.ibp.network/bridgehub-westend
-https://sys.dotters.network/bridgehub-westend
+https://bridge-hub-westend.dotters.network
 
 # For secure Websocket connection:
 wss://sys.ibp.network/bridgehub-westend
-wss://sys.dotters.network/bridgehub-westend
+wss://bridge-hub-westend.dotters.network
 ```
 
-### Collectives
+#### Westend Collectives
 
 ```shell
 # For https connection:
 https://sys.ibp.network/collectives-westend
-https://sys.dotters.network/collectives-westend
+https://collectives-westend.dotters.network
 
 # For secure Websocket connection:
 wss://sys.ibp.network/collectives-westend
-wss://sys.dotters.network/collectives-westend
+wss://collectives-westend.dotters.network
+```
+
+#### Westend People
+
+```shell
+# For https connection:
+https://sys.ibp.network/people-westend
+https://people-westend.dotters.network
+
+# For secure Websocket connection:
+wss://sys.ibp.network/people-westend
+wss://people-westend.dotters.network
+```
+
+#### Westend Coretime
+
+```shell
+# For https connection:
+https://sys.ibp.network/coretime-westend
+https://coretime-westend.dotters.network
+
+# For secure Websocket connection:
+wss://sys.ibp.network/coretime-westend
+wss://coretime-westend.dotters.network
 ```
 
 ## Paseo Chains
 
-### Relaychain
-
-:::info
-Support for Paseo chains is still under development
-:::
+### Paseo Relay Chain
 
 ```shell
 # For https connection:
 https://rpc.ibp.network/paseo
-https://rpc.dotters.network/paseo
+https://paseo.dotters.network
 
 # For secure Websocket connection:
 wss://rpc.ibp.network/paseo
-wss://rpc.dotters.network/paseo
+wss://paseo.dotters.network
+```
+
+### Paseo System Chains
+
+#### Paseo AssetHub
+
+```shell
+# For https connection:
+https://sys.ibp.network/asset-hub-paseo
+https://asset-hub-paseo.dotters.network
+
+# For secure Websocket connection:
+wss://sys.ibp.network/asset-hub-paseo
+wss://asset-hub-paseo.dotters.network
+```
+
+#### Paseo BridgeHub
+
+```shell
+# For https connection:
+https://sys.ibp.network/bridgehub-paseo
+https://bridge-hub-paseo.dotters.network
+
+# For secure Websocket connection:
+wss://sys.ibp.network/bridgehub-paseo
+wss://bridge-hub-paseo.dotters.network
+```
+
+#### Paseo Collectives
+
+```shell
+# For https connection:
+https://sys.ibp.network/collectives-paseo
+https://collectives-paseo.dotters.network
+
+# For secure Websocket connection:
+wss://sys.ibp.network/collectives-paseo
+wss://collectives-paseo.dotters.network
+```
+
+#### Paseo People
+
+```shell
+# For https connection:
+https://sys.ibp.network/people-paseo
+https://people-paseo.dotters.network
+
+# For secure Websocket connection:
+wss://sys.ibp.network/people-paseo
+wss://people-paseo.dotters.network
+```
+
+#### Paseo Coretime
+
+```shell
+# For https connection:
+https://sys.ibp.network/coretime-paseo
+https://coretime-paseo.dotters.network
+
+# For secure Websocket connection:
+wss://sys.ibp.network/coretime-paseo
+wss://coretime-paseo.dotters.network
 ```

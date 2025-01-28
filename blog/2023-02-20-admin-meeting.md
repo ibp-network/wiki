@@ -7,4 +7,6 @@ tags: [news, admin, youtube]
 
 Some more interesting news in the meeting today, catch up below!:
 
+<!-- truncate -->
+
 <iframe width="90%" height="315" src="https://www.youtube.com/embed/USsNadMX1aE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
