@@ -15,7 +15,7 @@ The Pull Request below belongs to the relevant Github repositories:
 | Stake.Plus   | [6159](https://github.com/paritytech/polkadot/pull/6159)     | [6159](https://github.com/paritytech/polkadot/pull/6159)     | [6159](https://github.com/paritytech/polkadot/pull/6159)     | pending                                                 |
 | Helikon      | [6240](https://github.com/paritytech/polkadot/pull/6240)     | [6240](https://github.com/paritytech/polkadot/pull/6240)     | [6240](https://github.com/paritytech/polkadot/pull/6240)     | [10](https://github.com/paseo-network/runtimes/pull/10) |
 | Amforc       | [6077](https://github.com/paritytech/polkadot/pull/6077)     | [6077](https://github.com/paritytech/polkadot/pull/6077)     | [6434](https://github.com/paritytech/polkadot/pull/6434)     | [6](https://github.com/paseo-network/runtimes/pull/6)   |
-| Metaspan     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [21](https://github.com/paseo-network/runtimes/pull/21) |
+| interweb     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [21](https://github.com/paseo-network/runtimes/pull/21) |
 | Gatotech     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [6499](https://github.com/paritytech/polkadot/pull/6499)     | [9](https://github.com/paseo-network/runtimes/pull/9)   |
 | Turboflakes  | [6628](https://github.com/paritytech/polkadot/pull/6628)     | [6628](https://github.com/paritytech/polkadot/pull/6628)     | [6628](https://github.com/paritytech/polkadot/pull/6628)     | [16](https://github.com/paseo-network/runtimes/pull/16) |
 | Dwellir      | [7097](https://github.com/paritytech/polkadot/pull/7097)     | [7097](https://github.com/paritytech/polkadot/pull/7097)     | [7097](https://github.com/paritytech/polkadot/pull/7097)     | [14](https://github.com/paseo-network/runtimes/pull/14) |
@@ -34,7 +34,7 @@ The following is the result of the candidates interview and status of the creden
 | Stake.Plus   | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
 | Helikon      | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
 | Amforc       | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
-| Metaspan     | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
+| interweb     | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
 | Gatotech     | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
 | Turboflakes  | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
 | Dwellir      | :white_check_mark:  | :white_check_mark:   | :white_check_mark: | :white_check_mark: | :white_check_mark:   | :white_check_mark:   | :white_check_mark: |
@@ -62,7 +62,7 @@ The rest of the members of the Infrastructure Builders' Programme must report th
 | Stake.plus   | North America (US-DC) | 2        | 2      | 2       | 2     |
 | Helikon      | Middle East (TR)      | 2        | 2      | 2       | 2     |
 | Amforc       | Europe (CH)           | 2        | 2      | 2       | 2     |
-| Metaspan     | Europe (GB)           | 2        | 2      | 2       | 2     |
+| interweb     | Europe (GB)           | 2        | 2      | 2       | 2     |
 | Gatotech     | Central America (CR)  | 2        | 2      | 2       | 2     |
 | Turboflakes  | Europe (PT)           | 2        | 2      | 2       | 2     |
 | Dwellir      | Africa (NG)           | 2        | 2      | 2       | 2     |
@@ -83,7 +83,7 @@ For **Polkadot**'s system parachains:
 | Stake.Plus   | [2176](https://github.com/paritytech/cumulus/pull/2176) | [2176](https://github.com/paritytech/cumulus/pull/2176) | pending                                                 |
 | Helikon      | [2250](https://github.com/paritytech/cumulus/pull/2250) | [2250](https://github.com/paritytech/cumulus/pull/2250) | [2927](https://github.com/paritytech/cumulus/pull/2927) |
 | Amforc       | [2246](https://github.com/paritytech/cumulus/pull/2246) | [2246](https://github.com/paritytech/cumulus/pull/2246) | pending                                                 |
-| Metaspan     | [2218](https://github.com/paritytech/cumulus/pull/2218) | [2218](https://github.com/paritytech/cumulus/pull/2218) | [2993](https://github.com/paritytech/cumulus/pull/2993) |
+| interweb     | [2218](https://github.com/paritytech/cumulus/pull/2218) | [2218](https://github.com/paritytech/cumulus/pull/2218) | [2993](https://github.com/paritytech/cumulus/pull/2993) |
 | Gatotech     | [2237](https://github.com/paritytech/cumulus/pull/2237) | [2237](https://github.com/paritytech/cumulus/pull/2237) | [2689](https://github.com/paritytech/cumulus/pull/2689) |
 | Turboflakes  | [2223](https://github.com/paritytech/cumulus/pull/2223) | [2223](https://github.com/paritytech/cumulus/pull/2223) | [2924](https://github.com/paritytech/cumulus/pull/2924) |
 | Dwellir      | pending                                                 | pending                                                 | pending                                                 |
@@ -100,7 +100,7 @@ For **Kusama**'s system parachains:
 | Stake.Plus   | [2176](https://github.com/paritytech/cumulus/pull/2176) | N/A         | [2201](https://github.com/paritytech/cumulus/pull/2201) |        |          |
 | Helikon      | [2250](https://github.com/paritytech/cumulus/pull/2250) | N/A         | [2250](https://github.com/paritytech/cumulus/pull/2250) |        |          |
 | Amforc       | [2246](https://github.com/paritytech/cumulus/pull/2246) | N/A         | [2246](https://github.com/paritytech/cumulus/pull/2246) |        |          |
-| Metaspan     | [2218](https://github.com/paritytech/cumulus/pull/2218) | N/A         | [2218](https://github.com/paritytech/cumulus/pull/2218) |        |          |
+| interweb     | [2218](https://github.com/paritytech/cumulus/pull/2218) | N/A         | [2218](https://github.com/paritytech/cumulus/pull/2218) |        |          |
 | Gatotech     | [2237](https://github.com/paritytech/cumulus/pull/2237) | N/A         | [2237](https://github.com/paritytech/cumulus/pull/2237) |        |          |
 | Turboflakes  | [2223](https://github.com/paritytech/cumulus/pull/2223) | N/A         | [2223](https://github.com/paritytech/cumulus/pull/2223) |        |          |
 | Dwellir      | pending                                                 | pending     | pending                                                 |        |          |
@@ -117,7 +117,7 @@ For **Westend**'s system parachains
 | Stake.Plus   | [2176](https://github.com/paritytech/cumulus/pull/2176) | [2201](https://github.com/paritytech/cumulus/pull/2201) | Pending                                                 |        |          |
 | Helikon      | [2250](https://github.com/paritytech/cumulus/pull/2250) | [2250](https://github.com/paritytech/cumulus/pull/2250) | [2927](https://github.com/paritytech/cumulus/pull/2927) |        |          |
 | Amforc       | [2246](https://github.com/paritytech/cumulus/pull/2246) | [2246](https://github.com/paritytech/cumulus/pull/2246) | Pending                                                 |        |          |
-| Metaspan     | [2218](https://github.com/paritytech/cumulus/pull/2218) | [2218](https://github.com/paritytech/cumulus/pull/2218) | [2993](https://github.com/paritytech/cumulus/pull/2993) |        |          |
+| interweb     | [2218](https://github.com/paritytech/cumulus/pull/2218) | [2218](https://github.com/paritytech/cumulus/pull/2218) | [2993](https://github.com/paritytech/cumulus/pull/2993) |        |          |
 | Gatotech     | [2237](https://github.com/paritytech/cumulus/pull/2237) | [2237](https://github.com/paritytech/cumulus/pull/2237) | [2689](https://github.com/paritytech/cumulus/pull/2689) |        |          |
 | Turboflakes  | [2223](https://github.com/paritytech/cumulus/pull/2223) | [2223](https://github.com/paritytech/cumulus/pull/2223) | [2924](https://github.com/paritytech/cumulus/pull/2924) |        |          |
 | Dwellir      | pending                                                 | pending                                                 | pending                                                 |        |          |
@@ -134,7 +134,7 @@ For **Paseo**'s system parachains
 | Stake.Plus   | pending  | pending     | Pending   | pending | pending  |
 | Helikon      | pending  | pending     | pending   | pending | pending  |
 | Amforc       | pending  | pending     | Pending   | pending | pending  |
-| Metaspan     | pending  | pending     | pending   | pending | pending  |
+| interweb     | pending  | pending     | pending   | pending | pending  |
 | Gatotech     | pending  | pending     | pending   | pending | pending  |
 | Turboflakes  | pending  | pending     | pending   | pending | pending  |
 | Dwellir      | pending  | pending     | pending   | pending | pending  |
@@ -152,7 +152,7 @@ And the following PRs belong to the Encointer repository:
 | Stake.Plus   | [162](https://github.com/encointer/encointer-parachain/pull/162) |
 | Helikon      | [167](https://github.com/encointer/encointer-parachain/pull/167) |
 | Amforc       | [166](https://github.com/encointer/encointer-parachain/pull/166) |
-| Metaspan     | [196](https://github.com/encointer/encointer-parachain/pull/196) |
+| interweb     | [196](https://github.com/encointer/encointer-parachain/pull/196) |
 | Gatotech     | [165](https://github.com/encointer/encointer-parachain/pull/165) |
 | Turboflakes  | [164](https://github.com/encointer/encointer-parachain/pull/164) |
 | Dwellir      | pending                                                          |
