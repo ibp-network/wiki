@@ -22,7 +22,7 @@ Here is the list of current members of the Infrastructure Builders' Programme
 | Stake.Plus   | @stakeplus:matrix.org    | America (US-DC)  | 01 Oct 2022 |
 | Helikon      | @helikon:matrix.org      | Asia (TR)        | 01 Nov 2022 |
 | Amforc       | @tugytur:matrix.org      | Europe (CH)      | 01 Dec 2022 |
-| Metaspan     | @metaspan:matrix.org     | Europe (GB)      | 01 Dec 2022 |
+| interweb     | @interweb_:matrix.org    | Europe (GB)      | 01 Dec 2022 |
 | Gatotech     | @gatotech:matrix.org     | America (CR)     | 01 Jan 2023 |
 | Turboflakes  | @turboflakes:matrix.org  | Europe (PT)      | 01 Feb 2023 |
 | Dwellir      | @gustavden3:matrix.org   | Africa (NG)      | 01 Apr 2023 |
