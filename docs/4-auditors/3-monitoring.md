@@ -20,12 +20,12 @@ Each one of the members of the Programme should run a node of the monitoring net
 | Stake.Plus   | Professional | https://monitor.dotters.network/        |
 | Helikon      | Professional | pending                                 |
 | Amforc       | Professional | pending                                 |
-| Metaspan     | Professional | https://ibp-monitor.metaspan.io/        |
+| interweb     | Professional | pending                                 |
 | Gatotech     | Professional | https://ibp-monitor.gatotech.network/   |
 | Turboflakes  | Professional | https://ibp-monitor.turboflakes.io/     |
 | Dwellir      | Professional | pending                                 |
 | RadiumBlock  | Professional | pending                                 |
-| Polkadotters | Professional | https://ibp-monitor.polkadotters.com/                                 |
+| Polkadotters | Professional | https://ibp-monitor.polkadotters.com/   |
 | Rotko.net    | Professional | https://ibp.rotko.net/monitor           |
 | Lucky Friday | Professional | pending                                 |
 | BlockOps     | Professional | pending                                 |
