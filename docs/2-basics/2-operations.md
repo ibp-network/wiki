@@ -52,7 +52,7 @@ The current curators of the programme are:
 The current advisors are:
 
 - Tom | Stake.Plus (exec)
-- Derek | Metaspan (exec)
+- Derek | interweb (exec)
 
 ### Hobbyist Members
 
@@ -77,7 +77,7 @@ The current advisors are:
 | [RadiumBlock](https://radiumblock.com/)    | Asia (South)          |
 | [Rotko](https://rotko.net/)                | Asia (South East)     |
 | [Amforc](https://amforc.com/)              | Europe (Central)      |
-| [Metaspan](https://metaspan.io/)           | Europe (West)         |
+| [interweb](https://interweb-it.com/)       | Europe (West)         |
 | [Turboflakes](https://www.turboflakes.io/) | Europe (South)        |
 | [Polkadotters](https://polkadotters.com/)  | Oceania (Australasia) |
 
