@@ -168,18 +168,6 @@ wss://nexus.ibp.network
 wss://nexus.dotters.network
 ```
 
-#### Polkadot InvArch
-
-```shell
-# For https connection:
-https://invarch.ibp.network
-https://invarch.dotters.network
-
-# For secure Websocket connection:
-wss://invarch.ibp.network
-wss://invarch.dotters.network
-```
-
 #### Polkadot Kilt
 
 ```shell
